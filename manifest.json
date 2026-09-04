@@ -1,0 +1,89 @@
+{
+  "test_cases": [
+    {
+      "req_id": "TC-01",
+      "feature_file": "tests/features/tc_01_homepage.feature",
+      "title": "Website homepage opens successfully",
+      "steps": [
+        {
+          "action": "Open the public Emids homepage",
+          "expected": "The homepage returns a successful response and displays the expected title and main heading"
+        },
+        {
+          "action": "Inspect the loaded homepage for obvious error content",
+          "expected": "The main content is visible and no 404, page-not-found, server-error, or service-unavailable heading is displayed"
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "TC-02",
+      "feature_file": "tests/features/tc_02_main_navigation.feature",
+      "title": "Main navigation opens the corresponding pages",
+      "steps": [
+        {
+          "action": "Open the Emids homepage in a desktop browser",
+          "expected": null
+        },
+        {
+          "action": "Open each defined main navigation menu and select its canonical destination",
+          "expected": "Solutions, Capabilities, Industries, Insights, and Company each open their defined destination page"
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "TC-03",
+      "feature_file": "tests/features/tc_03_primary_ctas.feature",
+      "title": "Primary call-to-action buttons open expected destinations",
+      "steps": [
+        {
+          "action": "Select Contact Us from the Company menu",
+          "expected": "The Emids contact page opens and displays the Let's Connect heading"
+        },
+        {
+          "action": "Select the homepage primary call to action",
+          "expected": "The Forward Deployed Context Engineering page opens"
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "TC-04",
+      "feature_file": "tests/features/tc_04_mobile_experience.feature",
+      "title": "Website remains visible and usable in mobile view",
+      "steps": [
+        {
+          "action": "Open the Emids homepage at a 390 by 844 mobile viewport",
+          "expected": "The homepage heading and logo remain visible without horizontal overflow"
+        },
+        {
+          "action": "Open the mobile menu and expand Solutions",
+          "expected": "The Solutions menu and its navigation destination are visible and usable"
+        },
+        {
+          "action": "Select the mobile homepage primary call to action",
+          "expected": "The Forward Deployed Context Engineering page opens"
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "TC-05",
+      "feature_file": "tests/features/tc_05_contact_validation.feature",
+      "title": "Contact form validates missing required fields",
+      "steps": [
+        {
+          "action": "Open the contact form with all required fields empty",
+          "expected": "All required fields are present and empty"
+        },
+        {
+          "action": "Submit the empty contact form",
+          "expected": "Every required control is identified as required and clear missing-value validation feedback is displayed"
+        }
+      ],
+      "tc_id": "TC-005"
+    }
+  ],
+  "skipped_requirements": []
+}
