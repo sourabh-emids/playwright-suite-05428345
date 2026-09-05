@@ -1,0 +1,85 @@
+{
+  "test_cases": [
+    {
+      "req_id": "TC-01",
+      "feature_file": "tests/features/tc_01_homepage.feature",
+      "title": "Website homepage opens successfully",
+      "steps": [
+        {
+          "action": "Open the Emids homepage",
+          "expected": null
+        },
+        {
+          "action": "Check the HTTP response, page title, main content, primary heading, browser console, and uncaught page errors",
+          "expected": "The homepage loads successfully without obvious errors"
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "TC-02",
+      "feature_file": "tests/features/tc_02_main_navigation.feature",
+      "title": "Main navigation opens the correct pages",
+      "steps": [
+        {
+          "action": "Open the Emids homepage",
+          "expected": "The main navigation is available"
+        },
+        {
+          "action": "Open each main menu and select its corresponding destination: Solutions, Data Engineering, Payer, Insights Hub, and Our Story",
+          "expected": "Each selected destination opens the expected page"
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "TC-03",
+      "feature_file": "tests/features/tc_03_calls_to_action.feature",
+      "title": "Important call-to-action links open expected destinations",
+      "steps": [
+        {
+          "action": "Open the Company menu from the Emids homepage and select Contact Us",
+          "expected": "The Emids contact page opens"
+        },
+        {
+          "action": "Open the Emids partners page and select Learn More for Snowflake",
+          "expected": "The Snowflake partner page opens"
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "TC-04",
+      "feature_file": "tests/features/tc_04_mobile_view.feature",
+      "title": "Website remains usable in mobile view",
+      "steps": [
+        {
+          "action": "Set the browser viewport to 390 by 844 and open the Emids homepage",
+          "expected": "The main text, logo image, menu control, and primary call-to-action are visible"
+        },
+        {
+          "action": "Open the mobile menu and use its Connect link",
+          "expected": "The mobile navigation is visible and usable, and the contact page opens"
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "TC-05",
+      "feature_file": "tests/features/tc_05_contact_validation.feature",
+      "title": "Contact form validates required fields",
+      "steps": [
+        {
+          "action": "Open the contact form and confirm all eight required fields are empty",
+          "expected": null
+        },
+        {
+          "action": "Submit the empty contact form",
+          "expected": "A clear required-field validation message is displayed and the contact form remains open"
+        }
+      ],
+      "tc_id": "TC-005"
+    }
+  ],
+  "skipped_requirements": []
+}
