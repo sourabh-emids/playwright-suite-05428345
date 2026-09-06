@@ -1,0 +1,23 @@
+[project]
+name = "emids-web-automation"
+version = "0.1.0"
+description = "BDD Playwright checks for the public Emids website"
+requires-python = ">=3.11"
+dependencies = [
+    "playwright>=1.52,<2",
+    "pytest>=8.3,<9",
+    "pytest-bdd>=8.1,<9",
+    "pytest-playwright>=0.7,<1",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["steps"]
+python_files = ["*_steps.py"]
+addopts = "-q --browser chromium"
+markers = [
+    "tc_01: Homepage availability",
+    "tc_02: Main navigation",
+    "tc_03: Primary calls to action",
+    "tc_04: Responsive mobile usability",
+    "tc_05: Contact form validation",
+]

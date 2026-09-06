@@ -1,0 +1,105 @@
+{
+  "test_cases": [
+    {
+      "req_id": "TC-01",
+      "feature_file": "automation/features/tc_01_homepage.feature",
+      "title": "Homepage loads successfully",
+      "steps": [
+        {
+          "action": "Use a supported browser with an active internet connection.",
+          "expected": null
+        },
+        {
+          "action": "Open the Emids homepage.",
+          "expected": null
+        },
+        {
+          "action": "Verify the homepage response, primary content, logo, call to action, layout, and absence of visible error headings.",
+          "expected": "The homepage is displayed successfully without a visible error or broken layout."
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "TC-02",
+      "feature_file": "automation/features/tc_02_main_navigation.feature",
+      "title": "Main navigation opens the correct pages",
+      "steps": [
+        {
+          "action": "Open the Emids homepage and verify the main navigation is available.",
+          "expected": null
+        },
+        {
+          "action": "Open each main navigation group and select its identified destination.",
+          "expected": null
+        },
+        {
+          "action": "Verify the resulting URL and page heading for Solutions, Capabilities, Industries, Insights, and Company.",
+          "expected": "Each navigation selection opens its corresponding page successfully."
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "TC-03",
+      "feature_file": "automation/features/tc_03_primary_ctas.feature",
+      "title": "Primary call-to-action buttons open expected destinations",
+      "steps": [
+        {
+          "action": "Open the Emids homepage.",
+          "expected": null
+        },
+        {
+          "action": "Select the current primary Contact and Learn More equivalents: Connect and See How We Deliver Outcomes.",
+          "expected": null
+        },
+        {
+          "action": "Verify each resulting URL and destination heading.",
+          "expected": "Each primary call to action opens the expected destination successfully."
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "TC-04",
+      "feature_file": "automation/features/tc_04_mobile_usability.feature",
+      "title": "Website remains usable in mobile view",
+      "steps": [
+        {
+          "action": "Open the Emids homepage in a 390 by 844 mobile viewport.",
+          "expected": null
+        },
+        {
+          "action": "Open the mobile navigation menu.",
+          "expected": "Homepage text, logo, primary call to action, and mobile menu remain visible and usable without horizontal overflow."
+        },
+        {
+          "action": "Select Connect from the mobile menu.",
+          "expected": "The mobile contact page opens successfully without horizontal page overflow."
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "TC-05",
+      "feature_file": "automation/features/tc_05_contact_validation.feature",
+      "title": "Contact form validates empty required fields",
+      "steps": [
+        {
+          "action": "Open the contact form and confirm all eight required fields are empty.",
+          "expected": null
+        },
+        {
+          "action": "Submit the empty contact form.",
+          "expected": null
+        },
+        {
+          "action": "Verify the form remains open and inspect the validation state and associated message for every required field.",
+          "expected": "Every required field displays the clear message \"This field is required.\" and the form is not submitted."
+        }
+      ],
+      "tc_id": "TC-005"
+    }
+  ],
+  "skipped_requirements": []
+}
