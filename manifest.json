@@ -1,0 +1,209 @@
+{
+  "test_cases": [
+    {
+      "req_id": "TC-01",
+      "feature_file": "tests/features/tc_01_homepage.feature",
+      "title": "Open the Emids homepage",
+      "steps": [
+        {
+          "action": "Open the Emids homepage.",
+          "expected": null
+        },
+        {
+          "action": "Check the homepage, main navigation, primary heading, and logo.",
+          "expected": "The homepage is displayed without visible errors or broken critical content."
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "TC-02",
+      "feature_file": "tests/features/tc_02_main_navigation.feature",
+      "title": "Open Solutions from the Solutions navigation menu",
+      "steps": [
+        {
+          "action": "Open the Emids homepage with the desktop main navigation available.",
+          "expected": null
+        },
+        {
+          "action": "Open the Solutions destination from the Solutions menu.",
+          "expected": null
+        },
+        {
+          "action": "Check the resulting destination page.",
+          "expected": "The Solutions page is displayed with the expected address and heading."
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "TC-02",
+      "feature_file": "tests/features/tc_02_main_navigation.feature",
+      "title": "Open Digital Engineering from the Capabilities navigation menu",
+      "steps": [
+        {
+          "action": "Open the Emids homepage with the desktop main navigation available.",
+          "expected": null
+        },
+        {
+          "action": "Open Digital Engineering from the Capabilities menu.",
+          "expected": null
+        },
+        {
+          "action": "Check the resulting destination page.",
+          "expected": "The Digital Engineering page is displayed with the expected address and heading."
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "TC-02",
+      "feature_file": "tests/features/tc_02_main_navigation.feature",
+      "title": "Open Payer from the Industries navigation menu",
+      "steps": [
+        {
+          "action": "Open the Emids homepage with the desktop main navigation available.",
+          "expected": null
+        },
+        {
+          "action": "Open Payer from the Industries menu.",
+          "expected": null
+        },
+        {
+          "action": "Check the resulting destination page.",
+          "expected": "The Transforming Payer Operations page is displayed with the expected address and heading."
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "TC-02",
+      "feature_file": "tests/features/tc_02_main_navigation.feature",
+      "title": "Open Insights Hub from the Insights navigation menu",
+      "steps": [
+        {
+          "action": "Open the Emids homepage with the desktop main navigation available.",
+          "expected": null
+        },
+        {
+          "action": "Open Insights Hub from the Insights menu.",
+          "expected": null
+        },
+        {
+          "action": "Check the resulting destination page.",
+          "expected": "The Insights page is displayed with the expected address and heading."
+        }
+      ],
+      "tc_id": "TC-005"
+    },
+    {
+      "req_id": "TC-02",
+      "feature_file": "tests/features/tc_02_main_navigation.feature",
+      "title": "Open Our Story from the Company navigation menu",
+      "steps": [
+        {
+          "action": "Open the Emids homepage with the desktop main navigation available.",
+          "expected": null
+        },
+        {
+          "action": "Open Our Story from the Company menu.",
+          "expected": null
+        },
+        {
+          "action": "Check the resulting destination page.",
+          "expected": "The About Us page is displayed with the expected address and heading."
+        }
+      ],
+      "tc_id": "TC-006"
+    },
+    {
+      "req_id": "TC-03",
+      "feature_file": "tests/features/tc_03_primary_cta.feature",
+      "title": "Contact Us opens the contact page",
+      "steps": [
+        {
+          "action": "Open the homepage containing the Contact Us call to action.",
+          "expected": null
+        },
+        {
+          "action": "Select Contact Us from the Company navigation menu.",
+          "expected": null
+        },
+        {
+          "action": "Check the resulting page.",
+          "expected": "The contact page is displayed with the expected address and Let's Connect heading."
+        }
+      ],
+      "tc_id": "TC-007"
+    },
+    {
+      "req_id": "TC-03",
+      "feature_file": "tests/features/tc_03_primary_cta.feature",
+      "title": "Learn More opens the identified partner page",
+      "steps": [
+        {
+          "action": "Open the partnerships page containing Learn More calls to action.",
+          "expected": null
+        },
+        {
+          "action": "Select Learn More for Snowflake.",
+          "expected": null
+        },
+        {
+          "action": "Check the resulting page.",
+          "expected": "The Emids and Snowflake partner page is displayed."
+        }
+      ],
+      "tc_id": "TC-008"
+    },
+    {
+      "req_id": "TC-04",
+      "feature_file": "tests/features/tc_04_mobile_usability.feature",
+      "title": "View and navigate the homepage at mobile size",
+      "steps": [
+        {
+          "action": "Open the Emids homepage at a 390 by 844 mobile viewport.",
+          "expected": null
+        },
+        {
+          "action": "Check the primary text, logo, call to action, menu control, and page width.",
+          "expected": "The primary mobile content and controls are visible, the logo is loaded, and there is no horizontal overflow."
+        },
+        {
+          "action": "Open the mobile menu and navigate to Solutions.",
+          "expected": null
+        },
+        {
+          "action": "Check the resulting page.",
+          "expected": "The Solutions page is displayed and usable in mobile view."
+        }
+      ],
+      "tc_id": "TC-009"
+    },
+    {
+      "req_id": "TC-05",
+      "feature_file": "tests/features/tc_05_contact_validation.feature",
+      "title": "Submit the contact form with every required field empty",
+      "steps": [
+        {
+          "action": "Open the contact form with all required fields empty.",
+          "expected": null
+        },
+        {
+          "action": "Submit the empty contact form.",
+          "expected": null
+        },
+        {
+          "action": "Check validation for every required field.",
+          "expected": "Each empty required field displays a clear required-field validation message."
+        },
+        {
+          "action": "Check that the incomplete form remains open.",
+          "expected": "The form is not submitted and the user remains on the contact page."
+        }
+      ],
+      "tc_id": "TC-010"
+    }
+  ],
+  "skipped_requirements": []
+}
