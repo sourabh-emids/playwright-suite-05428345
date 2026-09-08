@@ -1,0 +1,109 @@
+{
+  "test_cases": [
+    {
+      "req_id": "TC-01",
+      "feature_file": "tests/features/tc_01_homepage.feature",
+      "title": "Website homepage opens successfully",
+      "steps": [
+        {
+          "action": "Open the public Emids homepage.",
+          "expected": "The homepage finishes loading."
+        },
+        {
+          "action": "Review the primary homepage content.",
+          "expected": "The Emids logo, primary heading, and primary call-to-action are visible."
+        },
+        {
+          "action": "Check the loaded page for visible failure messages.",
+          "expected": "The main content is visible and no page-not-found, critical-error, or failed-load message appears."
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "TC-02",
+      "feature_file": "tests/features/tc_02_main_navigation.feature",
+      "title": "Main navigation opens the correct pages",
+      "steps": [
+        {
+          "action": "Open the Emids homepage and main navigation.",
+          "expected": "The main navigation is visible and available."
+        },
+        {
+          "action": "Select each main menu and its mapped destination: Solutions, Capabilities, Industries, Insights, and Company.",
+          "expected": "Each selected menu expands and its destination link is visible and operable."
+        },
+        {
+          "action": "Review each opened destination.",
+          "expected": "The mapped URL and main page content load without a visible page error."
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "TC-03",
+      "feature_file": "tests/features/tc_03_primary_ctas.feature",
+      "title": "Primary call-to-action buttons open expected destinations",
+      "steps": [
+        {
+          "action": "Open the Emids homepage containing the primary calls to action.",
+          "expected": "The homepage and its primary links are available."
+        },
+        {
+          "action": "Select See How We Deliver Outcomes, See the model, All solutions, Explore Payer, and Connect individually.",
+          "expected": "Each call-to-action is visible and operable."
+        },
+        {
+          "action": "Review the destination opened by each call-to-action.",
+          "expected": "Each assigned URL and its main content load without a visible error."
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "TC-04",
+      "feature_file": "tests/features/tc_04_mobile_view.feature",
+      "title": "Website remains visible and usable in mobile view",
+      "steps": [
+        {
+          "action": "Set the browser to a 390 by 844 mobile viewport and open the Emids homepage.",
+          "expected": "The mobile page loads successfully."
+        },
+        {
+          "action": "Review the mobile logo, primary text, hero image, call-to-action, and menu control.",
+          "expected": "The content is visible and the menu control is enabled."
+        },
+        {
+          "action": "Open the mobile navigation and expand its Solutions section.",
+          "expected": "All primary navigation controls are visible, Solutions expands, and its content is accessible."
+        },
+        {
+          "action": "Review the page width at the mobile viewport.",
+          "expected": "No content extends horizontally beyond the viewport."
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "TC-05",
+      "feature_file": "tests/features/tc_05_contact_validation.feature",
+      "title": "Contact form validates empty required fields",
+      "steps": [
+        {
+          "action": "Open the Emids contact form with every required field empty.",
+          "expected": "All eight required fields are present and empty."
+        },
+        {
+          "action": "Submit the empty contact form.",
+          "expected": "The user remains on the contact page and the form is not accepted."
+        },
+        {
+          "action": "Review validation feedback for every required field.",
+          "expected": "Every required field is marked invalid and exposes a clear field-specific validation message."
+        }
+      ],
+      "tc_id": "TC-005"
+    }
+  ],
+  "skipped_requirements": []
+}
