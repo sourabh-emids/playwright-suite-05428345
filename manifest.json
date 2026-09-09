@@ -1,0 +1,113 @@
+{
+  "test_cases": [
+    {
+      "req_id": "issue_0001",
+      "feature_file": "tests/features/issue_0001_homepage_availability.feature",
+      "title": "Homepage opens successfully",
+      "steps": [
+        {
+          "action": "Open the public Emids homepage.",
+          "expected": "The homepage returns a successful response."
+        },
+        {
+          "action": "Check the homepage primary content.",
+          "expected": "The expected page title, Emids logo, main content, and \u201cIn Healthcare, Only Outcomes Matter\u201d heading are visible without an error page."
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "issue_0002",
+      "feature_file": "tests/features/issue_0002_main_navigation.feature",
+      "title": "Main navigation menus open their intended destinations",
+      "steps": [
+        {
+          "action": "Open the homepage main navigation.",
+          "expected": "The main navigation is available."
+        },
+        {
+          "action": "Individually open Solutions, Capabilities, Industries, Insights, and Company, then select the designated destination in each menu.",
+          "expected": "The corresponding Solutions, Data Engineering, Payer, Insights, and About Us pages open with the correct URL and heading."
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "issue_0002",
+      "feature_file": "tests/features/issue_0002_main_navigation.feature",
+      "title": "Header Connect link opens the contact page",
+      "steps": [
+        {
+          "action": "Open the homepage main navigation.",
+          "expected": "The header navigation is available."
+        },
+        {
+          "action": "Select Connect from the header.",
+          "expected": "The contact page opens at /contact/ and displays \u201cLet's Connect\u201d."
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "issue_0003",
+      "feature_file": "tests/features/issue_0003_primary_cta.feature",
+      "title": "Primary calls to action open their expected destinations",
+      "steps": [
+        {
+          "action": "Open the homepage containing the primary calls to action.",
+          "expected": "The primary calls to action are available."
+        },
+        {
+          "action": "Individually select See How We Deliver Outcomes, All solutions, and Connect.",
+          "expected": "Each call to action opens its inspected destination with the correct URL and page heading."
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "issue_0004",
+      "feature_file": "tests/features/issue_0004_mobile_usability.feature",
+      "title": "Homepage content and navigation remain usable on mobile",
+      "steps": [
+        {
+          "action": "Open the homepage in a 390 by 844 mobile viewport.",
+          "expected": "The mobile layout loads without unintended horizontal overflow."
+        },
+        {
+          "action": "Check the hero text, Emids logo, and primary call to action.",
+          "expected": "Each element is visible in the viewport, and the call to action is enabled."
+        },
+        {
+          "action": "Open the mobile menu, expand Company, and select Contact Us.",
+          "expected": "The mobile navigation remains usable and opens the contact page displaying \u201cLet's Connect\u201d."
+        }
+      ],
+      "tc_id": "TC-005"
+    },
+    {
+      "req_id": "issue_0005",
+      "feature_file": "tests/features/issue_0005_contact_validation.feature",
+      "title": "Empty required contact fields prevent submission",
+      "steps": [
+        {
+          "action": "Open the contact form with every required field empty.",
+          "expected": "The contact form is visible and all eight required controls are empty."
+        },
+        {
+          "action": "Submit the empty contact form.",
+          "expected": "Submission triggers validation rather than sending the form."
+        },
+        {
+          "action": "Check each required field's validation feedback.",
+          "expected": "Every required control is marked invalid and provides its inspected required, email, or phone validation message."
+        },
+        {
+          "action": "Check that the form remains open.",
+          "expected": "The browser remains on /contact/ and the contact form is still visible."
+        }
+      ],
+      "tc_id": "TC-006"
+    }
+  ],
+  "skipped_requirements": []
+}
