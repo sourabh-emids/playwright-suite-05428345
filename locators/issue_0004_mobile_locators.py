@@ -1,0 +1,10 @@
+class Issue0004MobileLocators:
+    COOKIE_ALLOW_BUTTON = "Allow all"
+    MOBILE_MENU_TOGGLE = "Toggle mobile menu"
+    MOBILE_MENU = "#mega-menu-mobile"
+    SOLUTIONS_MENU_ITEM = "Solutions"
+    CONTACT_CTA = "Connect"
+    HERO_HEADING = "In Healthcare, Only Outcomes Matter"
+    HERO_CTA = "See How We Deliver Outcomes"
+    HERO_DESTINATION = "/forward-deployed-context-engineering/"
+    LOGO_NAME = "Emids logo"
