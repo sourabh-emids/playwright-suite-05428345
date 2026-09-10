@@ -1,0 +1,93 @@
+{
+  "test_cases": [
+    {
+      "req_id": "issue_0001",
+      "feature_file": "tests/features/issue_0001_website_homepage.feature",
+      "title": "Website homepage opens successfully",
+      "steps": [
+        {
+          "action": "Open the Emids homepage.",
+          "expected": "The homepage returns a successful response and displays its main content, logo, title, and hero heading without a visible error page."
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "issue_0002",
+      "feature_file": "tests/features/issue_0002_main_navigation.feature",
+      "title": "Main navigation opens the correct destinations",
+      "steps": [
+        {
+          "action": "Open the Emids homepage for navigation.",
+          "expected": "The desktop main navigation is available."
+        },
+        {
+          "action": "Open each main navigation menu: Solutions, Capabilities, Industries, Insights, and Company.",
+          "expected": "The corresponding navigation menu and intended destination are visible."
+        },
+        {
+          "action": "Select the mapped destination from each menu.",
+          "expected": "Solutions, Data Engineering, Payer, Insights Hub, and Our Story open their verified destination paths."
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "issue_0003",
+      "feature_file": "tests/features/issue_0003_primary_actions.feature",
+      "title": "Primary action buttons open expected content",
+      "steps": [
+        {
+          "action": "Open the Emids homepage.",
+          "expected": "The homepage primary actions are available."
+        },
+        {
+          "action": "Select Connect, See How We Deliver Outcomes, and All solutions one at a time.",
+          "expected": "Each action opens its inspected destination: Contact, Forward-Deployed Context Engineering, or Solutions."
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "issue_0004",
+      "feature_file": "tests/features/issue_0004_mobile_view.feature",
+      "title": "Website remains usable in a mobile-sized view",
+      "steps": [
+        {
+          "action": "Open the Emids homepage in the supported 390 by 844 mobile viewport.",
+          "expected": "The homepage text, logo, primary action, and mobile menu button are visible."
+        },
+        {
+          "action": "Open the mobile menu and expand Solutions.",
+          "expected": "The Modernization navigation destination is visible and accessible."
+        },
+        {
+          "action": "Select the mobile Modernization destination.",
+          "expected": "The Modernization as a Service page opens in the mobile-sized view."
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "issue_0005",
+      "feature_file": "tests/features/issue_0005_contact_validation.feature",
+      "title": "Contact form validates missing required information",
+      "steps": [
+        {
+          "action": "Open the contact form with all required fields empty.",
+          "expected": "The contact form and Submit button are visible."
+        },
+        {
+          "action": "Submit the empty contact form.",
+          "expected": "All eight required controls are marked invalid and a clear required-field message is displayed."
+        },
+        {
+          "action": "Observe the form after validation.",
+          "expected": "The contact form remains open and no apparently successful submission occurs."
+        }
+      ],
+      "tc_id": "TC-005"
+    }
+  ],
+  "skipped_requirements": []
+}
