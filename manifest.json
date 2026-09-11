@@ -1,0 +1,65 @@
+{
+  "test_cases": [
+    {
+      "req_id": "req_0001",
+      "feature_file": "req_0001_homepage_accessibility.feature",
+      "title": "Website Homepage Accessibility",
+      "steps": [
+        {
+          "action": "Navigate to the homepage URL",
+          "expected": "The homepage displays with all expected content including header, main content area, and footer visible without obvious rendering errors or broken layouts"
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "req_0002",
+      "feature_file": "req_0002_navigation_menu.feature",
+      "title": "Main Navigation Menu Functionality",
+      "steps": [
+        {
+          "action": "Click on each main navigation menu item",
+          "expected": "Each navigation item navigates to the corresponding correct page or section as expected, and the URL updates appropriately"
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "req_0003",
+      "feature_file": "req_0003_cta_buttons.feature",
+      "title": "Primary Call-to-Action Buttons Functionality",
+      "steps": [
+        {
+          "action": "Click on primary CTA buttons such as Contact Us and Learn More",
+          "expected": "Each button triggers the expected action, navigating to the correct page, opening a modal, or scrolling to the appropriate section"
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "req_0004",
+      "feature_file": "req_0004_mobile_responsive.feature",
+      "title": "Mobile Responsive View Display",
+      "steps": [
+        {
+          "action": "Access emids.com using a browser window set to mobile dimensions (e.g., 375px width)",
+          "expected": "All text content is legible, images display properly, navigation menu is accessible or properly collapsed, and all buttons are visible and interactable"
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "req_0005",
+      "feature_file": "req_0005_contact_form_validation.feature",
+      "title": "Contact Form Validation Messages",
+      "steps": [
+        {
+          "action": "Attempt to submit the form without filling in any required fields",
+          "expected": "The form displays clear validation error messages indicating which required fields must be completed, and the submission is prevented"
+        }
+      ],
+      "tc_id": "TC-005"
+    }
+  ],
+  "skipped_requirements": []
+}
