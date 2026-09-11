@@ -1,0 +1,90 @@
+{
+  "test_cases": [
+    {
+      "req_id": "req_0001",
+      "feature_file": "tests/features/req_0001_homepage_loading.feature",
+      "title": "Homepage Loading Verification",
+      "steps": [
+        {
+          "action": "navigate_to_homepage",
+          "expected": "homepage loads within acceptable time without errors"
+        },
+        {
+          "action": "verify_homepage_content_visible",
+          "expected": "expected homepage content displayed without visible errors"
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "req_0002",
+      "feature_file": "tests/features/req_0002_navigation_menu.feature",
+      "title": "Main Navigation Menu Functionality",
+      "steps": [
+        {
+          "action": "verify_navigation_items",
+          "expected": "all main navigation items visible"
+        },
+        {
+          "action": "click_navigation_and_verify",
+          "expected": "each menu item navigates correctly with URL update"
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "req_0003",
+      "feature_file": "tests/features/req_0003_primary_cta_buttons.feature",
+      "title": "Primary Call-to-Action Buttons Functionality",
+      "steps": [
+        {
+          "action": "locate_primary_cta_buttons",
+          "expected": "CTA buttons visible on homepage"
+        },
+        {
+          "action": "click_and_verify_cta_actions",
+          "expected": "buttons trigger expected actions without errors"
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "req_0004",
+      "feature_file": "tests/features/req_0004_mobile_responsive_layout.feature",
+      "title": "Mobile Responsive Layout Verification",
+      "steps": [
+        {
+          "action": "resize_browser_to_mobile",
+          "expected": "viewport set to mobile dimensions"
+        },
+        {
+          "action": "verify_mobile_layout",
+          "expected": "content readable, menu functional, buttons visible"
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "req_0005",
+      "feature_file": "tests/features/req_0005_contact_form_validation.feature",
+      "title": "Contact Form Validation Messages",
+      "steps": [
+        {
+          "action": "navigate_to_contact_form",
+          "expected": "contact form page accessible"
+        },
+        {
+          "action": "submit_empty_form",
+          "expected": "validation errors displayed for required fields"
+        }
+      ],
+      "tc_id": "TC-005"
+    }
+  ],
+  "skipped_requirements": [
+    {
+      "req_id": "req_0003",
+      "reason": "sign_in_available is false, CTA buttons may not be accessible without sign in for req_0003"
+    }
+  ]
+}
