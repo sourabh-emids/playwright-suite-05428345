@@ -1,0 +1,133 @@
+{
+  "test_cases": [
+    {
+      "req_id": "REQ-001",
+      "feature_file": "tests/features/req_001_homepage_load.feature",
+      "title": "Homepage loads successfully",
+      "steps": [
+        {
+          "action": "Homepage loads without errors",
+          "expected": null
+        },
+        {
+          "action": "Homepage renders all visible elements correctly",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "REQ-002",
+      "feature_file": "tests/features/req_002_navigation_menu.feature",
+      "title": "Main navigation menu items navigate to correct pages",
+      "steps": [
+        {
+          "action": "Navigation menu items open correct destination pages",
+          "expected": null
+        },
+        {
+          "action": "Solutions navigation opens Solutions page",
+          "expected": null
+        },
+        {
+          "action": "Capabilities navigation opens Capabilities page",
+          "expected": null
+        },
+        {
+          "action": "Industries navigation opens Industries page",
+          "expected": null
+        },
+        {
+          "action": "Insights navigation opens Insights page",
+          "expected": null
+        },
+        {
+          "action": "Company navigation opens About Us page",
+          "expected": null
+        },
+        {
+          "action": "Connect navigation opens Contact page",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "REQ-003",
+      "feature_file": "tests/features/req_003_cta_buttons.feature",
+      "title": "Primary CTA buttons function correctly",
+      "steps": [
+        {
+          "action": "Learn More CTA button navigates to expected destination",
+          "expected": null
+        },
+        {
+          "action": "See How We Deliver Outcomes button navigates correctly",
+          "expected": null
+        },
+        {
+          "action": "See the model button navigates correctly",
+          "expected": null
+        },
+        {
+          "action": "All solutions button navigates correctly",
+          "expected": null
+        },
+        {
+          "action": "Contact CTA button navigates to contact page",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "REQ-004",
+      "feature_file": "tests/features/req_004_mobile_viewport.feature",
+      "title": "Website displays correctly on mobile viewport",
+      "steps": [
+        {
+          "action": "Mobile layout renders all core content without horizontal scrolling",
+          "expected": null
+        },
+        {
+          "action": "Mobile navigation menu is accessible",
+          "expected": null
+        },
+        {
+          "action": "Mobile viewport shows all key page elements",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "REQ-005",
+      "feature_file": "tests/features/req_005_contact_form_validation.feature",
+      "title": "Contact form displays validation for required fields",
+      "steps": [
+        {
+          "action": "Empty form submission shows validation messages",
+          "expected": null
+        },
+        {
+          "action": "Form is not submitted with incomplete required fields",
+          "expected": null
+        },
+        {
+          "action": "Validation message appears for First Name field",
+          "expected": null
+        },
+        {
+          "action": "Validation message appears for Work Email field",
+          "expected": null
+        },
+        {
+          "action": "Validation message appears for Company Name field",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-005"
+    }
+  ],
+  "skipped_requirements": []
+}
