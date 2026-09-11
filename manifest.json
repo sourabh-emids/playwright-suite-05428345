@@ -1,0 +1,65 @@
+{
+  "test_cases": [
+    {
+      "req_id": "TC-01",
+      "feature_file": "tests/features/tc01_homepage_load.feature",
+      "title": "Verify homepage loads successfully",
+      "steps": [
+        {
+          "action": "navigate to https://www.emids.com/",
+          "expected": "Homepage loads successfully and displays expected content without obvious errors"
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "TC-02",
+      "feature_file": "tests/features/tc02_navigation_menu.feature",
+      "title": "Verify main navigation menu items navigate to correct pages",
+      "steps": [
+        {
+          "action": "click on each main navigation menu item",
+          "expected": "Each menu item opens the correct corresponding page or section"
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "TC-03",
+      "feature_file": "tests/features/tc03_cta_buttons.feature",
+      "title": "Verify primary call-to-action buttons function correctly",
+      "steps": [
+        {
+          "action": "click on key buttons such as Contact Us or Learn More",
+          "expected": "Buttons function properly and navigate to the expected page or section"
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "TC-04",
+      "feature_file": "tests/features/tc04_mobile_viewport.feature",
+      "title": "Verify website displays correctly on mobile viewport",
+      "steps": [
+        {
+          "action": "open the website in a mobile-sized browser window",
+          "expected": "All text, images, menu, and buttons are visible, properly sized, and usable"
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "TC-05",
+      "feature_file": "tests/features/tc05_contact_form_validation.feature",
+      "title": "Verify contact form displays proper validation for required fields",
+      "steps": [
+        {
+          "action": "submit contact form with required fields left empty",
+          "expected": "Clear validation messages appear indicating which fields must be completed"
+        }
+      ],
+      "tc_id": "TC-005"
+    }
+  ],
+  "skipped_requirements": []
+}
