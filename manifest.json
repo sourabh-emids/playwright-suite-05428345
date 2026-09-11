@@ -1,0 +1,65 @@
+{
+  "test_cases": [
+    {
+      "req_id": "TC-01",
+      "feature_file": "tests/features/tc_01_homepage_availability.feature",
+      "title": "TC-01 Website homepage availability",
+      "steps": [
+        {
+          "action": "Homepage opens successfully",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "TC-02",
+      "feature_file": "tests/features/tc_02_main_navigation_routing.feature",
+      "title": "TC-02 Main navigation routing",
+      "steps": [
+        {
+          "action": "A main navigation category reaches its destination",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "TC-03",
+      "feature_file": "tests/features/tc_03_primary_cta_navigation.feature",
+      "title": "TC-03 Primary call-to-action navigation",
+      "steps": [
+        {
+          "action": "A primary call to action opens its intended page",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "TC-04",
+      "feature_file": "tests/features/tc_04_mobile_website_usability.feature",
+      "title": "TC-04 Mobile website usability",
+      "steps": [
+        {
+          "action": "Homepage content and mobile navigation are usable",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "TC-05",
+      "feature_file": "tests/features/tc_05_required_contact_form_validation.feature",
+      "title": "TC-05 Required contact form validation",
+      "steps": [
+        {
+          "action": "Empty required contact fields prevent submission",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-005"
+    }
+  ],
+  "skipped_requirements": []
+}
