@@ -1,0 +1,77 @@
+{
+  "test_cases": [
+    {
+      "req_id": "TC-01",
+      "feature_file": "homepage_loads_successfully.feature",
+      "title": "Homepage loads successfully and displays without errors",
+      "steps": [
+        {
+          "action": "navigate_to_homepage",
+          "expected": "homepage_loads_completely"
+        },
+        {
+          "action": "verify_no_console_errors",
+          "expected": "no_javascript_errors"
+        },
+        {
+          "action": "verify_expected_content_displayed",
+          "expected": "content_visible"
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "TC-02",
+      "feature_file": "navigation_menu_links.feature",
+      "title": "Main navigation menu links navigate to correct pages",
+      "steps": [
+        {
+          "action": "click_navigation_menu_item",
+          "expected": "navigates_to_correct_page"
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "TC-03",
+      "feature_file": "primary_action_buttons.feature",
+      "title": "Primary action buttons trigger expected navigation or actions",
+      "steps": [
+        {
+          "action": "click_primary_action_button",
+          "expected": "expected_action_triggered"
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "TC-04",
+      "feature_file": "mobile_responsive_viewport.feature",
+      "title": "Website displays correctly and remains usable on mobile viewport",
+      "steps": [
+        {
+          "action": "resize_browser_to_mobile",
+          "expected": "website_renders_properly"
+        },
+        {
+          "action": "verify_mobile_elements_visible",
+          "expected": "elements_properly_sized"
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "TC-05",
+      "feature_file": "contact_form_validation.feature",
+      "title": "Contact form displays validation messages for empty required fields",
+      "steps": [
+        {
+          "action": "submit_empty_contact_form",
+          "expected": "validation_messages_displayed"
+        }
+      ],
+      "tc_id": "TC-005"
+    }
+  ],
+  "skipped_requirements": []
+}
