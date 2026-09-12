@@ -1,0 +1,1517 @@
+{
+  "test_cases": [
+    {
+      "req_id": "EMIDS-LP-001",
+      "feature_file": "tests/features/EMIDS-LP-001_header.feature",
+      "title": "Global header and Emids brand entry point",
+      "steps": [
+        {
+          "action": "Header visibility on initial page load",
+          "expected": null
+        },
+        {
+          "action": "Emids logo navigates to homepage",
+          "expected": null
+        },
+        {
+          "action": "Keyboard navigation to all top-level items",
+          "expected": null
+        },
+        {
+          "action": "Pointer navigation to all top-level items",
+          "expected": null
+        },
+        {
+          "action": "Connect CTA routes to contact experience",
+          "expected": null
+        },
+        {
+          "action": "All navigation destinations are valid",
+          "expected": null
+        },
+        {
+          "action": "Single primary Connect CTA in header",
+          "expected": null
+        },
+        {
+          "action": "Header accessibility with JS disabled",
+          "expected": null
+        },
+        {
+          "action": "Header on narrow viewport",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "EMIDS-LP-002",
+      "feature_file": "tests/features/EMIDS-LP-002_solutions_menu.feature",
+      "title": "Solutions mega-menu implementation",
+      "steps": [
+        {
+          "action": "Solutions menu opens with accessible controls",
+          "expected": null
+        },
+        {
+          "action": "All solution links are selectable",
+          "expected": null
+        },
+        {
+          "action": "Keyboard focus within mega-menu",
+          "expected": null
+        },
+        {
+          "action": "Solutions menu on touch device",
+          "expected": null
+        },
+        {
+          "action": "Solutions menu not clipped by viewport",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "EMIDS-LP-003",
+      "feature_file": "tests/features/EMIDS-LP-003_capabilities_menu.feature",
+      "title": "Capabilities mega-menu implementation",
+      "steps": [
+        {
+          "action": "Capabilities menu opens and closes predictably",
+          "expected": null
+        },
+        {
+          "action": "All capability links are keyboard operable",
+          "expected": null
+        },
+        {
+          "action": "Capability labels match approved taxonomy",
+          "expected": null
+        },
+        {
+          "action": "No duplicate labels within menu",
+          "expected": null
+        },
+        {
+          "action": "Mobile disclosure pattern for Capabilities",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "EMIDS-LP-004",
+      "feature_file": "tests/features/EMIDS-LP-004_industries_menu.feature",
+      "title": "Industries mega-menu implementation",
+      "steps": [
+        {
+          "action": "Industries menu contains all five audiences",
+          "expected": null
+        },
+        {
+          "action": "Each audience reachable without mouse",
+          "expected": null
+        },
+        {
+          "action": "Audience links use canonical URLs",
+          "expected": null
+        },
+        {
+          "action": "Mobile stacked list for Industries",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "EMIDS-LP-005",
+      "feature_file": "tests/features/EMIDS-LP-005_insights_menu.feature",
+      "title": "Insights navigation group implementation",
+      "steps": [
+        {
+          "action": "Insights menu opens reliably",
+          "expected": null
+        },
+        {
+          "action": "Child links readable at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "No empty menu groups",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-005"
+    },
+    {
+      "req_id": "EMIDS-LP-006",
+      "feature_file": "tests/features/EMIDS-LP-006_company_menu.feature",
+      "title": "Company navigation group implementation",
+      "steps": [
+        {
+          "action": "Company menu exposes approved links",
+          "expected": null
+        },
+        {
+          "action": "Company menu works with all input methods",
+          "expected": null
+        },
+        {
+          "action": "Only published pages in Company menu",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-006"
+    },
+    {
+      "req_id": "EMIDS-LP-007",
+      "feature_file": "tests/features/EMIDS-LP-007_connect_cta.feature",
+      "title": "Header Connect CTA implementation",
+      "steps": [
+        {
+          "action": "Connect CTA is visually distinct",
+          "expected": null
+        },
+        {
+          "action": "Connect CTA has accessible name",
+          "expected": null
+        },
+        {
+          "action": "Connect CTA routes to contact page",
+          "expected": null
+        },
+        {
+          "action": "Connect CTA keyboard activation",
+          "expected": null
+        },
+        {
+          "action": "Connect CTA URL is HTTPS and valid",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-007"
+    },
+    {
+      "req_id": "EMIDS-LP-008",
+      "feature_file": "tests/features/EMIDS-LP-008_responsive_navigation.feature",
+      "title": "Responsive and accessible navigation behavior",
+      "steps": [
+        {
+          "action": "Menu operation without hover",
+          "expected": null
+        },
+        {
+          "action": "Escape closes open overlays",
+          "expected": null
+        },
+        {
+          "action": "Visible focus is maintained",
+          "expected": null
+        },
+        {
+          "action": "Content reflows without horizontal scrolling",
+          "expected": null
+        },
+        {
+          "action": "Interactive controls are semantic buttons/links",
+          "expected": null
+        },
+        {
+          "action": "Focus order matches visual order",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion preference respected",
+          "expected": null
+        },
+        {
+          "action": "Resize while menu open",
+          "expected": null
+        },
+        {
+          "action": "Browser zoom 200% support",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-008"
+    },
+    {
+      "req_id": "EMIDS-LP-009",
+      "feature_file": "tests/features/EMIDS-LP-009_hero_messaging.feature",
+      "title": "Hero messaging and visual rendering",
+      "steps": [
+        {
+          "action": "Hero renders with primary H1",
+          "expected": null
+        },
+        {
+          "action": "Supporting content is readable",
+          "expected": null
+        },
+        {
+          "action": "Hero media has alternative handling",
+          "expected": null
+        },
+        {
+          "action": "CTA visible above deep page scrolling on desktop",
+          "expected": null
+        },
+        {
+          "action": "Hero content at small viewport",
+          "expected": null
+        },
+        {
+          "action": "Hero with reduced motion preference",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-009"
+    },
+    {
+      "req_id": "EMIDS-LP-010",
+      "feature_file": "tests/features/EMIDS-LP-010_hero_cta.feature",
+      "title": "Hero CTA routes to FDCE experience",
+      "steps": [
+        {
+          "action": "Hero CTA resolves to FDCE page",
+          "expected": null
+        },
+        {
+          "action": "Hero CTA preserves browser navigation behavior",
+          "expected": null
+        },
+        {
+          "action": "Hero CTA URL is HTTPS and canonical",
+          "expected": null
+        },
+        {
+          "action": "Hero CTA opens in new tab",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-010"
+    },
+    {
+      "req_id": "EMIDS-LP-011",
+      "feature_file": "tests/features/EMIDS-LP-011_hero_media_optimization.feature",
+      "title": "Hero media loading optimization",
+      "steps": [
+        {
+          "action": "Text content available if media fails",
+          "expected": null
+        },
+        {
+          "action": "Media dimensions reserved to avoid layout shift",
+          "expected": null
+        },
+        {
+          "action": "Appropriately sized assets served",
+          "expected": null
+        },
+        {
+          "action": "LCP asset not lazy-loaded",
+          "expected": null
+        },
+        {
+          "action": "Media loads progressively",
+          "expected": null
+        },
+        {
+          "action": "Media on slow network",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-011"
+    },
+    {
+      "req_id": "EMIDS-LP-012",
+      "feature_file": "tests/features/EMIDS-LP-012_how_we_deliver_rendering.feature",
+      "title": "How We Deliver section rendering",
+      "steps": [
+        {
+          "action": "Section renders in intended sequence",
+          "expected": null
+        },
+        {
+          "action": "Section content is accessible",
+          "expected": null
+        },
+        {
+          "action": "Required content fields not empty",
+          "expected": null
+        },
+        {
+          "action": "Heading hierarchy is logical",
+          "expected": null
+        },
+        {
+          "action": "Section without CTA",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-012"
+    },
+    {
+      "req_id": "EMIDS-LP-013",
+      "feature_file": "tests/features/EMIDS-LP-013_see_model_cta.feature",
+      "title": "See the model CTA functionality",
+      "steps": [
+        {
+          "action": "See the model CTA routes to FDCE page",
+          "expected": null
+        },
+        {
+          "action": "See the model CTA keyboard operable",
+          "expected": null
+        },
+        {
+          "action": "CTA has descriptive accessible name",
+          "expected": null
+        },
+        {
+          "action": "Destination is valid and accessible",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-013"
+    },
+    {
+      "req_id": "EMIDS-LP-014",
+      "feature_file": "tests/features/EMIDS-LP-014_semantic_section_hierarchy.feature",
+      "title": "Semantic section hierarchy",
+      "steps": [
+        {
+          "action": "Exactly one page-level H1",
+          "expected": null
+        },
+        {
+          "action": "Logical heading levels for sections",
+          "expected": null
+        },
+        {
+          "action": "Landmarks are identifiable",
+          "expected": null
+        },
+        {
+          "action": "Interactive text not styled as headings only",
+          "expected": null
+        },
+        {
+          "action": "CMS duplicate H1 scenario",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-014"
+    },
+    {
+      "req_id": "EMIDS-LP-015",
+      "feature_file": "tests/features/EMIDS-LP-015_featured_solutions_rendering.feature",
+      "title": "Six featured solution items rendering",
+      "steps": [
+        {
+          "action": "All six entries are present with correct numbering",
+          "expected": null
+        },
+        {
+          "action": "Each entry has title and supporting copy",
+          "expected": null
+        },
+        {
+          "action": "Titles are not blank",
+          "expected": null
+        },
+        {
+          "action": "Order is controlled",
+          "expected": null
+        },
+        {
+          "action": "One item unpublished edge case",
+          "expected": null
+        },
+        {
+          "action": "Very long title handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-015"
+    },
+    {
+      "req_id": "EMIDS-LP-016",
+      "feature_file": "tests/features/EMIDS-LP-016_all_solutions_cta.feature",
+      "title": "All Solutions CTA implementation",
+      "steps": [
+        {
+          "action": "All Solutions CTA visible and routes correctly",
+          "expected": null
+        },
+        {
+          "action": "CTA URL is canonical",
+          "expected": null
+        },
+        {
+          "action": "Portfolio page unavailable fallback",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-016"
+    },
+    {
+      "req_id": "EMIDS-LP-017",
+      "feature_file": "tests/features/EMIDS-LP-017_featured_solutions_responsive.feature",
+      "title": "Featured solution responsive interaction",
+      "steps": [
+        {
+          "action": "Every solution reachable on keyboard",
+          "expected": null
+        },
+        {
+          "action": "Every solution reachable on touch",
+          "expected": null
+        },
+        {
+          "action": "No content permanently hidden",
+          "expected": null
+        },
+        {
+          "action": "Carousel controls have accessible labels",
+          "expected": null
+        },
+        {
+          "action": "Autoplay respects reduced motion",
+          "expected": null
+        },
+        {
+          "action": "Viewport resize during interaction",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-017"
+    },
+    {
+      "req_id": "EMIDS-LP-018",
+      "feature_file": "tests/features/EMIDS-LP-018_partner_logos.feature",
+      "title": "Partner logo rail/marquee rendering",
+      "steps": [
+        {
+          "action": "All approved partner logos render",
+          "expected": null
+        },
+        {
+          "action": "Logos have meaningful accessible names",
+          "expected": null
+        },
+        {
+          "action": "Logical list for assistive technology",
+          "expected": null
+        },
+        {
+          "action": "Logo asset required",
+          "expected": null
+        },
+        {
+          "action": "Missing logo handling",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion for animation",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-018"
+    },
+    {
+      "req_id": "EMIDS-LP-019",
+      "feature_file": "tests/features/EMIDS-LP-019_reduced_motion_partners.feature",
+      "title": "Reduced motion for partner animation",
+      "steps": [
+        {
+          "action": "Reduced motion disables continuous motion",
+          "expected": null
+        },
+        {
+          "action": "Content remains fully visible",
+          "expected": null
+        },
+        {
+          "action": "Animation not required to discover partner",
+          "expected": null
+        },
+        {
+          "action": "Preference changes while page open",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-019"
+    },
+    {
+      "req_id": "EMIDS-LP-020",
+      "feature_file": "tests/features/EMIDS-LP-020_capabilities_overview.feature",
+      "title": "Capabilities overview rendering",
+      "steps": [
+        {
+          "action": "All three capability groups visible",
+          "expected": null
+        },
+        {
+          "action": "Each group has corresponding content/actions",
+          "expected": null
+        },
+        {
+          "action": "Group labels match navigation taxonomy",
+          "expected": null
+        },
+        {
+          "action": "Responsive capability cards/panels",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-020"
+    },
+    {
+      "req_id": "EMIDS-LP-021",
+      "feature_file": "tests/features/EMIDS-LP-021_ai_capability.feature",
+      "title": "AI capability content rendering",
+      "steps": [
+        {
+          "action": "AI label and supporting content render",
+          "expected": null
+        },
+        {
+          "action": "AI relevant link is operable",
+          "expected": null
+        },
+        {
+          "action": "AI title required",
+          "expected": null
+        },
+        {
+          "action": "Missing AI destination handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-021"
+    },
+    {
+      "req_id": "EMIDS-LP-022",
+      "feature_file": "tests/features/EMIDS-LP-022_engineering_capability.feature",
+      "title": "Engineering capability content rendering",
+      "steps": [
+        {
+          "action": "Engineering label and supporting content render",
+          "expected": null
+        },
+        {
+          "action": "Engineering relevant link is operable",
+          "expected": null
+        },
+        {
+          "action": "Engineering title required",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-022"
+    },
+    {
+      "req_id": "EMIDS-LP-023",
+      "feature_file": "tests/features/EMIDS-LP-023_platforms_capability.feature",
+      "title": "Platforms capability content rendering",
+      "steps": [
+        {
+          "action": "Platforms content renders",
+          "expected": null
+        },
+        {
+          "action": "Labels use approved taxonomy consistently",
+          "expected": null
+        },
+        {
+          "action": "Navigation/body naming consistency",
+          "expected": null
+        },
+        {
+          "action": "Stale CMS content detection",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-023"
+    },
+    {
+      "req_id": "EMIDS-LP-024",
+      "feature_file": "tests/features/EMIDS-LP-024_who_we_serve.feature",
+      "title": "Five audience/industry entries rendering",
+      "steps": [
+        {
+          "action": "All five audiences are visible",
+          "expected": null
+        },
+        {
+          "action": "Each Explore action routes to canonical segment page",
+          "expected": null
+        },
+        {
+          "action": "Explore actions work on keyboard and touch",
+          "expected": null
+        },
+        {
+          "action": "Exactly five current audiences",
+          "expected": null
+        },
+        {
+          "action": "One segment unavailable",
+          "expected": null
+        },
+        {
+          "action": "Tab state preserved after resize",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-024"
+    },
+    {
+      "req_id": "EMIDS-LP-025",
+      "feature_file": "tests/features/EMIDS-LP-025_impact_metrics.feature",
+      "title": "Impact proof metrics rendering",
+      "steps": [
+        {
+          "action": "All four metrics visible as text",
+          "expected": null
+        },
+        {
+          "action": "Values understandable without animation",
+          "expected": null
+        },
+        {
+          "action": "Screen readers receive final values",
+          "expected": null
+        },
+        {
+          "action": "Currency and plus signs preserved",
+          "expected": null
+        },
+        {
+          "action": "Values and labels managed as paired content",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-025"
+    },
+    {
+      "req_id": "EMIDS-LP-026",
+      "feature_file": "tests/features/EMIDS-LP-026_insights_section.feature",
+      "title": "Insights section and six content cards",
+      "steps": [
+        {
+          "action": "Six cards render with complete content",
+          "expected": null
+        },
+        {
+          "action": "Cards accessible at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Published content only",
+          "expected": null
+        },
+        {
+          "action": "Title and URL required",
+          "expected": null
+        },
+        {
+          "action": "Resource unpublished handling",
+          "expected": null
+        },
+        {
+          "action": "Long title truncation",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-026"
+    },
+    {
+      "req_id": "EMIDS-LP-027",
+      "feature_file": "tests/features/EMIDS-LP-027_medicare_ebook.feature",
+      "title": "Medicare Advantage eBook card display",
+      "steps": [
+        {
+          "action": "Medicare Advantage eBook renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Correct destination URL",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-027"
+    },
+    {
+      "req_id": "EMIDS-LP-028",
+      "feature_file": "tests/features/EMIDS-LP-028_cms0057_resource.feature",
+      "title": "CMS-0057 interoperability resource card",
+      "steps": [
+        {
+          "action": "CMS-0057 card renders with approved content",
+          "expected": null
+        },
+        {
+          "action": "No empty title or destination",
+          "expected": null
+        },
+        {
+          "action": "Card routes to intended resource",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-028"
+    },
+    {
+      "req_id": "EMIDS-LP-029",
+      "feature_file": "tests/features/EMIDS-LP-029_life_sciences_ebook.feature",
+      "title": "Life Sciences transformation eBook card",
+      "steps": [
+        {
+          "action": "Life Sciences eBook renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Correct canonical URL",
+          "expected": null
+        },
+        {
+          "action": "Download action opens correct experience",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-029"
+    },
+    {
+      "req_id": "EMIDS-LP-030",
+      "feature_file": "tests/features/EMIDS-LP-030_ai_roi_ebook.feature",
+      "title": "AI ROI eBook card display",
+      "steps": [
+        {
+          "action": "AI ROI eBook renders with correct labeling",
+          "expected": null
+        },
+        {
+          "action": "Published content and valid URL",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-030"
+    },
+    {
+      "req_id": "EMIDS-LP-031",
+      "feature_file": "tests/features/EMIDS-LP-031_finops_resource.feature",
+      "title": "FinOps healthcare payer resource card",
+      "steps": [
+        {
+          "action": "FinOps resource renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Valid destination",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-031"
+    },
+    {
+      "req_id": "EMIDS-LP-032",
+      "feature_file": "tests/features/EMIDS-LP-032_payer_data_blog.feature",
+      "title": "Payer data readiness blog card",
+      "steps": [
+        {
+          "action": "Payer data readiness blog displays correctly",
+          "expected": null
+        },
+        {
+          "action": "Read More action for blog content",
+          "expected": null
+        },
+        {
+          "action": "Correct blog destination",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-032"
+    },
+    {
+      "req_id": "EMIDS-LP-033",
+      "feature_file": "tests/features/EMIDS-LP-033_resource_access_handoff.feature",
+      "title": "Resource-access handoff without false download implication",
+      "steps": [
+        {
+          "action": "Download reaches resource detail flow",
+          "expected": null
+        },
+        {
+          "action": "Implementation does not expose private asset endpoint",
+          "expected": null
+        },
+        {
+          "action": "Gate clearly communicates required steps",
+          "expected": null
+        },
+        {
+          "action": "Only verified/published destinations used",
+          "expected": null
+        },
+        {
+          "action": "Gated asset unavailable handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-033"
+    },
+    {
+      "req_id": "EMIDS-LP-034",
+      "feature_file": "tests/features/EMIDS-LP-034_final_cta_banner.feature",
+      "title": "Final conversion banner rendering",
+      "steps": [
+        {
+          "action": "Banner appears before footer",
+          "expected": null
+        },
+        {
+          "action": "Primary action is clear and keyboard operable",
+          "expected": null
+        },
+        {
+          "action": "Supporting message content readable",
+          "expected": null
+        },
+        {
+          "action": "Required fields present",
+          "expected": null
+        },
+        {
+          "action": "CTA text wraps appropriately",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-034"
+    },
+    {
+      "req_id": "EMIDS-LP-035",
+      "feature_file": "tests/features/EMIDS-LP-035_delivery_timeline.feature",
+      "title": "Delivery timeline message rendering",
+      "steps": [
+        {
+          "action": "All timing labels render in intended order",
+          "expected": null
+        },
+        {
+          "action": "Timing labels understandable to screen readers",
+          "expected": null
+        },
+        {
+          "action": "Meaning not encoded by visual styling alone",
+          "expected": null
+        },
+        {
+          "action": "Mobile width wrapping",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-035"
+    },
+    {
+      "req_id": "EMIDS-LP-036",
+      "feature_file": "tests/features/EMIDS-LP-036_cookie_preferences.feature",
+      "title": "Cookie Preferences control in footer",
+      "steps": [
+        {
+          "action": "Cookie Preferences visible in footer",
+          "expected": null
+        },
+        {
+          "action": "Activating opens consent-management UI",
+          "expected": null
+        },
+        {
+          "action": "User can revise or withdraw consent",
+          "expected": null
+        },
+        {
+          "action": "Control available after initial banner dismissal",
+          "expected": null
+        },
+        {
+          "action": "Consent script blocked handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-036"
+    },
+    {
+      "req_id": "EMIDS-LP-037",
+      "feature_file": "tests/features/EMIDS-LP-037_gtm_consent.feature",
+      "title": "Google Tag Manager with consent governance",
+      "steps": [
+        {
+          "action": "Core page works if GTM fails",
+          "expected": null
+        },
+        {
+          "action": "Non-essential tags respect consent",
+          "expected": null
+        },
+        {
+          "action": "GTM does not block rendering",
+          "expected": null
+        },
+        {
+          "action": "Consent signals properly configured",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-037"
+    },
+    {
+      "req_id": "EMIDS-LP-038",
+      "feature_file": "tests/features/EMIDS-LP-038_google_analytics.feature",
+      "title": "Google Analytics measurement after consent",
+      "steps": [
+        {
+          "action": "Analytics initialization follows consent",
+          "expected": null
+        },
+        {
+          "action": "Denial leaves page functional",
+          "expected": null
+        },
+        {
+          "action": "Events do not contain contact form values",
+          "expected": null
+        },
+        {
+          "action": "Page view events fire correctly",
+          "expected": null
+        },
+        {
+          "action": "Consent revoked handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-038"
+    },
+    {
+      "req_id": "EMIDS-LP-039",
+      "feature_file": "tests/features/EMIDS-LP-039_campaign_attribution.feature",
+      "title": "Campaign attribution parameters safe handling",
+      "steps": [
+        {
+          "action": "Attribution values preserved where permitted",
+          "expected": null
+        },
+        {
+          "action": "Invalid/oversized values ignored",
+          "expected": null
+        },
+        {
+          "action": "Parameter content not executed",
+          "expected": null
+        },
+        {
+          "action": "Consent denied handling",
+          "expected": null
+        },
+        {
+          "action": "Full URLs not logged with sensitive query values",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-039"
+    },
+    {
+      "req_id": "EMIDS-LP-040",
+      "feature_file": "tests/features/EMIDS-LP-040_marketo_integration.feature",
+      "title": "Marketo integration with consent",
+      "steps": [
+        {
+          "action": "Marketing scripts gated by consent",
+          "expected": null
+        },
+        {
+          "action": "Page functional when Marketo unavailable",
+          "expected": null
+        },
+        {
+          "action": "Configuration stored appropriately",
+          "expected": null
+        },
+        {
+          "action": "Script blocked handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-040"
+    },
+    {
+      "req_id": "EMIDS-LP-041",
+      "feature_file": "tests/features/EMIDS-LP-041_linkedin_tags.feature",
+      "title": "LinkedIn marketing tags conditional integration",
+      "steps": [
+        {
+          "action": "LinkedIn tag respects marketing consent",
+          "expected": null
+        },
+        {
+          "action": "Core page independent of LinkedIn",
+          "expected": null
+        },
+        {
+          "action": "Marketing consent required",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-041"
+    },
+    {
+      "req_id": "EMIDS-LP-042",
+      "feature_file": "tests/features/EMIDS-LP-042_zoominfo_websights.feature",
+      "title": "ZoomInfo/WebSights conditional integration",
+      "steps": [
+        {
+          "action": "Tooling loads conditionally",
+          "expected": null
+        },
+        {
+          "action": "Failure does not affect content or navigation",
+          "expected": null
+        },
+        {
+          "action": "No private identifiers in page copy",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-042"
+    },
+    {
+      "req_id": "EMIDS-LP-043",
+      "feature_file": "tests/features/EMIDS-LP-043_wistia_embeds.feature",
+      "title": "Wistia embeds conditional loading",
+      "steps": [
+        {
+          "action": "No Wistia script without configuration",
+          "expected": null
+        },
+        {
+          "action": "Configured video has accessible controls",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion and autoplay preferences respected",
+          "expected": null
+        },
+        {
+          "action": "Video ID required when enabled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-043"
+    },
+    {
+      "req_id": "EMIDS-LP-044",
+      "feature_file": "tests/features/EMIDS-LP-044_youtube_embeds.feature",
+      "title": "YouTube embeds conditional loading",
+      "steps": [
+        {
+          "action": "No player resources without embed",
+          "expected": null
+        },
+        {
+          "action": "Configured media keyboard accessible and titled",
+          "expected": null
+        },
+        {
+          "action": "Valid video ID",
+          "expected": null
+        },
+        {
+          "action": "No autoplay with sound by default",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-044"
+    },
+    {
+      "req_id": "EMIDS-LP-045",
+      "feature_file": "tests/features/EMIDS-LP-045_footer_legal.feature",
+      "title": "Footer legal navigation rendering",
+      "steps": [
+        {
+          "action": "Each legal link has descriptive text",
+          "expected": null
+        },
+        {
+          "action": "Legal links have valid destinations",
+          "expected": null
+        },
+        {
+          "action": "Visible focus state on legal links",
+          "expected": null
+        },
+        {
+          "action": "Labels not blank",
+          "expected": null
+        },
+        {
+          "action": "Legal page moved handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-045"
+    },
+    {
+      "req_id": "EMIDS-LP-046",
+      "feature_file": "tests/features/EMIDS-LP-046_footer_corporate.feature",
+      "title": "Footer corporate/contact information",
+      "steps": [
+        {
+          "action": "Footer info readable at mobile widths",
+          "expected": null
+        },
+        {
+          "action": "No conflict with legal navigation",
+          "expected": null
+        },
+        {
+          "action": "Social links functional if configured",
+          "expected": null
+        },
+        {
+          "action": "Only approved current content",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-046"
+    },
+    {
+      "req_id": "EMIDS-LP-047",
+      "feature_file": "tests/features/EMIDS-LP-047_contact_form.feature",
+      "title": "Contact form reached by Connect CTAs",
+      "steps": [
+        {
+          "action": "All required fields displayed",
+          "expected": null
+        },
+        {
+          "action": "Labels associated with controls",
+          "expected": null
+        },
+        {
+          "action": "Submission provides clear feedback",
+          "expected": null
+        },
+        {
+          "action": "Required fields enforced",
+          "expected": null
+        },
+        {
+          "action": "Email validation",
+          "expected": null
+        },
+        {
+          "action": "Invalid email handling",
+          "expected": null
+        },
+        {
+          "action": "Timeout handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-047"
+    },
+    {
+      "req_id": "EMIDS-LP-048",
+      "feature_file": "tests/features/EMIDS-LP-048_inquiry_type.feature",
+      "title": "Inquiry Type values on contact form",
+      "steps": [
+        {
+          "action": "Select control contains approved options",
+          "expected": null
+        },
+        {
+          "action": "Valid choice required before submission",
+          "expected": null
+        },
+        {
+          "action": "Placeholder not valid submitted choice",
+          "expected": null
+        },
+        {
+          "action": "Values outside enum rejected",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-048"
+    },
+    {
+      "req_id": "EMIDS-LP-049",
+      "feature_file": "tests/features/EMIDS-LP-049_contact_submission_feedback.feature",
+      "title": "Contact form submission feedback and retry",
+      "steps": [
+        {
+          "action": "Submit enters pending state",
+          "expected": null
+        },
+        {
+          "action": "Duplicate activation prevented while pending",
+          "expected": null
+        },
+        {
+          "action": "Success announced accessibly",
+          "expected": null
+        },
+        {
+          "action": "Failure keeps user content for retry",
+          "expected": null
+        },
+        {
+          "action": "Server validation errors map to fields",
+          "expected": null
+        },
+        {
+          "action": "5xx vendor/CRM outage handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-049"
+    },
+    {
+      "req_id": "EMIDS-LP-050",
+      "feature_file": "tests/features/EMIDS-LP-050_wcag_compliance.feature",
+      "title": "WCAG 2.1 AA compliance across landing page",
+      "steps": [
+        {
+          "action": "Keyboard access for all interactive elements",
+          "expected": null
+        },
+        {
+          "action": "Visible focus indicators",
+          "expected": null
+        },
+        {
+          "action": "Semantic landmarks identified",
+          "expected": null
+        },
+        {
+          "action": "Sufficient color contrast",
+          "expected": null
+        },
+        {
+          "action": "Meaningful alt text for images",
+          "expected": null
+        },
+        {
+          "action": "Accessible names for interactive elements",
+          "expected": null
+        },
+        {
+          "action": "200% zoom and reflow support",
+          "expected": null
+        },
+        {
+          "action": "Form error identification",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion handling",
+          "expected": null
+        },
+        {
+          "action": "Media alternatives provided",
+          "expected": null
+        },
+        {
+          "action": "High zoom testing",
+          "expected": null
+        },
+        {
+          "action": "Windows High Contrast support",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-050"
+    },
+    {
+      "req_id": "EMIDS-LP-051",
+      "feature_file": "tests/features/EMIDS-LP-051_seo_metadata.feature",
+      "title": "SEO metadata and crawlable structure",
+      "steps": [
+        {
+          "action": "Unique page title",
+          "expected": null
+        },
+        {
+          "action": "Meta description present",
+          "expected": null
+        },
+        {
+          "action": "Canonical URL set",
+          "expected": null
+        },
+        {
+          "action": "Primary text server-rendered",
+          "expected": null
+        },
+        {
+          "action": "Social preview metadata configured",
+          "expected": null
+        },
+        {
+          "action": "Headings reflect page topic",
+          "expected": null
+        },
+        {
+          "action": "No duplicate conflicting title tags",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-051"
+    },
+    {
+      "req_id": "EMIDS-LP-052",
+      "feature_file": "tests/features/EMIDS-LP-052_responsive_layout.feature",
+      "title": "Responsive layout across common viewports",
+      "steps": [
+        {
+          "action": "No horizontal scrolling at any viewport",
+          "expected": null
+        },
+        {
+          "action": "Typography readable at all sizes",
+          "expected": null
+        },
+        {
+          "action": "Controls do not overlap",
+          "expected": null
+        },
+        {
+          "action": "All cards/sections remain available",
+          "expected": null
+        },
+        {
+          "action": "Images preserve aspect ratio",
+          "expected": null
+        },
+        {
+          "action": "320px width support",
+          "expected": null
+        },
+        {
+          "action": "200% zoom layout stability",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-052"
+    },
+    {
+      "req_id": "EMIDS-LP-053",
+      "feature_file": "tests/features/EMIDS-LP-053_performance.feature",
+      "title": "Performance and Core Web Vitals optimization",
+      "steps": [
+        {
+          "action": "Critical content renders without analytics wait",
+          "expected": null
+        },
+        {
+          "action": "Images are sized and optimized",
+          "expected": null
+        },
+        {
+          "action": "Below-fold media lazy-loaded appropriately",
+          "expected": null
+        },
+        {
+          "action": "Layout shifts minimized",
+          "expected": null
+        },
+        {
+          "action": "Third-party scripts async/deferred",
+          "expected": null
+        },
+        {
+          "action": "No large unoptimized assets",
+          "expected": null
+        },
+        {
+          "action": "Slow network performance",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-053"
+    },
+    {
+      "req_id": "EMIDS-LP-054",
+      "feature_file": "tests/features/EMIDS-LP-054_script_failure.feature",
+      "title": "Script failure graceful handling",
+      "steps": [
+        {
+          "action": "Header readable when third-party scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Main content accessible without scripts",
+          "expected": null
+        },
+        {
+          "action": "CTAs functional without optional scripts",
+          "expected": null
+        },
+        {
+          "action": "Footer navigable without scripts",
+          "expected": null
+        },
+        {
+          "action": "Errors are contained",
+          "expected": null
+        },
+        {
+          "action": "CSP block handling",
+          "expected": null
+        },
+        {
+          "action": "Ad blocker interference",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-054"
+    },
+    {
+      "req_id": "EMIDS-LP-055",
+      "feature_file": "tests/features/EMIDS-LP-055_homepage_modal.feature",
+      "title": "Homepage modal behavior baseline",
+      "steps": [
+        {
+          "action": "Base homepage loads without unsolicited modal",
+          "expected": null
+        },
+        {
+          "action": "Configured modal is dismissible",
+          "expected": null
+        },
+        {
+          "action": "Configured modal keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Modal is non-blocking",
+          "expected": null
+        },
+        {
+          "action": "Repeated modal after dismissal",
+          "expected": null
+        },
+        {
+          "action": "JS disabled modal fallback",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-055"
+    }
+  ],
+  "skipped_requirements": []
+}
