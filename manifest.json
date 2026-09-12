@@ -1,0 +1,659 @@
+{
+  "test_cases": [
+    {
+      "req_id": "issue_0001",
+      "feature_file": "tests/features/issue_0001_header_renders.feature",
+      "title": "Header renders on initial page load",
+      "steps": [],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "issue_0002",
+      "feature_file": "tests/features/issue_0002_emids_logo_navigates.feature",
+      "title": "Emids logo navigates to homepage",
+      "steps": [],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "issue_0003",
+      "feature_file": "tests/features/issue_0003_keyboard_navigation.feature",
+      "title": "All top-level navigation reachable via keyboard",
+      "steps": [],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "issue_0004",
+      "feature_file": "tests/features/issue_0004_connect_cta.feature",
+      "title": "Connect CTA routes to contact experience",
+      "steps": [],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "issue_0005",
+      "feature_file": "tests/features/issue_0005_header_narrow_viewport.feature",
+      "title": "Header visible on narrow viewport",
+      "steps": [],
+      "tc_id": "TC-005"
+    },
+    {
+      "req_id": "issue_0006",
+      "feature_file": "tests/features/issue_0006_no_dead_links.feature",
+      "title": "No dead links in navigation items",
+      "steps": [],
+      "tc_id": "TC-006"
+    },
+    {
+      "req_id": "issue_0007",
+      "feature_file": "tests/features/issue_0007_single_connect_cta.feature",
+      "title": "Only one primary Connect CTA in header",
+      "steps": [],
+      "tc_id": "TC-007"
+    },
+    {
+      "req_id": "issue_0008",
+      "feature_file": "tests/features/issue_0008_solutions_menu.feature",
+      "title": "Solutions mega-menu opens with all links selectable",
+      "steps": [],
+      "tc_id": "TC-008"
+    },
+    {
+      "req_id": "issue_0009",
+      "feature_file": "tests/features/issue_0009_solutions_keyboard.feature",
+      "title": "Solutions menu keyboard navigation maintains focus order",
+      "steps": [],
+      "tc_id": "TC-009"
+    },
+    {
+      "req_id": "issue_0010",
+      "feature_file": "tests/features/issue_0010_solutions_menu_close.feature",
+      "title": "Solutions menu closes and restores focus to trigger",
+      "steps": [],
+      "tc_id": "TC-010"
+    },
+    {
+      "req_id": "issue_0011",
+      "feature_file": "tests/features/issue_0011_solutions_urls.feature",
+      "title": "Solutions menu items have valid URLs",
+      "steps": [],
+      "tc_id": "TC-011"
+    },
+    {
+      "req_id": "issue_0012",
+      "feature_file": "tests/features/issue_0012_capabilities_menu.feature",
+      "title": "Capabilities mega-menu opens and closes predictably",
+      "steps": [],
+      "tc_id": "TC-012"
+    },
+    {
+      "req_id": "issue_0013",
+      "feature_file": "tests/features/issue_0013_capabilities_groups.feature",
+      "title": "Capabilities menu AI Engineering Platforms groups present",
+      "steps": [],
+      "tc_id": "TC-013"
+    },
+    {
+      "req_id": "issue_0014",
+      "feature_file": "tests/features/issue_0014_capabilities_labels_unique.feature",
+      "title": "Capabilities menu labels unique within menu",
+      "steps": [],
+      "tc_id": "TC-014"
+    },
+    {
+      "req_id": "issue_0015",
+      "feature_file": "tests/features/issue_0015_industries_menu.feature",
+      "title": "Industries menu contains all five audiences",
+      "steps": [],
+      "tc_id": "TC-015"
+    },
+    {
+      "req_id": "issue_0016",
+      "feature_file": "tests/features/issue_0016_industry_urls.feature",
+      "title": "Industry links use canonical URLs",
+      "steps": [],
+      "tc_id": "TC-016"
+    },
+    {
+      "req_id": "issue_0017",
+      "feature_file": "tests/features/issue_0017_insights_control.feature",
+      "title": "Insights control opens with child links readable",
+      "steps": [],
+      "tc_id": "TC-017"
+    },
+    {
+      "req_id": "issue_0018",
+      "feature_file": "tests/features/issue_0018_no_empty_groups.feature",
+      "title": "No empty menu groups in Insights",
+      "steps": [],
+      "tc_id": "TC-018"
+    },
+    {
+      "req_id": "issue_0019",
+      "feature_file": "tests/features/issue_0019_company_menu.feature",
+      "title": "Company menu exposes approved links keyboard operable",
+      "steps": [],
+      "tc_id": "TC-019"
+    },
+    {
+      "req_id": "issue_0020",
+      "feature_file": "tests/features/issue_0020_connect_cta.feature",
+      "title": "Connect CTA visually distinct and keyboard accessible",
+      "steps": [],
+      "tc_id": "TC-020"
+    },
+    {
+      "req_id": "issue_0021",
+      "feature_file": "tests/features/issue_0021_connect_https.feature",
+      "title": "Connect CTA routes to HTTPS contact page",
+      "steps": [],
+      "tc_id": "TC-021"
+    },
+    {
+      "req_id": "issue_0022",
+      "feature_file": "tests/features/issue_0022_menu_no_hover.feature",
+      "title": "Menu opens and closes without hover requirement",
+      "steps": [],
+      "tc_id": "TC-022"
+    },
+    {
+      "req_id": "issue_0023",
+      "feature_file": "tests/features/issue_0023_escape_closes.feature",
+      "title": "Escape key closes open overlays",
+      "steps": [],
+      "tc_id": "TC-023"
+    },
+    {
+      "req_id": "issue_0024",
+      "feature_file": "tests/features/issue_0024_visible_focus.feature",
+      "title": "Visible focus maintained during navigation",
+      "steps": [],
+      "tc_id": "TC-024"
+    },
+    {
+      "req_id": "issue_0025",
+      "feature_file": "tests/features/issue_0025_content_reflow.feature",
+      "title": "Content reflows without horizontal scrolling at 320px",
+      "steps": [],
+      "tc_id": "TC-025"
+    },
+    {
+      "req_id": "issue_0026",
+      "feature_file": "tests/features/issue_0026_semantic_controls.feature",
+      "title": "Interactive controls are semantic buttons links",
+      "steps": [],
+      "tc_id": "TC-026"
+    },
+    {
+      "req_id": "issue_0027",
+      "feature_file": "tests/features/issue_0027_hero_h1.feature",
+      "title": "Hero H1 present and readable on initial load",
+      "steps": [],
+      "tc_id": "TC-027"
+    },
+    {
+      "req_id": "issue_0028",
+      "feature_file": "tests/features/issue_0028_hero_cta_visible.feature",
+      "title": "Hero CTA visible above page scroll on desktop",
+      "steps": [],
+      "tc_id": "TC-028"
+    },
+    {
+      "req_id": "issue_0029",
+      "feature_file": "tests/features/issue_0029_hero_alt.feature",
+      "title": "Hero media has alternative handling",
+      "steps": [],
+      "tc_id": "TC-029"
+    },
+    {
+      "req_id": "issue_0030",
+      "feature_file": "tests/features/issue_0030_hero_cta_fdce.feature",
+      "title": "Hero CTA routes to FDCE page",
+      "steps": [],
+      "tc_id": "TC-030"
+    },
+    {
+      "req_id": "issue_0031",
+      "feature_file": "tests/features/issue_0031_hero_cta_https.feature",
+      "title": "Hero CTA uses HTTPS canonical URL",
+      "steps": [],
+      "tc_id": "TC-031"
+    },
+    {
+      "req_id": "issue_0032",
+      "feature_file": "tests/features/issue_0032_hero_text_fallback.feature",
+      "title": "Hero text content available if media fails",
+      "steps": [],
+      "tc_id": "TC-032"
+    },
+    {
+      "req_id": "issue_0033",
+      "feature_file": "tests/features/issue_0033_hero_layout_shift.feature",
+      "title": "Hero media dimensions reserved to avoid layout shift",
+      "steps": [],
+      "tc_id": "TC-033"
+    },
+    {
+      "req_id": "issue_0034",
+      "feature_file": "tests/features/issue_0034_hero_optimized.feature",
+      "title": "Hero media uses optimized format and size",
+      "steps": [],
+      "tc_id": "TC-034"
+    },
+    {
+      "req_id": "issue_0035",
+      "feature_file": "tests/features/issue_0035_how_we_deliver.feature",
+      "title": "How We Deliver section renders in intended sequence",
+      "steps": [],
+      "tc_id": "TC-035"
+    },
+    {
+      "req_id": "issue_0036",
+      "feature_file": "tests/features/issue_0036_how_we_deliver_content.feature",
+      "title": "Required content fields not empty in section",
+      "steps": [],
+      "tc_id": "TC-036"
+    },
+    {
+      "req_id": "issue_0037",
+      "feature_file": "tests/features/issue_0037_see_model_cta.feature",
+      "title": "See the model CTA routes to FDCE detail page",
+      "steps": [],
+      "tc_id": "TC-037"
+    },
+    {
+      "req_id": "issue_0038",
+      "feature_file": "tests/features/issue_0038_see_model_keyboard.feature",
+      "title": "See the model CTA keyboard operable",
+      "steps": [],
+      "tc_id": "TC-038"
+    },
+    {
+      "req_id": "issue_0039",
+      "feature_file": "tests/features/issue_0039_single_h1.feature",
+      "title": "Exactly one H1 on page with logical heading hierarchy",
+      "steps": [],
+      "tc_id": "TC-039"
+    },
+    {
+      "req_id": "issue_0040",
+      "feature_file": "tests/features/issue_0040_landmarks.feature",
+      "title": "Semantic landmarks main header footer identifiable",
+      "steps": [],
+      "tc_id": "TC-040"
+    },
+    {
+      "req_id": "issue_0041",
+      "feature_file": "tests/features/issue_0041_six_solutions.feature",
+      "title": "Six featured solutions present with correct numbering",
+      "steps": [],
+      "tc_id": "TC-041"
+    },
+    {
+      "req_id": "issue_0042",
+      "feature_file": "tests/features/issue_0042_solutions_titles.feature",
+      "title": "Featured solutions titles not blank and destination valid",
+      "steps": [],
+      "tc_id": "TC-042"
+    },
+    {
+      "req_id": "issue_0043",
+      "feature_file": "tests/features/issue_0043_all_solutions_cta.feature",
+      "title": "All Solutions CTA routes to solutions portfolio",
+      "steps": [],
+      "tc_id": "TC-043"
+    },
+    {
+      "req_id": "issue_0044",
+      "feature_file": "tests/features/issue_0044_solutions_keyboard.feature",
+      "title": "Featured solutions reachable on keyboard and touch",
+      "steps": [],
+      "tc_id": "TC-044"
+    },
+    {
+      "req_id": "issue_0045",
+      "feature_file": "tests/features/issue_0045_partner_logos.feature",
+      "title": "Partner logos render with accessible names",
+      "steps": [],
+      "tc_id": "TC-045"
+    },
+    {
+      "req_id": "issue_0046",
+      "feature_file": "tests/features/issue_0046_logo_no_duplication.feature",
+      "title": "Logo rail does not duplicate for screen readers",
+      "steps": [],
+      "tc_id": "TC-046"
+    },
+    {
+      "req_id": "issue_0047",
+      "feature_file": "tests/features/issue_0047_reduced_motion.feature",
+      "title": "Reduced motion disables continuous logo animation",
+      "steps": [],
+      "tc_id": "TC-047"
+    },
+    {
+      "req_id": "issue_0048",
+      "feature_file": "tests/features/issue_0048_capability_groups.feature",
+      "title": "Three capability groups AI Engineering Platforms visible",
+      "steps": [],
+      "tc_id": "TC-048"
+    },
+    {
+      "req_id": "issue_0049",
+      "feature_file": "tests/features/issue_0049_capability_labels.feature",
+      "title": "Capability labels match navigation taxonomy",
+      "steps": [],
+      "tc_id": "TC-049"
+    },
+    {
+      "req_id": "issue_0050",
+      "feature_file": "tests/features/issue_0050_0051_0052_capabilities_cards.feature",
+      "title": "AI capability card with valid destination",
+      "steps": [],
+      "tc_id": "TC-050"
+    },
+    {
+      "req_id": "issue_0053",
+      "feature_file": "tests/features/issue_0053_five_audiences.feature",
+      "title": "Five audience entries with Explore actions visible",
+      "steps": [],
+      "tc_id": "TC-051"
+    },
+    {
+      "req_id": "issue_0054",
+      "feature_file": "tests/features/issue_0054_audience_explore_routes.feature",
+      "title": "Audience Explore routes to canonical segment page",
+      "steps": [],
+      "tc_id": "TC-052"
+    },
+    {
+      "req_id": "issue_0055",
+      "feature_file": "tests/features/issue_0055_four_metrics.feature",
+      "title": "Four impact metrics visible as text",
+      "steps": [],
+      "tc_id": "TC-053"
+    },
+    {
+      "req_id": "issue_0056",
+      "feature_file": "tests/features/issue_0056_impact_readable.feature",
+      "title": "Impact values understandable without animation",
+      "steps": [],
+      "tc_id": "TC-054"
+    },
+    {
+      "req_id": "issue_0057",
+      "feature_file": "tests/features/issue_0057_six_insight_cards.feature",
+      "title": "Six insight cards render with type title and action",
+      "steps": [],
+      "tc_id": "TC-055"
+    },
+    {
+      "req_id": "issue_0058",
+      "feature_file": "tests/features/issue_0058_insight_breakpoints.feature",
+      "title": "Insight cards accessible at all breakpoints",
+      "steps": [],
+      "tc_id": "TC-056"
+    },
+    {
+      "req_id": "issue_0059",
+      "feature_file": "tests/features/issue_0059_0060_0061_0062_0063_0064_insight_cards.feature",
+      "title": "Medicare Advantage eBook card displays correctly",
+      "steps": [],
+      "tc_id": "TC-057"
+    },
+    {
+      "req_id": "issue_0065",
+      "feature_file": "tests/features/issue_0065_0066_ebook_routes.feature",
+      "title": "eBook Download routes to detail access experience",
+      "steps": [],
+      "tc_id": "TC-058"
+    },
+    {
+      "req_id": "issue_0067",
+      "feature_file": "tests/features/issue_0067_final_cta_visible.feature",
+      "title": "Final CTA banner visible before footer",
+      "steps": [],
+      "tc_id": "TC-059"
+    },
+    {
+      "req_id": "issue_0068",
+      "feature_file": "tests/features/issue_0068_final_cta_keyboard.feature",
+      "title": "Final CTA primary action keyboard operable",
+      "steps": [],
+      "tc_id": "TC-060"
+    },
+    {
+      "req_id": "issue_0069",
+      "feature_file": "tests/features/issue_0069_0070_timing_labels.feature",
+      "title": "1 Day 2 Weeks 3 Months message renders in order",
+      "steps": [],
+      "tc_id": "TC-061"
+    },
+    {
+      "req_id": "issue_0071",
+      "feature_file": "tests/features/issue_0071_0072_cookie_preferences.feature",
+      "title": "Cookie Preferences control visible in footer",
+      "steps": [],
+      "tc_id": "TC-062"
+    },
+    {
+      "req_id": "issue_0073",
+      "feature_file": "tests/features/issue_0073_0074_0075_0076_0077_0078_0079_0080_0081_analytics.feature",
+      "title": "GTM loads only after consent for non-essential tags",
+      "steps": [],
+      "tc_id": "TC-063"
+    },
+    {
+      "req_id": "issue_0082",
+      "feature_file": "tests/features/issue_0082_0083_0108_0109_0110_final.feature",
+      "title": "Wistia embed loads only when configured",
+      "steps": [],
+      "tc_id": "TC-064"
+    },
+    {
+      "req_id": "issue_0084",
+      "feature_file": "tests/features/issue_0084_footer_legal.feature",
+      "title": "Footer legal links have valid HTTPS destinations",
+      "steps": [],
+      "tc_id": "TC-065"
+    },
+    {
+      "req_id": "issue_0085",
+      "feature_file": "tests/features/issue_0085_0086_0087_contact_form.feature",
+      "title": "Footer corporate information readable at mobile width",
+      "steps": [],
+      "tc_id": "TC-066"
+    },
+    {
+      "req_id": "issue_0088",
+      "feature_file": "tests/features/issue_0088_0089_0090_0091_contact_form_validation.feature",
+      "title": "Contact form requires inquiry type selection",
+      "steps": [],
+      "tc_id": "TC-067"
+    },
+    {
+      "req_id": "issue_0092",
+      "feature_file": "tests/features/issue_0092_0093_0094_0095_0096_0097_accessibility.feature",
+      "title": "WCAG 2.1 AA keyboard access on all interactive elements",
+      "steps": [],
+      "tc_id": "TC-068"
+    },
+    {
+      "req_id": "issue_0098",
+      "feature_file": "tests/features/issue_0098_0099_0100_seo.feature",
+      "title": "Page has unique title and meta description",
+      "steps": [],
+      "tc_id": "TC-069"
+    },
+    {
+      "req_id": "issue_0101",
+      "feature_file": "tests/features/issue_0101_0102_0103_responsive.feature",
+      "title": "No horizontal scrolling at 320px viewport width",
+      "steps": [],
+      "tc_id": "TC-070"
+    },
+    {
+      "req_id": "issue_0104",
+      "feature_file": "tests/features/issue_0104_0105_0106_0107_performance.feature",
+      "title": "Critical content renders without waiting for analytics",
+      "steps": [],
+      "tc_id": "TC-071"
+    }
+  ],
+  "skipped_requirements": [
+    {
+      "req_id": "issue_0051",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0052",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0060",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0061",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0062",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0063",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0064",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0066",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0070",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0072",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0074",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0075",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0076",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0077",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0078",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0079",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0080",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0081",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0083",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0086",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0087",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0089",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0090",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0091",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0093",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0094",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0095",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0096",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0097",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0099",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0100",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0102",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0103",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0105",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0106",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0107",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0108",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0109",
+      "reason": "no feature file for this requirement was written to the repository"
+    },
+    {
+      "req_id": "issue_0110",
+      "reason": "no feature file for this requirement was written to the repository"
+    }
+  ]
+}
