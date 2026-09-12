@@ -1,0 +1,73 @@
+{
+  "test_cases": [
+    {
+      "req_id": "TC-01",
+      "feature_file": "tests/features/tc_01_homepage_loads_successfully.feature",
+      "title": "Homepage loads successfully",
+      "steps": [
+        {
+          "action": "The homepage opens without obvious errors",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "TC-02",
+      "feature_file": "tests/features/tc_02_main_navigation.feature",
+      "title": "Main navigation opens the correct pages",
+      "steps": [
+        {
+          "action": "A main navigation category opens its expected page",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "TC-03",
+      "feature_file": "tests/features/tc_03_important_buttons.feature",
+      "title": "Important buttons perform their expected actions",
+      "steps": [
+        {
+          "action": "The header Connect action opens the contact page",
+          "expected": null
+        },
+        {
+          "action": "The Company menu Contact Us action opens the contact page",
+          "expected": null
+        },
+        {
+          "action": "The hero outcomes action opens its destination",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "TC-04",
+      "feature_file": "tests/features/tc_04_mobile_usability.feature",
+      "title": "Website remains usable in mobile view",
+      "steps": [
+        {
+          "action": "Core homepage content and mobile menu remain usable",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "TC-05",
+      "feature_file": "tests/features/tc_05_contact_form.feature",
+      "title": "Contact form validates empty required fields",
+      "steps": [
+        {
+          "action": "Empty contact form shows required-field validation",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-005"
+    }
+  ],
+  "skipped_requirements": []
+}
