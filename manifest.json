@@ -1,0 +1,713 @@
+{
+  "test_cases": [
+    {
+      "req_id": "issue_0001",
+      "feature_file": "tests/features/issue_0001_header_visibility_and_global_navigation.feature",
+      "title": "Header visibility and global navigation access",
+      "steps": [
+        {
+          "action": "Header is visible and contains primary navigation",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "issue_0002",
+      "feature_file": "tests/features/issue_0002_solutions_mega_menu.feature",
+      "title": "Solutions mega-menu functionality and accessibility",
+      "steps": [
+        {
+          "action": "Solutions mega-menu opens and displays categories",
+          "expected": null
+        },
+        {
+          "action": "Solutions mega-menu links are accessible",
+          "expected": null
+        },
+        {
+          "action": "Solutions mega-menu closes on navigation",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "issue_0003",
+      "feature_file": "tests/features/issue_0003_capabilities_mega_menu.feature",
+      "title": "Capabilities mega-menu accessibility and navigation",
+      "steps": [
+        {
+          "action": "Capabilities mega-menu displays three capability groups",
+          "expected": null
+        },
+        {
+          "action": "Capabilities mega-menu links are navigable",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "issue_0004",
+      "feature_file": "tests/features/issue_0004_industries_mega_menu.feature",
+      "title": "Industries mega-menu content and navigation",
+      "steps": [
+        {
+          "action": "Industries mega-menu displays industry options",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "issue_0005",
+      "feature_file": "tests/features/issue_0005_insights_navigation.feature",
+      "title": "Insights navigation group accessibility",
+      "steps": [
+        {
+          "action": "Insights mega-menu displays content categories",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-005"
+    },
+    {
+      "req_id": "issue_0006",
+      "feature_file": "tests/features/issue_0006_company_navigation.feature",
+      "title": "Company navigation group keyboard and touch access",
+      "steps": [
+        {
+          "action": "Company mega-menu displays sections",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-006"
+    },
+    {
+      "req_id": "issue_0007",
+      "feature_file": "tests/features/issue_0007_header_connect_cta.feature",
+      "title": "Header Connect CTA visibility and routing",
+      "steps": [
+        {
+          "action": "Header Connect CTA is visible and routes correctly",
+          "expected": null
+        },
+        {
+          "action": "Connect CTA navigation works",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-007"
+    },
+    {
+      "req_id": "issue_0008",
+      "feature_file": "tests/features/issue_0008_responsive_navigation.feature",
+      "title": "Responsive navigation behavior across viewports",
+      "steps": [
+        {
+          "action": "Navigation displays correctly on desktop viewport",
+          "expected": null
+        },
+        {
+          "action": "Navigation behavior on mobile viewport",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-008"
+    },
+    {
+      "req_id": "issue_0009",
+      "feature_file": "tests/features/issue_0009_hero_section.feature",
+      "title": "Hero section rendering and H1 uniqueness",
+      "steps": [
+        {
+          "action": "Hero section renders correctly with unique H1",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-009"
+    },
+    {
+      "req_id": "issue_0010",
+      "feature_file": "tests/features/issue_0010_hero_cta.feature",
+      "title": "Hero CTA routing to FDCE experience",
+      "steps": [
+        {
+          "action": "Hero CTA routes to FDCE page",
+          "expected": null
+        },
+        {
+          "action": "Hero CTA navigation works",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-010"
+    },
+    {
+      "req_id": "issue_0011",
+      "feature_file": "tests/features/issue_0011_hero_media_optimization.feature",
+      "title": "Hero media optimization and load behavior",
+      "steps": [
+        {
+          "action": "Hero media loads properly",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-011"
+    },
+    {
+      "req_id": "issue_0012",
+      "feature_file": "tests/features/issue_0012_how_we_deliver_section.feature",
+      "title": "How We Deliver section content rendering",
+      "steps": [
+        {
+          "action": "How We Deliver section renders correctly",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-012"
+    },
+    {
+      "req_id": "issue_0013",
+      "feature_file": "tests/features/issue_0013_see_model_cta.feature",
+      "title": "See the model CTA routing and operation",
+      "steps": [
+        {
+          "action": "See the model CTA routes correctly",
+          "expected": null
+        },
+        {
+          "action": "See the model CTA navigation works",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-013"
+    },
+    {
+      "req_id": "issue_0014",
+      "feature_file": "tests/features/issue_0014_semantic_heading_hierarchy.feature",
+      "title": "Semantic heading hierarchy and landmarks",
+      "steps": [
+        {
+          "action": "Page has proper heading hierarchy",
+          "expected": null
+        },
+        {
+          "action": "Page has proper landmark regions",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-014"
+    },
+    {
+      "req_id": "issue_0015",
+      "feature_file": "tests/features/issue_0015_six_featured_solutions.feature",
+      "title": "Six featured solutions rendering and numbering",
+      "steps": [
+        {
+          "action": "Six featured solutions are displayed",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-015"
+    },
+    {
+      "req_id": "issue_0016",
+      "feature_file": "tests/features/issue_0016_all_solutions_cta.feature",
+      "title": "All Solutions CTA visibility and routing",
+      "steps": [
+        {
+          "action": "All Solutions CTA is visible and routes correctly",
+          "expected": null
+        },
+        {
+          "action": "All Solutions CTA navigation works",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-016"
+    },
+    {
+      "req_id": "issue_0017",
+      "feature_file": "tests/features/issue_0017_featured_solutions_responsive.feature",
+      "title": "Featured solutions responsive interaction",
+      "steps": [
+        {
+          "action": "Featured solutions display correctly on desktop",
+          "expected": null
+        },
+        {
+          "action": "Featured solutions display correctly on mobile",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-017"
+    },
+    {
+      "req_id": "issue_0018",
+      "feature_file": "tests/features/issue_0018_partner_logo_rail.feature",
+      "title": "Partner logo rail rendering and accessibility",
+      "steps": [
+        {
+          "action": "Partner logos are rendered and accessible",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-018"
+    },
+    {
+      "req_id": "issue_0019",
+      "feature_file": "tests/features/issue_0019_reduced_motion.feature",
+      "title": "Reduced motion preference for partner animation",
+      "steps": [
+        {
+          "action": "Page respects reduced motion preference",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-019"
+    },
+    {
+      "req_id": "issue_0020",
+      "feature_file": "tests/features/issue_0020_three_capability_groups.feature",
+      "title": "Three capability groups visibility and content",
+      "steps": [
+        {
+          "action": "Three capability groups are displayed",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-020"
+    },
+    {
+      "req_id": "issue_0021",
+      "feature_file": "tests/features/issue_0021_ai_capability.feature",
+      "title": "AI capability content rendering and links",
+      "steps": [
+        {
+          "action": "AI capability content is rendered correctly",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-021"
+    },
+    {
+      "req_id": "issue_0022",
+      "feature_file": "tests/features/issue_0022_engineering_capability.feature",
+      "title": "Engineering capability content rendering",
+      "steps": [
+        {
+          "action": "Engineering capability content is rendered correctly",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-022"
+    },
+    {
+      "req_id": "issue_0023",
+      "feature_file": "tests/features/issue_0023_platforms_capability.feature",
+      "title": "Platforms capability taxonomy consistency",
+      "steps": [
+        {
+          "action": "Platforms capability displays with consistent taxonomy",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-023"
+    },
+    {
+      "req_id": "issue_0024",
+      "feature_file": "tests/features/issue_0024_who_we_serve.feature",
+      "title": "Five audience entries rendering and Explore actions",
+      "steps": [
+        {
+          "action": "Five audience entries are displayed with Explore actions",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-024"
+    },
+    {
+      "req_id": "issue_0025",
+      "feature_file": "tests/features/issue_0025_four_impact_metrics.feature",
+      "title": "Four impact proof metrics rendering",
+      "steps": [
+        {
+          "action": "Four impact metrics are displayed",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-025"
+    },
+    {
+      "req_id": "issue_0026",
+      "feature_file": "tests/features/issue_0026_insights_section_six_cards.feature",
+      "title": "Insights section six content cards rendering",
+      "steps": [
+        {
+          "action": "Six content cards are displayed in Insights section",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-026"
+    },
+    {
+      "req_id": "issue_0027",
+      "feature_file": "tests/features/issue_0027_medicare_advantage_ebook.feature",
+      "title": "Medicare Advantage eBook card display",
+      "steps": [
+        {
+          "action": "Medicare Advantage eBook card is displayed",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-027"
+    },
+    {
+      "req_id": "issue_0028",
+      "feature_file": "tests/features/issue_0028_cms0057_interoperability.feature",
+      "title": "CMS-0057 interoperability resource card display",
+      "steps": [
+        {
+          "action": "CMS-0057 eBook card is displayed",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-028"
+    },
+    {
+      "req_id": "issue_0029",
+      "feature_file": "tests/features/issue_0029_life_sciences_ebook.feature",
+      "title": "Life Sciences transformation eBook card display",
+      "steps": [
+        {
+          "action": "Life Sciences eBook card is displayed",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-029"
+    },
+    {
+      "req_id": "issue_0030",
+      "feature_file": "tests/features/issue_0030_ai_roi_ebook.feature",
+      "title": "AI ROI eBook card display",
+      "steps": [
+        {
+          "action": "AI ROI eBook card is displayed",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-030"
+    },
+    {
+      "req_id": "issue_0031",
+      "feature_file": "tests/features/issue_0031_finops_healthcare_payer.feature",
+      "title": "FinOps healthcare payer resource card display",
+      "steps": [
+        {
+          "action": "FinOps resource card is displayed",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-031"
+    },
+    {
+      "req_id": "issue_0032",
+      "feature_file": "tests/features/issue_0032_payer_data_readiness_blog.feature",
+      "title": "Payer data readiness blog card display",
+      "steps": [
+        {
+          "action": "Payer data readiness blog card is displayed",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-032"
+    },
+    {
+      "req_id": "issue_0033",
+      "feature_file": "tests/features/issue_0033_resource_access_handoff.feature",
+      "title": "Resource access handoff for eBook cards",
+      "steps": [
+        {
+          "action": "eBook card links to resource page",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-033"
+    },
+    {
+      "req_id": "issue_0034",
+      "feature_file": "tests/features/issue_0034_final_conversion_banner.feature",
+      "title": "Final conversion banner rendering and CTA",
+      "steps": [
+        {
+          "action": "Final conversion banner is rendered with CTA",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-034"
+    },
+    {
+      "req_id": "issue_0035",
+      "feature_file": "tests/features/issue_0035_delivery_timing_message.feature",
+      "title": "Delivery timing message rendering",
+      "steps": [
+        {
+          "action": "Delivery timing message is rendered",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-035"
+    },
+    {
+      "req_id": "issue_0036",
+      "feature_file": "tests/features/issue_0036_cookie_preferences.feature",
+      "title": "Cookie Preferences control visibility in footer",
+      "steps": [
+        {
+          "action": "Cookie preferences control is accessible",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-036"
+    },
+    {
+      "req_id": "issue_0037",
+      "feature_file": "tests/features/issue_0037_gtm_consent_governed.feature",
+      "title": "Google Tag Manager consent-governed loading",
+      "steps": [
+        {
+          "action": "GTM does not load before consent",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-037"
+    },
+    {
+      "req_id": "issue_0038",
+      "feature_file": "tests/features/issue_0038_google_analytics_post_consent.feature",
+      "title": "Google Analytics post-consent measurement",
+      "steps": [
+        {
+          "action": "GA initializes after consent",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-038"
+    },
+    {
+      "req_id": "issue_0039",
+      "feature_file": "tests/features/issue_0039_campaign_attribution.feature",
+      "title": "Campaign attribution parameters handling",
+      "steps": [
+        {
+          "action": "UTM parameters are preserved in the session",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-039"
+    },
+    {
+      "req_id": "issue_0040",
+      "feature_file": "tests/features/issue_0040_marketo_consent.feature",
+      "title": "Marketo marketing integration consent gating",
+      "steps": [
+        {
+          "action": "Marketo loads only after marketing consent",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-040"
+    },
+    {
+      "req_id": "issue_0041",
+      "feature_file": "tests/features/issue_0041_linkedin_tags.feature",
+      "title": "LinkedIn marketing tags conditional loading",
+      "steps": [
+        {
+          "action": "LinkedIn tags load conditionally",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-041"
+    },
+    {
+      "req_id": "issue_0042",
+      "feature_file": "tests/features/issue_0042_zoominfo_websights.feature",
+      "title": "ZoomInfo WebSights conditional integration",
+      "steps": [
+        {
+          "action": "ZoomInfo WebSights loads conditionally",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-042"
+    },
+    {
+      "req_id": "issue_0043",
+      "feature_file": "tests/features/issue_0043_wistia_embeds.feature",
+      "title": "Wistia embeds conditional loading",
+      "steps": [
+        {
+          "action": "Wistia embeds load conditionally",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-043"
+    },
+    {
+      "req_id": "issue_0044",
+      "feature_file": "tests/features/issue_0044_youtube_embeds.feature",
+      "title": "YouTube embeds conditional loading",
+      "steps": [
+        {
+          "action": "YouTube embeds load conditionally",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-044"
+    },
+    {
+      "req_id": "issue_0045",
+      "feature_file": "tests/features/issue_0045_footer_legal_links.feature",
+      "title": "Footer legal navigation links",
+      "steps": [
+        {
+          "action": "Footer displays legal navigation links",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-045"
+    },
+    {
+      "req_id": "issue_0046",
+      "feature_file": "tests/features/issue_0046_footer_corporate_contact.feature",
+      "title": "Footer corporate contact information rendering",
+      "steps": [
+        {
+          "action": "Footer displays corporate contact information",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-046"
+    },
+    {
+      "req_id": "issue_0047",
+      "feature_file": "tests/features/issue_0047_contact_form_fields.feature",
+      "title": "Contact form fields and accessibility",
+      "steps": [
+        {
+          "action": "Contact form has accessible fields",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-047"
+    },
+    {
+      "req_id": "issue_0048",
+      "feature_file": "tests/features/issue_0048_contact_form_inquiry_type.feature",
+      "title": "Contact form Inquiry Type values",
+      "steps": [
+        {
+          "action": "Contact form has inquiry type dropdown",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-048"
+    },
+    {
+      "req_id": "issue_0049",
+      "feature_file": "tests/features/issue_0049_contact_form_submission.feature",
+      "title": "Contact form submission feedback and retry",
+      "steps": [
+        {
+          "action": "Contact form provides submission feedback",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-049"
+    },
+    {
+      "req_id": "issue_0050",
+      "feature_file": "tests/features/issue_0050_wcag_compliance.feature",
+      "title": "WCAG 2.1 AA compliance across landing page",
+      "steps": [
+        {
+          "action": "Page meets WCAG 2.1 AA accessibility standards",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-050"
+    },
+    {
+      "req_id": "issue_0051",
+      "feature_file": "tests/features/issue_0051_seo_metadata.feature",
+      "title": "SEO metadata and crawlable structure",
+      "steps": [
+        {
+          "action": "Page has proper SEO metadata",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-051"
+    },
+    {
+      "req_id": "issue_0052",
+      "feature_file": "tests/features/issue_0052_responsive_layout.feature",
+      "title": "Responsive layout across common viewports",
+      "steps": [
+        {
+          "action": "Page renders correctly on desktop",
+          "expected": null
+        },
+        {
+          "action": "Page renders correctly on tablet",
+          "expected": null
+        },
+        {
+          "action": "Page renders correctly on mobile",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-052"
+    },
+    {
+      "req_id": "issue_0053",
+      "feature_file": "tests/features/issue_0053_performance_optimization.feature",
+      "title": "Performance and Core Web Vitals optimization",
+      "steps": [
+        {
+          "action": "Page has good performance metrics",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-053"
+    },
+    {
+      "req_id": "issue_0054",
+      "feature_file": "tests/features/issue_0054_script_failure_handling.feature",
+      "title": "Graceful handling of script failures",
+      "steps": [
+        {
+          "action": "Page handles script failures gracefully",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-054"
+    },
+    {
+      "req_id": "issue_0055",
+      "feature_file": "tests/features/issue_0055_homepage_modal_behavior.feature",
+      "title": "Homepage modal behavior default state",
+      "steps": [
+        {
+          "action": "Modal has correct default state on page load",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-055"
+    }
+  ],
+  "skipped_requirements": []
+}
