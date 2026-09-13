@@ -1,0 +1,3297 @@
+{
+  "test_cases": [
+    {
+      "req_id": "emids_lp_001",
+      "feature_file": "tests/features/emids_lp_001_render_global_header.feature",
+      "title": "Render global header and Emids brand",
+      "steps": [
+        {
+          "action": "Header visible on initial page load",
+          "expected": null
+        },
+        {
+          "action": "Emids logo navigates to homepage",
+          "expected": null
+        },
+        {
+          "action": "All navigation items keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Connect CTA routes to contact page",
+          "expected": null
+        },
+        {
+          "action": "No dead links in header navigation",
+          "expected": null
+        },
+        {
+          "action": "Only one primary Connect CTA",
+          "expected": null
+        },
+        {
+          "action": "Header responsive on narrow viewport",
+          "expected": null
+        },
+        {
+          "action": "Header functions with JS disabled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "emids_lp_002",
+      "feature_file": "tests/features/emids_lp_002_solutions_mega_menu.feature",
+      "title": "Implement Solutions mega-menu",
+      "steps": [
+        {
+          "action": "Solutions menu opens with keyboard",
+          "expected": null
+        },
+        {
+          "action": "All solution links are selectable",
+          "expected": null
+        },
+        {
+          "action": "Menu closes and restores focus",
+          "expected": null
+        },
+        {
+          "action": "Mobile equivalent disclosure pattern",
+          "expected": null
+        },
+        {
+          "action": "No hover-only access requirement",
+          "expected": null
+        },
+        {
+          "action": "Menu clipped by viewport handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "emids_lp_003",
+      "feature_file": "tests/features/emids_lp_003_capabilities_mega_menu.feature",
+      "title": "Implement Capabilities mega-menu",
+      "steps": [
+        {
+          "action": "Capabilities menu opens predictably",
+          "expected": null
+        },
+        {
+          "action": "Capability links keyboard operable",
+          "expected": null
+        },
+        {
+          "action": "Labels match approved taxonomy",
+          "expected": null
+        },
+        {
+          "action": "Mega-menu on desktop, disclosure on mobile",
+          "expected": null
+        },
+        {
+          "action": "Duplicate labels detection",
+          "expected": null
+        },
+        {
+          "action": "Menu overflow handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "emids_lp_004",
+      "feature_file": "tests/features/emids_lp_004_industries_mega_menu.feature",
+      "title": "Implement Industries mega-menu",
+      "steps": [
+        {
+          "action": "All five industry destinations present",
+          "expected": null
+        },
+        {
+          "action": "Industry links reachable without mouse",
+          "expected": null
+        },
+        {
+          "action": "Industry links use canonical URLs",
+          "expected": null
+        },
+        {
+          "action": "Mobile stacked list pattern",
+          "expected": null
+        },
+        {
+          "action": "One segment unavailable handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "emids_lp_005",
+      "feature_file": "tests/features/emids_lp_005_insights_navigation.feature",
+      "title": "Implement Insights navigation group",
+      "steps": [
+        {
+          "action": "Insights menu opens reliably",
+          "expected": null
+        },
+        {
+          "action": "Insights links operable at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "No empty menu groups",
+          "expected": null
+        },
+        {
+          "action": "Destination URLs canonical",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-005"
+    },
+    {
+      "req_id": "emids_lp_006",
+      "feature_file": "tests/features/emids_lp_006_company_navigation.feature",
+      "title": "Implement Company navigation group",
+      "steps": [
+        {
+          "action": "Company menu exposes approved links",
+          "expected": null
+        },
+        {
+          "action": "Company navigation works with keyboard, pointer, and touch",
+          "expected": null
+        },
+        {
+          "action": "Redirect loop prevention",
+          "expected": null
+        },
+        {
+          "action": "Unpublished page handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-006"
+    },
+    {
+      "req_id": "emids_lp_007",
+      "feature_file": "tests/features/emids_lp_007_header_connect_cta.feature",
+      "title": "Provide header Connect CTA",
+      "steps": [
+        {
+          "action": "Connect CTA visually distinct",
+          "expected": null
+        },
+        {
+          "action": "Connect CTA has accessible name",
+          "expected": null
+        },
+        {
+          "action": "Connect routes to contact page",
+          "expected": null
+        },
+        {
+          "action": "Connect CTA URL is HTTPS and valid",
+          "expected": null
+        },
+        {
+          "action": "Connect keyboard activation",
+          "expected": null
+        },
+        {
+          "action": "Responsive placement preserved",
+          "expected": null
+        },
+        {
+          "action": "No duplicate CTA",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-007"
+    },
+    {
+      "req_id": "emids_lp_008",
+      "feature_file": "tests/features/emids_lp_008_responsive_accessible_navigation.feature",
+      "title": "Responsive accessible navigation behavior",
+      "steps": [
+        {
+          "action": "Menu open close without hover",
+          "expected": null
+        },
+        {
+          "action": "Escape closes open overlays",
+          "expected": null
+        },
+        {
+          "action": "Visible focus maintained",
+          "expected": null
+        },
+        {
+          "action": "Content reflows without horizontal scrolling",
+          "expected": null
+        },
+        {
+          "action": "Interactive controls are semantic buttons or links",
+          "expected": null
+        },
+        {
+          "action": "Focus order matches visual order",
+          "expected": null
+        },
+        {
+          "action": "Resize while menu open handling",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion preference respected",
+          "expected": null
+        },
+        {
+          "action": "Browser zoom 200% support",
+          "expected": null
+        },
+        {
+          "action": "JS partial failure handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-008"
+    },
+    {
+      "req_id": "emids_lp_009",
+      "feature_file": "tests/features/emids_lp_009_render_hero.feature",
+      "title": "Render hero messaging and visual",
+      "steps": [
+        {
+          "action": "Primary H1 present on hero",
+          "expected": null
+        },
+        {
+          "action": "Supporting content readable",
+          "expected": null
+        },
+        {
+          "action": "Hero CTA visible above deep page scrolling",
+          "expected": null
+        },
+        {
+          "action": "H1 non-empty and unique",
+          "expected": null
+        },
+        {
+          "action": "Media URL resolves",
+          "expected": null
+        },
+        {
+          "action": "Slow media handling",
+          "expected": null
+        },
+        {
+          "action": "Small viewport hero display",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion on hero",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-009"
+    },
+    {
+      "req_id": "emids_lp_010",
+      "feature_file": "tests/features/emids_lp_010_hero_cta_fdce.feature",
+      "title": "Route hero CTA to FDCE experience",
+      "steps": [
+        {
+          "action": "Hero CTA resolves to FDCE page",
+          "expected": null
+        },
+        {
+          "action": "FDCE URL is HTTPS and canonical",
+          "expected": null
+        },
+        {
+          "action": "Browser navigation behavior preserved",
+          "expected": null
+        },
+        {
+          "action": "New tab navigation works",
+          "expected": null
+        },
+        {
+          "action": "Destination unavailable handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-010"
+    },
+    {
+      "req_id": "emids_lp_011",
+      "feature_file": "tests/features/emids_lp_011_optimize_hero_media.feature",
+      "title": "Optimize hero media loading",
+      "steps": [
+        {
+          "action": "Text available when media fails",
+          "expected": null
+        },
+        {
+          "action": "Media dimensions reserved to avoid layout shift",
+          "expected": null
+        },
+        {
+          "action": "Appropriately sized assets served",
+          "expected": null
+        },
+        {
+          "action": "Hero LCP not lazy loaded",
+          "expected": null
+        },
+        {
+          "action": "CDN timeout handling",
+          "expected": null
+        },
+        {
+          "action": "Unsupported format handling",
+          "expected": null
+        },
+        {
+          "action": "Low bandwidth media loading",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-011"
+    },
+    {
+      "req_id": "emids_lp_012",
+      "feature_file": "tests/features/emids_lp_012_how_we_deliver.feature",
+      "title": "Render How We Deliver section",
+      "steps": [
+        {
+          "action": "Section renders with required elements",
+          "expected": null
+        },
+        {
+          "action": "Required content fields non-empty",
+          "expected": null
+        },
+        {
+          "action": "Heading hierarchy logical",
+          "expected": null
+        },
+        {
+          "action": "Section accessible",
+          "expected": null
+        },
+        {
+          "action": "Missing media handling",
+          "expected": null
+        },
+        {
+          "action": "Long copy handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-012"
+    },
+    {
+      "req_id": "emids_lp_013",
+      "feature_file": "tests/features/emids_lp_013_see_model_cta.feature",
+      "title": "Provide See the model CTA",
+      "steps": [
+        {
+          "action": "See the model routes to FDCE detail page",
+          "expected": null
+        },
+        {
+          "action": "CTA keyboard operable",
+          "expected": null
+        },
+        {
+          "action": "Accessible name describes action",
+          "expected": null
+        },
+        {
+          "action": "Destination valid",
+          "expected": null
+        },
+        {
+          "action": "Visible hover/focus states",
+          "expected": null
+        },
+        {
+          "action": "Duplicate focus target handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-013"
+    },
+    {
+      "req_id": "emids_lp_014",
+      "feature_file": "tests/features/emids_lp_014_semantic_section_hierarchy.feature",
+      "title": "Maintain semantic section hierarchy",
+      "steps": [
+        {
+          "action": "Exactly one page-level H1",
+          "expected": null
+        },
+        {
+          "action": "Subsequent headings use logical levels",
+          "expected": null
+        },
+        {
+          "action": "Landmarks identifiable",
+          "expected": null
+        },
+        {
+          "action": "Interactive text not headings solely for styling",
+          "expected": null
+        },
+        {
+          "action": "Duplicate H1 from CMS handling",
+          "expected": null
+        },
+        {
+          "action": "Hidden heading focusable",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-014"
+    },
+    {
+      "req_id": "emids_lp_015",
+      "feature_file": "tests/features/emids_lp_015_featured_solutions.feature",
+      "title": "Render six featured solution items",
+      "steps": [
+        {
+          "action": "All six solutions present with correct numbering",
+          "expected": null
+        },
+        {
+          "action": "Numbering 01-06 correct",
+          "expected": null
+        },
+        {
+          "action": "Each entry has readable title and summary",
+          "expected": null
+        },
+        {
+          "action": "Each entry has intended destination",
+          "expected": null
+        },
+        {
+          "action": "Titles cannot be blank",
+          "expected": null
+        },
+        {
+          "action": "Order is controlled",
+          "expected": null
+        },
+        {
+          "action": "One item unpublished handling",
+          "expected": null
+        },
+        {
+          "action": "Very long title handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-015"
+    },
+    {
+      "req_id": "emids_lp_016",
+      "feature_file": "tests/features/emids_lp_016_all_solutions_cta.feature",
+      "title": "Provide All Solutions CTA",
+      "steps": [
+        {
+          "action": "All Solutions CTA visible",
+          "expected": null
+        },
+        {
+          "action": "CTA routes to solutions portfolio",
+          "expected": null
+        },
+        {
+          "action": "CTA URL is canonical",
+          "expected": null
+        },
+        {
+          "action": "Portfolio page unavailable handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-016"
+    },
+    {
+      "req_id": "emids_lp_017",
+      "feature_file": "tests/features/emids_lp_017_responsive_solutions.feature",
+      "title": "Support featured-solution responsive interaction",
+      "steps": [
+        {
+          "action": "Every solution reachable on keyboard",
+          "expected": null
+        },
+        {
+          "action": "Every solution reachable on touch",
+          "expected": null
+        },
+        {
+          "action": "No content permanently hidden off-screen",
+          "expected": null
+        },
+        {
+          "action": "Carousel controls have accessible labels",
+          "expected": null
+        },
+        {
+          "action": "Autoplay respects reduced motion",
+          "expected": null
+        },
+        {
+          "action": "Viewport resize mid-interaction",
+          "expected": null
+        },
+        {
+          "action": "First/last item handling",
+          "expected": null
+        },
+        {
+          "action": "Swipe and keyboard conflict resolution",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-017"
+    },
+    {
+      "req_id": "emids_lp_018",
+      "feature_file": "tests/features/emids_lp_018_partner_logo_rail.feature",
+      "title": "Render partner logo rail/marquee",
+      "steps": [
+        {
+          "action": "All approved partner logos render",
+          "expected": null
+        },
+        {
+          "action": "Meaningful accessible names for logos",
+          "expected": null
+        },
+        {
+          "action": "No duplicate announcements for assistive tech",
+          "expected": null
+        },
+        {
+          "action": "Logo asset required validation",
+          "expected": null
+        },
+        {
+          "action": "Decorative logo handling",
+          "expected": null
+        },
+        {
+          "action": "Transparent logo visibility",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion on marquee",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-018"
+    },
+    {
+      "req_id": "emids_lp_019",
+      "feature_file": "tests/features/emids_lp_019_reduced_motion_partner.feature",
+      "title": "Respect reduced motion for partner animation",
+      "steps": [
+        {
+          "action": "Reduced motion disables non-essential motion",
+          "expected": null
+        },
+        {
+          "action": "Content fully visible with motion disabled",
+          "expected": null
+        },
+        {
+          "action": "Animation not required for content discovery",
+          "expected": null
+        },
+        {
+          "action": "Preference changes while page open",
+          "expected": null
+        },
+        {
+          "action": "Animation library failure fallback",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-019"
+    },
+    {
+      "req_id": "emids_lp_020",
+      "feature_file": "tests/features/emids_lp_020_capabilities_overview.feature",
+      "title": "Render capabilities overview",
+      "steps": [
+        {
+          "action": "All three capability groups visible",
+          "expected": null
+        },
+        {
+          "action": "Each group has corresponding content",
+          "expected": null
+        },
+        {
+          "action": "Group labels match navigation taxonomy",
+          "expected": null
+        },
+        {
+          "action": "Three primary groups required",
+          "expected": null
+        },
+        {
+          "action": "Responsive capability cards layout",
+          "expected": null
+        },
+        {
+          "action": "Group missing handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-020"
+    },
+    {
+      "req_id": "emids_lp_021",
+      "feature_file": "tests/features/emids_lp_021_ai_capability.feature",
+      "title": "Render AI capability content",
+      "steps": [
+        {
+          "action": "AI capability label and content render",
+          "expected": null
+        },
+        {
+          "action": "AI relevant link operable",
+          "expected": null
+        },
+        {
+          "action": "AI title required",
+          "expected": null
+        },
+        {
+          "action": "AI URL valid",
+          "expected": null
+        },
+        {
+          "action": "Missing destination handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-021"
+    },
+    {
+      "req_id": "emids_lp_022",
+      "feature_file": "tests/features/emids_lp_022_engineering_capability.feature",
+      "title": "Render Engineering capability content",
+      "steps": [
+        {
+          "action": "Engineering capability label and content render",
+          "expected": null
+        },
+        {
+          "action": "Engineering relevant link operable",
+          "expected": null
+        },
+        {
+          "action": "Engineering title required",
+          "expected": null
+        },
+        {
+          "action": "Missing destination handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-022"
+    },
+    {
+      "req_id": "emids_lp_023",
+      "feature_file": "tests/features/emids_lp_023_platforms_capability.feature",
+      "title": "Render Platforms capability content",
+      "steps": [
+        {
+          "action": "Platforms capability content renders",
+          "expected": null
+        },
+        {
+          "action": "Labels consistent with navigation",
+          "expected": null
+        },
+        {
+          "action": "Content governance prevents inconsistent synonyms",
+          "expected": null
+        },
+        {
+          "action": "Stale CMS content detection",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-023"
+    },
+    {
+      "req_id": "emids_lp_024",
+      "feature_file": "tests/features/emids_lp_024_who_we_serve.feature",
+      "title": "Render five audience industry entries",
+      "steps": [
+        {
+          "action": "All five audiences visible",
+          "expected": null
+        },
+        {
+          "action": "Each Explore action routes to canonical segment",
+          "expected": null
+        },
+        {
+          "action": "Explore actions keyboard and touch operable",
+          "expected": null
+        },
+        {
+          "action": "Exactly five current audiences",
+          "expected": null
+        },
+        {
+          "action": "URLs canonical",
+          "expected": null
+        },
+        {
+          "action": "One segment unavailable handling",
+          "expected": null
+        },
+        {
+          "action": "Tab state preserved after resize",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-024"
+    },
+    {
+      "req_id": "emids_lp_025",
+      "feature_file": "tests/features/emids_lp_025_impact_metrics.feature",
+      "title": "Render Impact proof metrics",
+      "steps": [
+        {
+          "action": "All four value-label pairs visible as text",
+          "expected": null
+        },
+        {
+          "action": "Values understandable without animation",
+          "expected": null
+        },
+        {
+          "action": "Screen readers receive final meaningful values",
+          "expected": null
+        },
+        {
+          "action": "Currency symbol and plus sign preserved",
+          "expected": null
+        },
+        {
+          "action": "Values and labels paired correctly",
+          "expected": null
+        },
+        {
+          "action": "Animation disabled environment",
+          "expected": null
+        },
+        {
+          "action": "Locale formatting handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-025"
+    },
+    {
+      "req_id": "emids_lp_026",
+      "feature_file": "tests/features/emids_lp_026_033_insights_section.feature",
+      "title": "Render Insights section and content cards",
+      "steps": [
+        {
+          "action": "Six cards render with required fields",
+          "expected": null
+        },
+        {
+          "action": "Image where configured displays",
+          "expected": null
+        },
+        {
+          "action": "Cards accessible at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Published content only",
+          "expected": null
+        },
+        {
+          "action": "Title and URL required validation",
+          "expected": null
+        },
+        {
+          "action": "Action label matches content flow",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage eBook displays correctly",
+          "expected": null
+        },
+        {
+          "action": "eBook action routes correctly",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card renders with populated content",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 navigation to intended resource",
+          "expected": null
+        },
+        {
+          "action": "No empty title or destination",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences eBook displays correctly",
+          "expected": null
+        },
+        {
+          "action": "eBook routes to correct access experience",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook displays with eBook label",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook has valid destination",
+          "expected": null
+        },
+        {
+          "action": "FinOps resource card renders",
+          "expected": null
+        },
+        {
+          "action": "Valid destination required",
+          "expected": null
+        },
+        {
+          "action": "Missing thumbnail handling",
+          "expected": null
+        },
+        {
+          "action": "Blog card shows Blog type and Read More action",
+          "expected": null
+        },
+        {
+          "action": "Blog links to article experience",
+          "expected": null
+        },
+        {
+          "action": "CTA label reflects article navigation",
+          "expected": null
+        },
+        {
+          "action": "Download reaches resource detail access flow",
+          "expected": null
+        },
+        {
+          "action": "Gate clearly communicates required steps",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-026"
+    },
+    {
+      "req_id": "emids_lp_027",
+      "feature_file": "tests/features/emids_lp_026_033_insights_section.feature",
+      "title": "Render Insights section and content cards",
+      "steps": [
+        {
+          "action": "Six cards render with required fields",
+          "expected": null
+        },
+        {
+          "action": "Image where configured displays",
+          "expected": null
+        },
+        {
+          "action": "Cards accessible at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Published content only",
+          "expected": null
+        },
+        {
+          "action": "Title and URL required validation",
+          "expected": null
+        },
+        {
+          "action": "Action label matches content flow",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage eBook displays correctly",
+          "expected": null
+        },
+        {
+          "action": "eBook action routes correctly",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card renders with populated content",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 navigation to intended resource",
+          "expected": null
+        },
+        {
+          "action": "No empty title or destination",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences eBook displays correctly",
+          "expected": null
+        },
+        {
+          "action": "eBook routes to correct access experience",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook displays with eBook label",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook has valid destination",
+          "expected": null
+        },
+        {
+          "action": "FinOps resource card renders",
+          "expected": null
+        },
+        {
+          "action": "Valid destination required",
+          "expected": null
+        },
+        {
+          "action": "Missing thumbnail handling",
+          "expected": null
+        },
+        {
+          "action": "Blog card shows Blog type and Read More action",
+          "expected": null
+        },
+        {
+          "action": "Blog links to article experience",
+          "expected": null
+        },
+        {
+          "action": "CTA label reflects article navigation",
+          "expected": null
+        },
+        {
+          "action": "Download reaches resource detail access flow",
+          "expected": null
+        },
+        {
+          "action": "Gate clearly communicates required steps",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-027"
+    },
+    {
+      "req_id": "emids_lp_028",
+      "feature_file": "tests/features/emids_lp_026_033_insights_section.feature",
+      "title": "Render Insights section and content cards",
+      "steps": [
+        {
+          "action": "Six cards render with required fields",
+          "expected": null
+        },
+        {
+          "action": "Image where configured displays",
+          "expected": null
+        },
+        {
+          "action": "Cards accessible at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Published content only",
+          "expected": null
+        },
+        {
+          "action": "Title and URL required validation",
+          "expected": null
+        },
+        {
+          "action": "Action label matches content flow",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage eBook displays correctly",
+          "expected": null
+        },
+        {
+          "action": "eBook action routes correctly",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card renders with populated content",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 navigation to intended resource",
+          "expected": null
+        },
+        {
+          "action": "No empty title or destination",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences eBook displays correctly",
+          "expected": null
+        },
+        {
+          "action": "eBook routes to correct access experience",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook displays with eBook label",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook has valid destination",
+          "expected": null
+        },
+        {
+          "action": "FinOps resource card renders",
+          "expected": null
+        },
+        {
+          "action": "Valid destination required",
+          "expected": null
+        },
+        {
+          "action": "Missing thumbnail handling",
+          "expected": null
+        },
+        {
+          "action": "Blog card shows Blog type and Read More action",
+          "expected": null
+        },
+        {
+          "action": "Blog links to article experience",
+          "expected": null
+        },
+        {
+          "action": "CTA label reflects article navigation",
+          "expected": null
+        },
+        {
+          "action": "Download reaches resource detail access flow",
+          "expected": null
+        },
+        {
+          "action": "Gate clearly communicates required steps",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-028"
+    },
+    {
+      "req_id": "emids_lp_029",
+      "feature_file": "tests/features/emids_lp_026_033_insights_section.feature",
+      "title": "Render Insights section and content cards",
+      "steps": [
+        {
+          "action": "Six cards render with required fields",
+          "expected": null
+        },
+        {
+          "action": "Image where configured displays",
+          "expected": null
+        },
+        {
+          "action": "Cards accessible at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Published content only",
+          "expected": null
+        },
+        {
+          "action": "Title and URL required validation",
+          "expected": null
+        },
+        {
+          "action": "Action label matches content flow",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage eBook displays correctly",
+          "expected": null
+        },
+        {
+          "action": "eBook action routes correctly",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card renders with populated content",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 navigation to intended resource",
+          "expected": null
+        },
+        {
+          "action": "No empty title or destination",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences eBook displays correctly",
+          "expected": null
+        },
+        {
+          "action": "eBook routes to correct access experience",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook displays with eBook label",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook has valid destination",
+          "expected": null
+        },
+        {
+          "action": "FinOps resource card renders",
+          "expected": null
+        },
+        {
+          "action": "Valid destination required",
+          "expected": null
+        },
+        {
+          "action": "Missing thumbnail handling",
+          "expected": null
+        },
+        {
+          "action": "Blog card shows Blog type and Read More action",
+          "expected": null
+        },
+        {
+          "action": "Blog links to article experience",
+          "expected": null
+        },
+        {
+          "action": "CTA label reflects article navigation",
+          "expected": null
+        },
+        {
+          "action": "Download reaches resource detail access flow",
+          "expected": null
+        },
+        {
+          "action": "Gate clearly communicates required steps",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-029"
+    },
+    {
+      "req_id": "emids_lp_030",
+      "feature_file": "tests/features/emids_lp_026_033_insights_section.feature",
+      "title": "Render Insights section and content cards",
+      "steps": [
+        {
+          "action": "Six cards render with required fields",
+          "expected": null
+        },
+        {
+          "action": "Image where configured displays",
+          "expected": null
+        },
+        {
+          "action": "Cards accessible at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Published content only",
+          "expected": null
+        },
+        {
+          "action": "Title and URL required validation",
+          "expected": null
+        },
+        {
+          "action": "Action label matches content flow",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage eBook displays correctly",
+          "expected": null
+        },
+        {
+          "action": "eBook action routes correctly",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card renders with populated content",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 navigation to intended resource",
+          "expected": null
+        },
+        {
+          "action": "No empty title or destination",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences eBook displays correctly",
+          "expected": null
+        },
+        {
+          "action": "eBook routes to correct access experience",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook displays with eBook label",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook has valid destination",
+          "expected": null
+        },
+        {
+          "action": "FinOps resource card renders",
+          "expected": null
+        },
+        {
+          "action": "Valid destination required",
+          "expected": null
+        },
+        {
+          "action": "Missing thumbnail handling",
+          "expected": null
+        },
+        {
+          "action": "Blog card shows Blog type and Read More action",
+          "expected": null
+        },
+        {
+          "action": "Blog links to article experience",
+          "expected": null
+        },
+        {
+          "action": "CTA label reflects article navigation",
+          "expected": null
+        },
+        {
+          "action": "Download reaches resource detail access flow",
+          "expected": null
+        },
+        {
+          "action": "Gate clearly communicates required steps",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-030"
+    },
+    {
+      "req_id": "emids_lp_031",
+      "feature_file": "tests/features/emids_lp_026_033_insights_section.feature",
+      "title": "Render Insights section and content cards",
+      "steps": [
+        {
+          "action": "Six cards render with required fields",
+          "expected": null
+        },
+        {
+          "action": "Image where configured displays",
+          "expected": null
+        },
+        {
+          "action": "Cards accessible at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Published content only",
+          "expected": null
+        },
+        {
+          "action": "Title and URL required validation",
+          "expected": null
+        },
+        {
+          "action": "Action label matches content flow",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage eBook displays correctly",
+          "expected": null
+        },
+        {
+          "action": "eBook action routes correctly",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card renders with populated content",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 navigation to intended resource",
+          "expected": null
+        },
+        {
+          "action": "No empty title or destination",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences eBook displays correctly",
+          "expected": null
+        },
+        {
+          "action": "eBook routes to correct access experience",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook displays with eBook label",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook has valid destination",
+          "expected": null
+        },
+        {
+          "action": "FinOps resource card renders",
+          "expected": null
+        },
+        {
+          "action": "Valid destination required",
+          "expected": null
+        },
+        {
+          "action": "Missing thumbnail handling",
+          "expected": null
+        },
+        {
+          "action": "Blog card shows Blog type and Read More action",
+          "expected": null
+        },
+        {
+          "action": "Blog links to article experience",
+          "expected": null
+        },
+        {
+          "action": "CTA label reflects article navigation",
+          "expected": null
+        },
+        {
+          "action": "Download reaches resource detail access flow",
+          "expected": null
+        },
+        {
+          "action": "Gate clearly communicates required steps",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-031"
+    },
+    {
+      "req_id": "emids_lp_032",
+      "feature_file": "tests/features/emids_lp_026_033_insights_section.feature",
+      "title": "Render Insights section and content cards",
+      "steps": [
+        {
+          "action": "Six cards render with required fields",
+          "expected": null
+        },
+        {
+          "action": "Image where configured displays",
+          "expected": null
+        },
+        {
+          "action": "Cards accessible at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Published content only",
+          "expected": null
+        },
+        {
+          "action": "Title and URL required validation",
+          "expected": null
+        },
+        {
+          "action": "Action label matches content flow",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage eBook displays correctly",
+          "expected": null
+        },
+        {
+          "action": "eBook action routes correctly",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card renders with populated content",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 navigation to intended resource",
+          "expected": null
+        },
+        {
+          "action": "No empty title or destination",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences eBook displays correctly",
+          "expected": null
+        },
+        {
+          "action": "eBook routes to correct access experience",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook displays with eBook label",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook has valid destination",
+          "expected": null
+        },
+        {
+          "action": "FinOps resource card renders",
+          "expected": null
+        },
+        {
+          "action": "Valid destination required",
+          "expected": null
+        },
+        {
+          "action": "Missing thumbnail handling",
+          "expected": null
+        },
+        {
+          "action": "Blog card shows Blog type and Read More action",
+          "expected": null
+        },
+        {
+          "action": "Blog links to article experience",
+          "expected": null
+        },
+        {
+          "action": "CTA label reflects article navigation",
+          "expected": null
+        },
+        {
+          "action": "Download reaches resource detail access flow",
+          "expected": null
+        },
+        {
+          "action": "Gate clearly communicates required steps",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-032"
+    },
+    {
+      "req_id": "emids_lp_033",
+      "feature_file": "tests/features/emids_lp_026_033_insights_section.feature",
+      "title": "Render Insights section and content cards",
+      "steps": [
+        {
+          "action": "Six cards render with required fields",
+          "expected": null
+        },
+        {
+          "action": "Image where configured displays",
+          "expected": null
+        },
+        {
+          "action": "Cards accessible at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Published content only",
+          "expected": null
+        },
+        {
+          "action": "Title and URL required validation",
+          "expected": null
+        },
+        {
+          "action": "Action label matches content flow",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage eBook displays correctly",
+          "expected": null
+        },
+        {
+          "action": "eBook action routes correctly",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card renders with populated content",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 navigation to intended resource",
+          "expected": null
+        },
+        {
+          "action": "No empty title or destination",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences eBook displays correctly",
+          "expected": null
+        },
+        {
+          "action": "eBook routes to correct access experience",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook displays with eBook label",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook has valid destination",
+          "expected": null
+        },
+        {
+          "action": "FinOps resource card renders",
+          "expected": null
+        },
+        {
+          "action": "Valid destination required",
+          "expected": null
+        },
+        {
+          "action": "Missing thumbnail handling",
+          "expected": null
+        },
+        {
+          "action": "Blog card shows Blog type and Read More action",
+          "expected": null
+        },
+        {
+          "action": "Blog links to article experience",
+          "expected": null
+        },
+        {
+          "action": "CTA label reflects article navigation",
+          "expected": null
+        },
+        {
+          "action": "Download reaches resource detail access flow",
+          "expected": null
+        },
+        {
+          "action": "Gate clearly communicates required steps",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-033"
+    },
+    {
+      "req_id": "emids_lp_034",
+      "feature_file": "tests/features/emids_lp_034_035_final_cta.feature",
+      "title": "Render final conversion banner and timeline",
+      "steps": [
+        {
+          "action": "Banner appears before footer",
+          "expected": null
+        },
+        {
+          "action": "Primary action clear and keyboard operable",
+          "expected": null
+        },
+        {
+          "action": "Supporting timing message readable",
+          "expected": null
+        },
+        {
+          "action": "Required message and CTA present",
+          "expected": null
+        },
+        {
+          "action": "High contrast closing CTA section",
+          "expected": null
+        },
+        {
+          "action": "CTA text wrapping at mobile",
+          "expected": null
+        },
+        {
+          "action": "Footer overlap prevention",
+          "expected": null
+        },
+        {
+          "action": "All timing labels render in order",
+          "expected": null
+        },
+        {
+          "action": "Timing labels understandable to screen readers",
+          "expected": null
+        },
+        {
+          "action": "Meaning not encoded via visual styling alone",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-034"
+    },
+    {
+      "req_id": "emids_lp_035",
+      "feature_file": "tests/features/emids_lp_034_035_final_cta.feature",
+      "title": "Render final conversion banner and timeline",
+      "steps": [
+        {
+          "action": "Banner appears before footer",
+          "expected": null
+        },
+        {
+          "action": "Primary action clear and keyboard operable",
+          "expected": null
+        },
+        {
+          "action": "Supporting timing message readable",
+          "expected": null
+        },
+        {
+          "action": "Required message and CTA present",
+          "expected": null
+        },
+        {
+          "action": "High contrast closing CTA section",
+          "expected": null
+        },
+        {
+          "action": "CTA text wrapping at mobile",
+          "expected": null
+        },
+        {
+          "action": "Footer overlap prevention",
+          "expected": null
+        },
+        {
+          "action": "All timing labels render in order",
+          "expected": null
+        },
+        {
+          "action": "Timing labels understandable to screen readers",
+          "expected": null
+        },
+        {
+          "action": "Meaning not encoded via visual styling alone",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-035"
+    },
+    {
+      "req_id": "emids_lp_036",
+      "feature_file": "tests/features/emids_lp_036_footer_cookie.feature",
+      "title": "Expose Cookie Preferences control",
+      "steps": [
+        {
+          "action": "Cookie Preferences visible in footer",
+          "expected": null
+        },
+        {
+          "action": "Activating opens consent management UI",
+          "expected": null
+        },
+        {
+          "action": "Control available after initial banner dismissal",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-036"
+    },
+    {
+      "req_id": "emids_lp_037",
+      "feature_file": "tests/features/emids_lp_037_042_analytics.feature",
+      "title": "Analytics and marketing integration",
+      "steps": [
+        {
+          "action": "Core page works if GTM fails",
+          "expected": null
+        },
+        {
+          "action": "Non-essential tags blocked before consent",
+          "expected": null
+        },
+        {
+          "action": "GTM does not block rendering",
+          "expected": null
+        },
+        {
+          "action": "Analytics initialization follows consent",
+          "expected": null
+        },
+        {
+          "action": "Denial leaves page functional",
+          "expected": null
+        },
+        {
+          "action": "Events do not contain contact form values",
+          "expected": null
+        },
+        {
+          "action": "Supported attribution values preserved when permitted",
+          "expected": null
+        },
+        {
+          "action": "Invalid values ignored",
+          "expected": null
+        },
+        {
+          "action": "Parameter content not executed",
+          "expected": null
+        },
+        {
+          "action": "Marketing scripts gated by consent",
+          "expected": null
+        },
+        {
+          "action": "Page functional when Marketo unavailable",
+          "expected": null
+        },
+        {
+          "action": "LinkedIn tag blocked before marketing consent",
+          "expected": null
+        },
+        {
+          "action": "Core page independent of LinkedIn tag",
+          "expected": null
+        },
+        {
+          "action": "Tooling loads conditionally",
+          "expected": null
+        },
+        {
+          "action": "Failure does not affect content or navigation",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-037"
+    },
+    {
+      "req_id": "emids_lp_038",
+      "feature_file": "tests/features/emids_lp_037_042_analytics.feature",
+      "title": "Analytics and marketing integration",
+      "steps": [
+        {
+          "action": "Core page works if GTM fails",
+          "expected": null
+        },
+        {
+          "action": "Non-essential tags blocked before consent",
+          "expected": null
+        },
+        {
+          "action": "GTM does not block rendering",
+          "expected": null
+        },
+        {
+          "action": "Analytics initialization follows consent",
+          "expected": null
+        },
+        {
+          "action": "Denial leaves page functional",
+          "expected": null
+        },
+        {
+          "action": "Events do not contain contact form values",
+          "expected": null
+        },
+        {
+          "action": "Supported attribution values preserved when permitted",
+          "expected": null
+        },
+        {
+          "action": "Invalid values ignored",
+          "expected": null
+        },
+        {
+          "action": "Parameter content not executed",
+          "expected": null
+        },
+        {
+          "action": "Marketing scripts gated by consent",
+          "expected": null
+        },
+        {
+          "action": "Page functional when Marketo unavailable",
+          "expected": null
+        },
+        {
+          "action": "LinkedIn tag blocked before marketing consent",
+          "expected": null
+        },
+        {
+          "action": "Core page independent of LinkedIn tag",
+          "expected": null
+        },
+        {
+          "action": "Tooling loads conditionally",
+          "expected": null
+        },
+        {
+          "action": "Failure does not affect content or navigation",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-038"
+    },
+    {
+      "req_id": "emids_lp_039",
+      "feature_file": "tests/features/emids_lp_037_042_analytics.feature",
+      "title": "Analytics and marketing integration",
+      "steps": [
+        {
+          "action": "Core page works if GTM fails",
+          "expected": null
+        },
+        {
+          "action": "Non-essential tags blocked before consent",
+          "expected": null
+        },
+        {
+          "action": "GTM does not block rendering",
+          "expected": null
+        },
+        {
+          "action": "Analytics initialization follows consent",
+          "expected": null
+        },
+        {
+          "action": "Denial leaves page functional",
+          "expected": null
+        },
+        {
+          "action": "Events do not contain contact form values",
+          "expected": null
+        },
+        {
+          "action": "Supported attribution values preserved when permitted",
+          "expected": null
+        },
+        {
+          "action": "Invalid values ignored",
+          "expected": null
+        },
+        {
+          "action": "Parameter content not executed",
+          "expected": null
+        },
+        {
+          "action": "Marketing scripts gated by consent",
+          "expected": null
+        },
+        {
+          "action": "Page functional when Marketo unavailable",
+          "expected": null
+        },
+        {
+          "action": "LinkedIn tag blocked before marketing consent",
+          "expected": null
+        },
+        {
+          "action": "Core page independent of LinkedIn tag",
+          "expected": null
+        },
+        {
+          "action": "Tooling loads conditionally",
+          "expected": null
+        },
+        {
+          "action": "Failure does not affect content or navigation",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-039"
+    },
+    {
+      "req_id": "emids_lp_040",
+      "feature_file": "tests/features/emids_lp_037_042_analytics.feature",
+      "title": "Analytics and marketing integration",
+      "steps": [
+        {
+          "action": "Core page works if GTM fails",
+          "expected": null
+        },
+        {
+          "action": "Non-essential tags blocked before consent",
+          "expected": null
+        },
+        {
+          "action": "GTM does not block rendering",
+          "expected": null
+        },
+        {
+          "action": "Analytics initialization follows consent",
+          "expected": null
+        },
+        {
+          "action": "Denial leaves page functional",
+          "expected": null
+        },
+        {
+          "action": "Events do not contain contact form values",
+          "expected": null
+        },
+        {
+          "action": "Supported attribution values preserved when permitted",
+          "expected": null
+        },
+        {
+          "action": "Invalid values ignored",
+          "expected": null
+        },
+        {
+          "action": "Parameter content not executed",
+          "expected": null
+        },
+        {
+          "action": "Marketing scripts gated by consent",
+          "expected": null
+        },
+        {
+          "action": "Page functional when Marketo unavailable",
+          "expected": null
+        },
+        {
+          "action": "LinkedIn tag blocked before marketing consent",
+          "expected": null
+        },
+        {
+          "action": "Core page independent of LinkedIn tag",
+          "expected": null
+        },
+        {
+          "action": "Tooling loads conditionally",
+          "expected": null
+        },
+        {
+          "action": "Failure does not affect content or navigation",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-040"
+    },
+    {
+      "req_id": "emids_lp_041",
+      "feature_file": "tests/features/emids_lp_037_042_analytics.feature",
+      "title": "Analytics and marketing integration",
+      "steps": [
+        {
+          "action": "Core page works if GTM fails",
+          "expected": null
+        },
+        {
+          "action": "Non-essential tags blocked before consent",
+          "expected": null
+        },
+        {
+          "action": "GTM does not block rendering",
+          "expected": null
+        },
+        {
+          "action": "Analytics initialization follows consent",
+          "expected": null
+        },
+        {
+          "action": "Denial leaves page functional",
+          "expected": null
+        },
+        {
+          "action": "Events do not contain contact form values",
+          "expected": null
+        },
+        {
+          "action": "Supported attribution values preserved when permitted",
+          "expected": null
+        },
+        {
+          "action": "Invalid values ignored",
+          "expected": null
+        },
+        {
+          "action": "Parameter content not executed",
+          "expected": null
+        },
+        {
+          "action": "Marketing scripts gated by consent",
+          "expected": null
+        },
+        {
+          "action": "Page functional when Marketo unavailable",
+          "expected": null
+        },
+        {
+          "action": "LinkedIn tag blocked before marketing consent",
+          "expected": null
+        },
+        {
+          "action": "Core page independent of LinkedIn tag",
+          "expected": null
+        },
+        {
+          "action": "Tooling loads conditionally",
+          "expected": null
+        },
+        {
+          "action": "Failure does not affect content or navigation",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-041"
+    },
+    {
+      "req_id": "emids_lp_042",
+      "feature_file": "tests/features/emids_lp_037_042_analytics.feature",
+      "title": "Analytics and marketing integration",
+      "steps": [
+        {
+          "action": "Core page works if GTM fails",
+          "expected": null
+        },
+        {
+          "action": "Non-essential tags blocked before consent",
+          "expected": null
+        },
+        {
+          "action": "GTM does not block rendering",
+          "expected": null
+        },
+        {
+          "action": "Analytics initialization follows consent",
+          "expected": null
+        },
+        {
+          "action": "Denial leaves page functional",
+          "expected": null
+        },
+        {
+          "action": "Events do not contain contact form values",
+          "expected": null
+        },
+        {
+          "action": "Supported attribution values preserved when permitted",
+          "expected": null
+        },
+        {
+          "action": "Invalid values ignored",
+          "expected": null
+        },
+        {
+          "action": "Parameter content not executed",
+          "expected": null
+        },
+        {
+          "action": "Marketing scripts gated by consent",
+          "expected": null
+        },
+        {
+          "action": "Page functional when Marketo unavailable",
+          "expected": null
+        },
+        {
+          "action": "LinkedIn tag blocked before marketing consent",
+          "expected": null
+        },
+        {
+          "action": "Core page independent of LinkedIn tag",
+          "expected": null
+        },
+        {
+          "action": "Tooling loads conditionally",
+          "expected": null
+        },
+        {
+          "action": "Failure does not affect content or navigation",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-042"
+    },
+    {
+      "req_id": "emids_lp_043",
+      "feature_file": "tests/features/emids_lp_043_044_media.feature",
+      "title": "Media embeds conditional",
+      "steps": [
+        {
+          "action": "No Wistia script when not configured",
+          "expected": null
+        },
+        {
+          "action": "Configured Wistia player accessible",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion and autoplay preferences respected",
+          "expected": null
+        },
+        {
+          "action": "No YouTube when not configured",
+          "expected": null
+        },
+        {
+          "action": "Configured media keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "No autoplay with sound by default",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-043"
+    },
+    {
+      "req_id": "emids_lp_044",
+      "feature_file": "tests/features/emids_lp_043_044_media.feature",
+      "title": "Media embeds conditional",
+      "steps": [
+        {
+          "action": "No Wistia script when not configured",
+          "expected": null
+        },
+        {
+          "action": "Configured Wistia player accessible",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion and autoplay preferences respected",
+          "expected": null
+        },
+        {
+          "action": "No YouTube when not configured",
+          "expected": null
+        },
+        {
+          "action": "Configured media keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "No autoplay with sound by default",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-044"
+    },
+    {
+      "req_id": "emids_lp_045",
+      "feature_file": "tests/features/emids_lp_045_046_footer_legal.feature",
+      "title": "Render footer legal navigation and corporate info",
+      "steps": [
+        {
+          "action": "Legal links have descriptive text and valid destinations",
+          "expected": null
+        },
+        {
+          "action": "Legal links have visible focus state",
+          "expected": null
+        },
+        {
+          "action": "Labels may not be blank",
+          "expected": null
+        },
+        {
+          "action": "Legal page moved handling",
+          "expected": null
+        },
+        {
+          "action": "Long labels handling",
+          "expected": null
+        },
+        {
+          "action": "Footer information readable at mobile widths",
+          "expected": null
+        },
+        {
+          "action": "Social links functional",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-045"
+    },
+    {
+      "req_id": "emids_lp_046",
+      "feature_file": "tests/features/emids_lp_045_046_footer_legal.feature",
+      "title": "Render footer legal navigation and corporate info",
+      "steps": [
+        {
+          "action": "Legal links have descriptive text and valid destinations",
+          "expected": null
+        },
+        {
+          "action": "Legal links have visible focus state",
+          "expected": null
+        },
+        {
+          "action": "Labels may not be blank",
+          "expected": null
+        },
+        {
+          "action": "Legal page moved handling",
+          "expected": null
+        },
+        {
+          "action": "Long labels handling",
+          "expected": null
+        },
+        {
+          "action": "Footer information readable at mobile widths",
+          "expected": null
+        },
+        {
+          "action": "Social links functional",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-046"
+    },
+    {
+      "req_id": "emids_lp_047",
+      "feature_file": "tests/features/emids_lp_047_048_049_contact_form.feature",
+      "title": "Contact form functionality",
+      "steps": [
+        {
+          "action": "All required fields displayed on contact page",
+          "expected": null
+        },
+        {
+          "action": "Labels associated with controls",
+          "expected": null
+        },
+        {
+          "action": "Submission provides clear feedback",
+          "expected": null
+        },
+        {
+          "action": "Required fields enforced",
+          "expected": null
+        },
+        {
+          "action": "Email validation with valid syntax",
+          "expected": null
+        },
+        {
+          "action": "Select contains approved options",
+          "expected": null
+        },
+        {
+          "action": "Valid choice required for required field",
+          "expected": null
+        },
+        {
+          "action": "Submit enters pending state",
+          "expected": null
+        },
+        {
+          "action": "Duplicate activation prevented while pending",
+          "expected": null
+        },
+        {
+          "action": "Success announced",
+          "expected": null
+        },
+        {
+          "action": "Failure keeps user content and permits retry",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-047"
+    },
+    {
+      "req_id": "emids_lp_048",
+      "feature_file": "tests/features/emids_lp_047_048_049_contact_form.feature",
+      "title": "Contact form functionality",
+      "steps": [
+        {
+          "action": "All required fields displayed on contact page",
+          "expected": null
+        },
+        {
+          "action": "Labels associated with controls",
+          "expected": null
+        },
+        {
+          "action": "Submission provides clear feedback",
+          "expected": null
+        },
+        {
+          "action": "Required fields enforced",
+          "expected": null
+        },
+        {
+          "action": "Email validation with valid syntax",
+          "expected": null
+        },
+        {
+          "action": "Select contains approved options",
+          "expected": null
+        },
+        {
+          "action": "Valid choice required for required field",
+          "expected": null
+        },
+        {
+          "action": "Submit enters pending state",
+          "expected": null
+        },
+        {
+          "action": "Duplicate activation prevented while pending",
+          "expected": null
+        },
+        {
+          "action": "Success announced",
+          "expected": null
+        },
+        {
+          "action": "Failure keeps user content and permits retry",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-048"
+    },
+    {
+      "req_id": "emids_lp_049",
+      "feature_file": "tests/features/emids_lp_047_048_049_contact_form.feature",
+      "title": "Contact form functionality",
+      "steps": [
+        {
+          "action": "All required fields displayed on contact page",
+          "expected": null
+        },
+        {
+          "action": "Labels associated with controls",
+          "expected": null
+        },
+        {
+          "action": "Submission provides clear feedback",
+          "expected": null
+        },
+        {
+          "action": "Required fields enforced",
+          "expected": null
+        },
+        {
+          "action": "Email validation with valid syntax",
+          "expected": null
+        },
+        {
+          "action": "Select contains approved options",
+          "expected": null
+        },
+        {
+          "action": "Valid choice required for required field",
+          "expected": null
+        },
+        {
+          "action": "Submit enters pending state",
+          "expected": null
+        },
+        {
+          "action": "Duplicate activation prevented while pending",
+          "expected": null
+        },
+        {
+          "action": "Success announced",
+          "expected": null
+        },
+        {
+          "action": "Failure keeps user content and permits retry",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-049"
+    },
+    {
+      "req_id": "emids_lp_050",
+      "feature_file": "tests/features/emids_lp_050_051_052_053_054_055_global.feature",
+      "title": "Global requirements - Accessibility, SEO, Responsive, Performance, Error handling",
+      "steps": [
+        {
+          "action": "Keyboard access across page",
+          "expected": null
+        },
+        {
+          "action": "Visible focus across page",
+          "expected": null
+        },
+        {
+          "action": "Semantic landmarks identified",
+          "expected": null
+        },
+        {
+          "action": "Sufficient color contrast",
+          "expected": null
+        },
+        {
+          "action": "Meaningful alt text on images",
+          "expected": null
+        },
+        {
+          "action": "Accessible names on interactive elements",
+          "expected": null
+        },
+        {
+          "action": "200% zoom support",
+          "expected": null
+        },
+        {
+          "action": "Form errors identified and described",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion preference handled",
+          "expected": null
+        },
+        {
+          "action": "Page has unique title",
+          "expected": null
+        },
+        {
+          "action": "Meta description present",
+          "expected": null
+        },
+        {
+          "action": "Canonical URL set",
+          "expected": null
+        },
+        {
+          "action": "Primary text server-rendered and crawlable",
+          "expected": null
+        },
+        {
+          "action": "Social preview metadata configured",
+          "expected": null
+        },
+        {
+          "action": "No horizontal scrolling at supported widths",
+          "expected": null
+        },
+        {
+          "action": "Typography readable at all sizes",
+          "expected": null
+        },
+        {
+          "action": "320px minimum width supported",
+          "expected": null
+        },
+        {
+          "action": "Critical content renders without waiting for analytics",
+          "expected": null
+        },
+        {
+          "action": "Images optimized and sized appropriately",
+          "expected": null
+        },
+        {
+          "action": "Below-fold media lazy loaded where appropriate",
+          "expected": null
+        },
+        {
+          "action": "Layout shifts minimized",
+          "expected": null
+        },
+        {
+          "action": "Third-party scripts async deferred or consent-gated",
+          "expected": null
+        },
+        {
+          "action": "Header remains readable when analytics fail",
+          "expected": null
+        },
+        {
+          "action": "Main content remains accessible when optional scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CTAs remain navigable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Footer remains readable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CSP block handling",
+          "expected": null
+        },
+        {
+          "action": "DNS failure handling",
+          "expected": null
+        },
+        {
+          "action": "Base homepage loads without unsolicited modal",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal dismissible",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal non-blocking",
+          "expected": null
+        },
+        {
+          "action": "Focus trap in modal",
+          "expected": null
+        },
+        {
+          "action": "Small viewport modal",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-050"
+    },
+    {
+      "req_id": "emids_lp_051",
+      "feature_file": "tests/features/emids_lp_050_051_052_053_054_055_global.feature",
+      "title": "Global requirements - Accessibility, SEO, Responsive, Performance, Error handling",
+      "steps": [
+        {
+          "action": "Keyboard access across page",
+          "expected": null
+        },
+        {
+          "action": "Visible focus across page",
+          "expected": null
+        },
+        {
+          "action": "Semantic landmarks identified",
+          "expected": null
+        },
+        {
+          "action": "Sufficient color contrast",
+          "expected": null
+        },
+        {
+          "action": "Meaningful alt text on images",
+          "expected": null
+        },
+        {
+          "action": "Accessible names on interactive elements",
+          "expected": null
+        },
+        {
+          "action": "200% zoom support",
+          "expected": null
+        },
+        {
+          "action": "Form errors identified and described",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion preference handled",
+          "expected": null
+        },
+        {
+          "action": "Page has unique title",
+          "expected": null
+        },
+        {
+          "action": "Meta description present",
+          "expected": null
+        },
+        {
+          "action": "Canonical URL set",
+          "expected": null
+        },
+        {
+          "action": "Primary text server-rendered and crawlable",
+          "expected": null
+        },
+        {
+          "action": "Social preview metadata configured",
+          "expected": null
+        },
+        {
+          "action": "No horizontal scrolling at supported widths",
+          "expected": null
+        },
+        {
+          "action": "Typography readable at all sizes",
+          "expected": null
+        },
+        {
+          "action": "320px minimum width supported",
+          "expected": null
+        },
+        {
+          "action": "Critical content renders without waiting for analytics",
+          "expected": null
+        },
+        {
+          "action": "Images optimized and sized appropriately",
+          "expected": null
+        },
+        {
+          "action": "Below-fold media lazy loaded where appropriate",
+          "expected": null
+        },
+        {
+          "action": "Layout shifts minimized",
+          "expected": null
+        },
+        {
+          "action": "Third-party scripts async deferred or consent-gated",
+          "expected": null
+        },
+        {
+          "action": "Header remains readable when analytics fail",
+          "expected": null
+        },
+        {
+          "action": "Main content remains accessible when optional scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CTAs remain navigable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Footer remains readable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CSP block handling",
+          "expected": null
+        },
+        {
+          "action": "DNS failure handling",
+          "expected": null
+        },
+        {
+          "action": "Base homepage loads without unsolicited modal",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal dismissible",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal non-blocking",
+          "expected": null
+        },
+        {
+          "action": "Focus trap in modal",
+          "expected": null
+        },
+        {
+          "action": "Small viewport modal",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-051"
+    },
+    {
+      "req_id": "emids_lp_052",
+      "feature_file": "tests/features/emids_lp_050_051_052_053_054_055_global.feature",
+      "title": "Global requirements - Accessibility, SEO, Responsive, Performance, Error handling",
+      "steps": [
+        {
+          "action": "Keyboard access across page",
+          "expected": null
+        },
+        {
+          "action": "Visible focus across page",
+          "expected": null
+        },
+        {
+          "action": "Semantic landmarks identified",
+          "expected": null
+        },
+        {
+          "action": "Sufficient color contrast",
+          "expected": null
+        },
+        {
+          "action": "Meaningful alt text on images",
+          "expected": null
+        },
+        {
+          "action": "Accessible names on interactive elements",
+          "expected": null
+        },
+        {
+          "action": "200% zoom support",
+          "expected": null
+        },
+        {
+          "action": "Form errors identified and described",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion preference handled",
+          "expected": null
+        },
+        {
+          "action": "Page has unique title",
+          "expected": null
+        },
+        {
+          "action": "Meta description present",
+          "expected": null
+        },
+        {
+          "action": "Canonical URL set",
+          "expected": null
+        },
+        {
+          "action": "Primary text server-rendered and crawlable",
+          "expected": null
+        },
+        {
+          "action": "Social preview metadata configured",
+          "expected": null
+        },
+        {
+          "action": "No horizontal scrolling at supported widths",
+          "expected": null
+        },
+        {
+          "action": "Typography readable at all sizes",
+          "expected": null
+        },
+        {
+          "action": "320px minimum width supported",
+          "expected": null
+        },
+        {
+          "action": "Critical content renders without waiting for analytics",
+          "expected": null
+        },
+        {
+          "action": "Images optimized and sized appropriately",
+          "expected": null
+        },
+        {
+          "action": "Below-fold media lazy loaded where appropriate",
+          "expected": null
+        },
+        {
+          "action": "Layout shifts minimized",
+          "expected": null
+        },
+        {
+          "action": "Third-party scripts async deferred or consent-gated",
+          "expected": null
+        },
+        {
+          "action": "Header remains readable when analytics fail",
+          "expected": null
+        },
+        {
+          "action": "Main content remains accessible when optional scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CTAs remain navigable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Footer remains readable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CSP block handling",
+          "expected": null
+        },
+        {
+          "action": "DNS failure handling",
+          "expected": null
+        },
+        {
+          "action": "Base homepage loads without unsolicited modal",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal dismissible",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal non-blocking",
+          "expected": null
+        },
+        {
+          "action": "Focus trap in modal",
+          "expected": null
+        },
+        {
+          "action": "Small viewport modal",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-052"
+    },
+    {
+      "req_id": "emids_lp_053",
+      "feature_file": "tests/features/emids_lp_050_051_052_053_054_055_global.feature",
+      "title": "Global requirements - Accessibility, SEO, Responsive, Performance, Error handling",
+      "steps": [
+        {
+          "action": "Keyboard access across page",
+          "expected": null
+        },
+        {
+          "action": "Visible focus across page",
+          "expected": null
+        },
+        {
+          "action": "Semantic landmarks identified",
+          "expected": null
+        },
+        {
+          "action": "Sufficient color contrast",
+          "expected": null
+        },
+        {
+          "action": "Meaningful alt text on images",
+          "expected": null
+        },
+        {
+          "action": "Accessible names on interactive elements",
+          "expected": null
+        },
+        {
+          "action": "200% zoom support",
+          "expected": null
+        },
+        {
+          "action": "Form errors identified and described",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion preference handled",
+          "expected": null
+        },
+        {
+          "action": "Page has unique title",
+          "expected": null
+        },
+        {
+          "action": "Meta description present",
+          "expected": null
+        },
+        {
+          "action": "Canonical URL set",
+          "expected": null
+        },
+        {
+          "action": "Primary text server-rendered and crawlable",
+          "expected": null
+        },
+        {
+          "action": "Social preview metadata configured",
+          "expected": null
+        },
+        {
+          "action": "No horizontal scrolling at supported widths",
+          "expected": null
+        },
+        {
+          "action": "Typography readable at all sizes",
+          "expected": null
+        },
+        {
+          "action": "320px minimum width supported",
+          "expected": null
+        },
+        {
+          "action": "Critical content renders without waiting for analytics",
+          "expected": null
+        },
+        {
+          "action": "Images optimized and sized appropriately",
+          "expected": null
+        },
+        {
+          "action": "Below-fold media lazy loaded where appropriate",
+          "expected": null
+        },
+        {
+          "action": "Layout shifts minimized",
+          "expected": null
+        },
+        {
+          "action": "Third-party scripts async deferred or consent-gated",
+          "expected": null
+        },
+        {
+          "action": "Header remains readable when analytics fail",
+          "expected": null
+        },
+        {
+          "action": "Main content remains accessible when optional scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CTAs remain navigable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Footer remains readable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CSP block handling",
+          "expected": null
+        },
+        {
+          "action": "DNS failure handling",
+          "expected": null
+        },
+        {
+          "action": "Base homepage loads without unsolicited modal",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal dismissible",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal non-blocking",
+          "expected": null
+        },
+        {
+          "action": "Focus trap in modal",
+          "expected": null
+        },
+        {
+          "action": "Small viewport modal",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-053"
+    },
+    {
+      "req_id": "emids_lp_054",
+      "feature_file": "tests/features/emids_lp_050_051_052_053_054_055_global.feature",
+      "title": "Global requirements - Accessibility, SEO, Responsive, Performance, Error handling",
+      "steps": [
+        {
+          "action": "Keyboard access across page",
+          "expected": null
+        },
+        {
+          "action": "Visible focus across page",
+          "expected": null
+        },
+        {
+          "action": "Semantic landmarks identified",
+          "expected": null
+        },
+        {
+          "action": "Sufficient color contrast",
+          "expected": null
+        },
+        {
+          "action": "Meaningful alt text on images",
+          "expected": null
+        },
+        {
+          "action": "Accessible names on interactive elements",
+          "expected": null
+        },
+        {
+          "action": "200% zoom support",
+          "expected": null
+        },
+        {
+          "action": "Form errors identified and described",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion preference handled",
+          "expected": null
+        },
+        {
+          "action": "Page has unique title",
+          "expected": null
+        },
+        {
+          "action": "Meta description present",
+          "expected": null
+        },
+        {
+          "action": "Canonical URL set",
+          "expected": null
+        },
+        {
+          "action": "Primary text server-rendered and crawlable",
+          "expected": null
+        },
+        {
+          "action": "Social preview metadata configured",
+          "expected": null
+        },
+        {
+          "action": "No horizontal scrolling at supported widths",
+          "expected": null
+        },
+        {
+          "action": "Typography readable at all sizes",
+          "expected": null
+        },
+        {
+          "action": "320px minimum width supported",
+          "expected": null
+        },
+        {
+          "action": "Critical content renders without waiting for analytics",
+          "expected": null
+        },
+        {
+          "action": "Images optimized and sized appropriately",
+          "expected": null
+        },
+        {
+          "action": "Below-fold media lazy loaded where appropriate",
+          "expected": null
+        },
+        {
+          "action": "Layout shifts minimized",
+          "expected": null
+        },
+        {
+          "action": "Third-party scripts async deferred or consent-gated",
+          "expected": null
+        },
+        {
+          "action": "Header remains readable when analytics fail",
+          "expected": null
+        },
+        {
+          "action": "Main content remains accessible when optional scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CTAs remain navigable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Footer remains readable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CSP block handling",
+          "expected": null
+        },
+        {
+          "action": "DNS failure handling",
+          "expected": null
+        },
+        {
+          "action": "Base homepage loads without unsolicited modal",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal dismissible",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal non-blocking",
+          "expected": null
+        },
+        {
+          "action": "Focus trap in modal",
+          "expected": null
+        },
+        {
+          "action": "Small viewport modal",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-054"
+    },
+    {
+      "req_id": "emids_lp_055",
+      "feature_file": "tests/features/emids_lp_050_051_052_053_054_055_global.feature",
+      "title": "Global requirements - Accessibility, SEO, Responsive, Performance, Error handling",
+      "steps": [
+        {
+          "action": "Keyboard access across page",
+          "expected": null
+        },
+        {
+          "action": "Visible focus across page",
+          "expected": null
+        },
+        {
+          "action": "Semantic landmarks identified",
+          "expected": null
+        },
+        {
+          "action": "Sufficient color contrast",
+          "expected": null
+        },
+        {
+          "action": "Meaningful alt text on images",
+          "expected": null
+        },
+        {
+          "action": "Accessible names on interactive elements",
+          "expected": null
+        },
+        {
+          "action": "200% zoom support",
+          "expected": null
+        },
+        {
+          "action": "Form errors identified and described",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion preference handled",
+          "expected": null
+        },
+        {
+          "action": "Page has unique title",
+          "expected": null
+        },
+        {
+          "action": "Meta description present",
+          "expected": null
+        },
+        {
+          "action": "Canonical URL set",
+          "expected": null
+        },
+        {
+          "action": "Primary text server-rendered and crawlable",
+          "expected": null
+        },
+        {
+          "action": "Social preview metadata configured",
+          "expected": null
+        },
+        {
+          "action": "No horizontal scrolling at supported widths",
+          "expected": null
+        },
+        {
+          "action": "Typography readable at all sizes",
+          "expected": null
+        },
+        {
+          "action": "320px minimum width supported",
+          "expected": null
+        },
+        {
+          "action": "Critical content renders without waiting for analytics",
+          "expected": null
+        },
+        {
+          "action": "Images optimized and sized appropriately",
+          "expected": null
+        },
+        {
+          "action": "Below-fold media lazy loaded where appropriate",
+          "expected": null
+        },
+        {
+          "action": "Layout shifts minimized",
+          "expected": null
+        },
+        {
+          "action": "Third-party scripts async deferred or consent-gated",
+          "expected": null
+        },
+        {
+          "action": "Header remains readable when analytics fail",
+          "expected": null
+        },
+        {
+          "action": "Main content remains accessible when optional scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CTAs remain navigable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Footer remains readable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CSP block handling",
+          "expected": null
+        },
+        {
+          "action": "DNS failure handling",
+          "expected": null
+        },
+        {
+          "action": "Base homepage loads without unsolicited modal",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal dismissible",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal non-blocking",
+          "expected": null
+        },
+        {
+          "action": "Focus trap in modal",
+          "expected": null
+        },
+        {
+          "action": "Small viewport modal",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-055"
+    }
+  ],
+  "skipped_requirements": []
+}
