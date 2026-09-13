@@ -1,0 +1,8 @@
+"""Test file for emids_lp_002: Implement Solutions mega-menu."""
+import pytest
+from pytest_bdd import scenarios
+
+from tests.steps import common_steps
+from tests.steps.emids_lp_002_solutions_steps import *  # noqa: F401, F403
+
+scenarios("emids_lp_002_solutions_menu.feature")

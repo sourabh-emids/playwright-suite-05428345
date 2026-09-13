@@ -1,0 +1,2181 @@
+{
+  "test_cases": [
+    {
+      "req_id": "emids_lp_001",
+      "feature_file": "tests/features/emids_lp_001_header.feature",
+      "title": "Render global header and brand entry point",
+      "steps": [
+        {
+          "action": "Verify_header_visible_on_initial_load",
+          "expected": null
+        },
+        {
+          "action": "Verify_logo_returns_to_homepage",
+          "expected": null
+        },
+        {
+          "action": "Verify_all_navigation_reachable_by_keyboard",
+          "expected": null
+        },
+        {
+          "action": "Verify_connect_cta_routes_to_contact",
+          "expected": null
+        },
+        {
+          "action": "Verify_desktop_grouped_navigation",
+          "expected": null
+        },
+        {
+          "action": "Verify_no_dead_links_in_header",
+          "expected": null
+        },
+        {
+          "action": "Verify_only_one_primary_connect_cta",
+          "expected": null
+        },
+        {
+          "action": "Verify_responsive_preserves_navigation_access",
+          "expected": null
+        },
+        {
+          "action": "Verify_long_menu_label_handling",
+          "expected": null
+        },
+        {
+          "action": "Verify_header_with_javascript_disabled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "emids_lp_002",
+      "feature_file": "tests/features/emids_lp_002_solutions_menu.feature",
+      "title": "Implement Solutions mega-menu",
+      "steps": [
+        {
+          "action": "Verify_solutions_menu_opens_accessibly",
+          "expected": null
+        },
+        {
+          "action": "Verify_all_solution_links_selectable",
+          "expected": null
+        },
+        {
+          "action": "Verify_menu_focus_order_maintained",
+          "expected": null
+        },
+        {
+          "action": "Verify_menu_close_restores_focus",
+          "expected": null
+        },
+        {
+          "action": "Verify_solution_labels_non_empty",
+          "expected": null
+        },
+        {
+          "action": "Verify_mobile_equivalent_disclosure",
+          "expected": null
+        },
+        {
+          "action": "Verify_menu_not_clipped_by_viewport",
+          "expected": null
+        },
+        {
+          "action": "Verify_touch_device_menu_accessibility",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "emids_lp_003",
+      "feature_file": "tests/features/emids_lp_003_capabilities_menu.feature",
+      "title": "Implement Capabilities mega-menu",
+      "steps": [
+        {
+          "action": "Verify_capabilities_menu_predictable_open_close",
+          "expected": null
+        },
+        {
+          "action": "verify_all_capability_links_keyboard_operable",
+          "expected": null
+        },
+        {
+          "action": "verify_capability_labels_match_taxonomy",
+          "expected": null
+        },
+        {
+          "action": "verify_capability_labels_unique",
+          "expected": null
+        },
+        {
+          "action": "verify_capability_urls_resolve",
+          "expected": null
+        },
+        {
+          "action": "verify_mobile_capability_disclosure",
+          "expected": null
+        },
+        {
+          "action": "verify_menu_overflow_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "emids_lp_004",
+      "feature_file": "tests/features/emids_lp_004_industries_menu.feature",
+      "title": "Implement Industries mega-menu",
+      "steps": [
+        {
+          "action": "verify_industries_menu_contains_five_audiences",
+          "expected": null
+        },
+        {
+          "action": "verify_industry_links_keyboard_accessible",
+          "expected": null
+        },
+        {
+          "action": "verify_industry_urls_canonical",
+          "expected": null
+        },
+        {
+          "action": "verify_desktop_grouped_industries_menu",
+          "expected": null
+        },
+        {
+          "action": "verify_mobile_stacked_industries_list",
+          "expected": null
+        },
+        {
+          "action": "verify_one_segment_unpublished_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_long_translation_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "emids_lp_005",
+      "feature_file": "tests/features/emids_lp_005_insights_nav.feature",
+      "title": "Implement Insights navigation group",
+      "steps": [
+        {
+          "action": "verify_insights_control_opens_reliably",
+          "expected": null
+        },
+        {
+          "action": "verify_insights_child_links_operable",
+          "expected": null
+        },
+        {
+          "action": "verify_no_empty_insights_groups",
+          "expected": null
+        },
+        {
+          "action": "verify_insights_destination_urls_canonical",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-005"
+    },
+    {
+      "req_id": "emids_lp_006",
+      "feature_file": "tests/features/emids_lp_006_company_nav.feature",
+      "title": "Implement Company navigation group",
+      "steps": [
+        {
+          "action": "verify_company_menu_exposes_approved_links",
+          "expected": null
+        },
+        {
+          "action": "verify_company_menu_keyboard_pointer_touch",
+          "expected": null
+        },
+        {
+          "action": "verify_unpublished_page_not_displayed",
+          "expected": null
+        },
+        {
+          "action": "verify_no_redirect_loop_in_company_links",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-006"
+    },
+    {
+      "req_id": "emids_lp_007",
+      "feature_file": "tests/features/emids_lp_007_connect_cta.feature",
+      "title": "Provide header Connect CTA",
+      "steps": [
+        {
+          "action": "verify_connect_cta_visually_distinct",
+          "expected": null
+        },
+        {
+          "action": "verify_connect_cta_accessible_name",
+          "expected": null
+        },
+        {
+          "action": "verify_connect_cta_routes_to_contact",
+          "expected": null
+        },
+        {
+          "action": "verify_connect_cta_keyboard_activation",
+          "expected": null
+        },
+        {
+          "action": "verify_connect_cta_responsive_placement",
+          "expected": null
+        },
+        {
+          "action": "verify_cta_url_valid_https",
+          "expected": null
+        },
+        {
+          "action": "verify_no_duplicated_cta",
+          "expected": null
+        },
+        {
+          "action": "verify_cta_text_wrapping_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-007"
+    },
+    {
+      "req_id": "emids_lp_008",
+      "feature_file": "tests/features/emids_lp_008_responsive_nav.feature",
+      "title": "Provide responsive accessible navigation",
+      "steps": [
+        {
+          "action": "verify_menu_open_close_without_hover",
+          "expected": null
+        },
+        {
+          "action": "verify_escape_closes_overlays",
+          "expected": null
+        },
+        {
+          "action": "verify_visible_focus_maintained",
+          "expected": null
+        },
+        {
+          "action": "verify_no_horizontal_scroll_at_supported_widths",
+          "expected": null
+        },
+        {
+          "action": "verify_interactive_controls_semantic",
+          "expected": null
+        },
+        {
+          "action": "verify_focus_order_matches_visual_order",
+          "expected": null
+        },
+        {
+          "action": "verify_resize_while_menu_open",
+          "expected": null
+        },
+        {
+          "action": "verify_orientation_change_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_browser_zoom_200_percent",
+          "expected": null
+        },
+        {
+          "action": "verify_reduced_motion_respected",
+          "expected": null
+        },
+        {
+          "action": "verify_js_partial_failure_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-008"
+    },
+    {
+      "req_id": "emids_lp_009",
+      "feature_file": "tests/features/emids_lp_009_hero.feature",
+      "title": "Render hero messaging and visual",
+      "steps": [
+        {
+          "action": "verify_single_h1_present",
+          "expected": null
+        },
+        {
+          "action": "verify_hero_title_content",
+          "expected": null
+        },
+        {
+          "action": "verify_h1_non_empty_unique",
+          "expected": null
+        },
+        {
+          "action": "verify_supporting_content_readable",
+          "expected": null
+        },
+        {
+          "action": "verify_hero_cta_visible_above_fold",
+          "expected": null
+        },
+        {
+          "action": "verify_media_alternative_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_hero_eyebrow_present",
+          "expected": null
+        },
+        {
+          "action": "verify_hero_media_url_resolves",
+          "expected": null
+        },
+        {
+          "action": "verify_slow_media_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_long_copy_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_small_viewport_hero",
+          "expected": null
+        },
+        {
+          "action": "verify_hero_reduced_motion",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-009"
+    },
+    {
+      "req_id": "emids_lp_010",
+      "feature_file": "tests/features/emids_lp_010_hero_cta_fdce.feature",
+      "title": "Route hero CTA to FDCE experience",
+      "steps": [
+        {
+          "action": "verify_hero_cta_resolves_to_fdce",
+          "expected": null
+        },
+        {
+          "action": "verify_hero_cta_url_https_canonical",
+          "expected": null
+        },
+        {
+          "action": "verify_browser_navigation_behavior",
+          "expected": null
+        },
+        {
+          "action": "verify_new_tab_opening",
+          "expected": null
+        },
+        {
+          "action": "verify_destination_unavailable_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-010"
+    },
+    {
+      "req_id": "emids_lp_011",
+      "feature_file": "tests/features/emids_lp_011_hero_media.feature",
+      "title": "Optimize hero media loading",
+      "steps": [
+        {
+          "action": "verify_text_available_if_media_fails",
+          "expected": null
+        },
+        {
+          "action": "verify_media_dimensions_reserved",
+          "expected": null
+        },
+        {
+          "action": "verify_appropriately_sized_assets_served",
+          "expected": null
+        },
+        {
+          "action": "verify_lcp_asset_not_lazy_loaded",
+          "expected": null
+        },
+        {
+          "action": "verify_poster_alt_provided",
+          "expected": null
+        },
+        {
+          "action": "verify_cdn_timeout_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_unsupported_format_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_low_bandwidth_media_loading",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-011"
+    },
+    {
+      "req_id": "emids_lp_012",
+      "feature_file": "tests/features/emids_lp_012_how_we_deliver.feature",
+      "title": "Render How We Deliver section",
+      "steps": [
+        {
+          "action": "verify_section_sequence_and_accessibility",
+          "expected": null
+        },
+        {
+          "action": "verify_required_fields_not_empty",
+          "expected": null
+        },
+        {
+          "action": "verify_heading_hierarchy_logical",
+          "expected": null
+        },
+        {
+          "action": "verify_responsive_content_block",
+          "expected": null
+        },
+        {
+          "action": "verify_missing_media_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_long_copy_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_section_without_cta_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-012"
+    },
+    {
+      "req_id": "emids_lp_013",
+      "feature_file": "tests/features/emids_lp_013_see_model_cta.feature",
+      "title": "Provide See the model CTA",
+      "steps": [
+        {
+          "action": "verify_cta_routes_to_fdce_detail",
+          "expected": null
+        },
+        {
+          "action": "verify_cta_keyboard_operable",
+          "expected": null
+        },
+        {
+          "action": "verify_cta_accessible_name_describes_action",
+          "expected": null
+        },
+        {
+          "action": "verify_cta_destination_valid",
+          "expected": null
+        },
+        {
+          "action": "verify_no_duplicate_focus_target",
+          "expected": null
+        },
+        {
+          "action": "verify_cta_visible_hover_focus_states",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-013"
+    },
+    {
+      "req_id": "emids_lp_014",
+      "feature_file": "tests/features/emids_lp_014_semantic_hierarchy.feature",
+      "title": "Maintain semantic section hierarchy",
+      "steps": [
+        {
+          "action": "verify_single_page_h1",
+          "expected": null
+        },
+        {
+          "action": "verify_subsequent_headings_logical_levels",
+          "expected": null
+        },
+        {
+          "action": "verify_landmarks_identifiable",
+          "expected": null
+        },
+        {
+          "action": "verify_interactive_text_not_headings_for_styling",
+          "expected": null
+        },
+        {
+          "action": "verify_cms_duplicate_h1_detection",
+          "expected": null
+        },
+        {
+          "action": "verify_hidden_heading_not_focusable",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-014"
+    },
+    {
+      "req_id": "emids_lp_015",
+      "feature_file": "tests/features/emids_lp_015_featured_solutions.feature",
+      "title": "Render six featured solution items",
+      "steps": [
+        {
+          "action": "verify_six_entries_present",
+          "expected": null
+        },
+        {
+          "action": "verify_numbering_01_to_06_correct",
+          "expected": null
+        },
+        {
+          "action": "verify_each_entry_readable",
+          "expected": null
+        },
+        {
+          "action": "verify_titles_not_blank",
+          "expected": null
+        },
+        {
+          "action": "verify_order_controlled",
+          "expected": null
+        },
+        {
+          "action": "verify_exactly_six_items",
+          "expected": null
+        },
+        {
+          "action": "verify_one_item_unpublished_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_no_duplicate_order",
+          "expected": null
+        },
+        {
+          "action": "verify_very_long_title_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_card_media_missing_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-015"
+    },
+    {
+      "req_id": "emids_lp_016",
+      "feature_file": "tests/features/emids_lp_016_all_solutions_cta.feature",
+      "title": "Provide All Solutions CTA",
+      "steps": [
+        {
+          "action": "verify_cta_visible_after_section",
+          "expected": null
+        },
+        {
+          "action": "verify_cta_routes_to_solutions_portfolio",
+          "expected": null
+        },
+        {
+          "action": "verify_cta_url_canonical",
+          "expected": null
+        },
+        {
+          "action": "verify_portfolio_page_unavailable_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-016"
+    },
+    {
+      "req_id": "emids_lp_017",
+      "feature_file": "tests/features/emids_lp_017_responsive_solution.feature",
+      "title": "Support featured solution responsive interaction",
+      "steps": [
+        {
+          "action": "verify_every_solution_keyboard_reachable",
+          "expected": null
+        },
+        {
+          "action": "verify_every_solution_touch_reachable",
+          "expected": null
+        },
+        {
+          "action": "verify_no_content_hidden_off_screen",
+          "expected": null
+        },
+        {
+          "action": "verify_carousel_controls_accessible_labels",
+          "expected": null
+        },
+        {
+          "action": "verify_autoplay_respects_user_control",
+          "expected": null
+        },
+        {
+          "action": "verify_reduced_motion_respects_autoplay",
+          "expected": null
+        },
+        {
+          "action": "verify_viewport_resize_mid_interaction",
+          "expected": null
+        },
+        {
+          "action": "verify_first_last_item_accessible",
+          "expected": null
+        },
+        {
+          "action": "verify_swipe_keyboard_conflict_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-017"
+    },
+    {
+      "req_id": "emids_lp_018",
+      "feature_file": "tests/features/emids_lp_018_partner_logos.feature",
+      "title": "Render partner logo rail/marquee",
+      "steps": [
+        {
+          "action": "verify_all_approved_logos_render",
+          "expected": null
+        },
+        {
+          "action": "verify_logos_meaningful_accessible_names",
+          "expected": null
+        },
+        {
+          "action": "verify_no_duplicate_announcements",
+          "expected": null
+        },
+        {
+          "action": "verify_logo_asset_required",
+          "expected": null
+        },
+        {
+          "action": "verify_horizontal_logo_sequence",
+          "expected": null
+        },
+        {
+          "action": "verify_marquee_loops_if_used",
+          "expected": null
+        },
+        {
+          "action": "verify_missing_logo_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_transparent_logo_visibility",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-018"
+    },
+    {
+      "req_id": "emids_lp_019",
+      "feature_file": "tests/features/emids_lp_019_reduced_motion_partners.feature",
+      "title": "Respect reduced motion for partner animation",
+      "steps": [
+        {
+          "action": "verify_reduced_motion_disables_animation",
+          "expected": null
+        },
+        {
+          "action": "verify_content_fully_visible",
+          "expected": null
+        },
+        {
+          "action": "verify_animation_not_required_to_discover",
+          "expected": null
+        },
+        {
+          "action": "verify_preference_changes_while_page_open",
+          "expected": null
+        },
+        {
+          "action": "verify_animation_library_failure",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-019"
+    },
+    {
+      "req_id": "emids_lp_020",
+      "feature_file": "tests/features/emids_lp_020_capabilities_overview.feature",
+      "title": "Render capabilities overview",
+      "steps": [
+        {
+          "action": "verify_three_capability_groups_visible",
+          "expected": null
+        },
+        {
+          "action": "verify_group_labels_match_navigation",
+          "expected": null
+        },
+        {
+          "action": "verify_three_primary_groups_required",
+          "expected": null
+        },
+        {
+          "action": "verify_responsive_capability_cards",
+          "expected": null
+        },
+        {
+          "action": "verify_missing_group_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_mislabeled_taxonomy_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_overflow_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-020"
+    },
+    {
+      "req_id": "emids_lp_021",
+      "feature_file": "tests/features/emids_lp_021_ai_capability.feature",
+      "title": "Render AI capability content",
+      "steps": [
+        {
+          "action": "verify_ai_label_and_content_render",
+          "expected": null
+        },
+        {
+          "action": "verify_ai_link_operable",
+          "expected": null
+        },
+        {
+          "action": "verify_ai_title_required",
+          "expected": null
+        },
+        {
+          "action": "verify_ai_url_valid",
+          "expected": null
+        },
+        {
+          "action": "verify_card_matches_visual_system",
+          "expected": null
+        },
+        {
+          "action": "verify_missing_destination_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-021"
+    },
+    {
+      "req_id": "emids_lp_022",
+      "feature_file": "tests/features/emids_lp_022_engineering_capability.feature",
+      "title": "Render Engineering capability content",
+      "steps": [
+        {
+          "action": "verify_engineering_label_and_content_render",
+          "expected": null
+        },
+        {
+          "action": "verify_engineering_link_operable",
+          "expected": null
+        },
+        {
+          "action": "verify_engineering_title_required",
+          "expected": null
+        },
+        {
+          "action": "verify_engineering_url_valid",
+          "expected": null
+        },
+        {
+          "action": "verify_engineering_card_visual_system",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-022"
+    },
+    {
+      "req_id": "emids_lp_023",
+      "feature_file": "tests/features/emids_lp_023_platforms_capability.feature",
+      "title": "Render Platforms capability content",
+      "steps": [
+        {
+          "action": "verify_platforms_content_renders",
+          "expected": null
+        },
+        {
+          "action": "verify_labels_consistent_across_nav_body",
+          "expected": null
+        },
+        {
+          "action": "verify_content_governance_prevents_inconsistency",
+          "expected": null
+        },
+        {
+          "action": "verify_navigation_body_naming_match",
+          "expected": null
+        },
+        {
+          "action": "verify_stale_cms_content_detection",
+          "expected": null
+        },
+        {
+          "action": "verify_platforms_card_visual_system",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-023"
+    },
+    {
+      "req_id": "emids_lp_024",
+      "feature_file": "tests/features/emids_lp_024_who_we_serve.feature",
+      "title": "Render five audience/industry entries",
+      "steps": [
+        {
+          "action": "verify_all_five_audiences_visible",
+          "expected": null
+        },
+        {
+          "action": "verify_explore_action_routes_correctly",
+          "expected": null
+        },
+        {
+          "action": "verify_keyboard_interaction",
+          "expected": null
+        },
+        {
+          "action": "verify_touch_interaction",
+          "expected": null
+        },
+        {
+          "action": "verify_exactly_five_current_audiences",
+          "expected": null
+        },
+        {
+          "action": "verify_urls_canonical",
+          "expected": null
+        },
+        {
+          "action": "verify_one_segment_unavailable_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_tab_state_lost_after_resize",
+          "expected": null
+        },
+        {
+          "action": "verify_no_duplicate_active_panels",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-024"
+    },
+    {
+      "req_id": "emids_lp_025",
+      "feature_file": "tests/features/emids_lp_025_impact_metrics.feature",
+      "title": "Render Impact proof metrics",
+      "steps": [
+        {
+          "action": "verify_all_four_metrics_visible",
+          "expected": null
+        },
+        {
+          "action": "verify_values_visible_as_text",
+          "expected": null
+        },
+        {
+          "action": "verify_values_readable_without_animation",
+          "expected": null
+        },
+        {
+          "action": "verify_screen_reader_final_values",
+          "expected": null
+        },
+        {
+          "action": "verify_values_labels_paired_content",
+          "expected": null
+        },
+        {
+          "action": "verify_currency_symbol_plus_sign_preserved",
+          "expected": null
+        },
+        {
+          "action": "verify_animation_disabled_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_locale_formatting",
+          "expected": null
+        },
+        {
+          "action": "verify_cms_field_missing_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-025"
+    },
+    {
+      "req_id": "emids_lp_026",
+      "feature_file": "tests/features/emids_lp_026_insights_section.feature",
+      "title": "Render Insights section and six cards",
+      "steps": [
+        {
+          "action": "verify_six_cards_render",
+          "expected": null
+        },
+        {
+          "action": "verify_cards_accessible_at_all_breakpoints",
+          "expected": null
+        },
+        {
+          "action": "verify_published_content_only",
+          "expected": null
+        },
+        {
+          "action": "verify_title_and_url_required",
+          "expected": null
+        },
+        {
+          "action": "verify_action_label_matches_content_flow",
+          "expected": null
+        },
+        {
+          "action": "verify_responsive_card_grid",
+          "expected": null
+        },
+        {
+          "action": "verify_resource_unpublished_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_missing_image_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_long_title_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_url_changes_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-026"
+    },
+    {
+      "req_id": "emids_lp_027",
+      "feature_file": "tests/features/emids_lp_027_medicare_ebook.feature",
+      "title": "Display Medicare Advantage eBook card",
+      "steps": [
+        {
+          "action": "verify_medicare_ebook_title_correct",
+          "expected": null
+        },
+        {
+          "action": "verify_medicare_ebook_type",
+          "expected": null
+        },
+        {
+          "action": "verify_medicare_ebook_download_action",
+          "expected": null
+        },
+        {
+          "action": "verify_medicare_ebook_url_resolves",
+          "expected": null
+        },
+        {
+          "action": "verify_medicare_ebook_image_if_available",
+          "expected": null
+        },
+        {
+          "action": "verify_resource_removed_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-027"
+    },
+    {
+      "req_id": "emids_lp_028",
+      "feature_file": "tests/features/emids_lp_028_cms0057_card.feature",
+      "title": "Display CMS-0057 interoperability card",
+      "steps": [
+        {
+          "action": "verify_cms0057_title_populated",
+          "expected": null
+        },
+        {
+          "action": "verify_cms0057_type_populated",
+          "expected": null
+        },
+        {
+          "action": "verify_cms0057_action_navigates_correctly",
+          "expected": null
+        },
+        {
+          "action": "verify_no_empty_title_or_destination",
+          "expected": null
+        },
+        {
+          "action": "verify_destination_changed_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-028"
+    },
+    {
+      "req_id": "emids_lp_029",
+      "feature_file": "tests/features/emids_lp_029_life_sciences_ebook.feature",
+      "title": "Display Life Sciences eBook card",
+      "steps": [
+        {
+          "action": "verify_life_sciences_title_correct",
+          "expected": null
+        },
+        {
+          "action": "verify_life_sciences_download_action",
+          "expected": null
+        },
+        {
+          "action": "verify_life_sciences_canonical_url",
+          "expected": null
+        },
+        {
+          "action": "verify_resource_access_unavailable_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-029"
+    },
+    {
+      "req_id": "emids_lp_030",
+      "feature_file": "tests/features/emids_lp_030_ai_roi_ebook.feature",
+      "title": "Display AI ROI eBook card",
+      "steps": [
+        {
+          "action": "verify_ai_roi_title_displayed",
+          "expected": null
+        },
+        {
+          "action": "verify_ai_roi_ebook_label",
+          "expected": null
+        },
+        {
+          "action": "verify_ai_roi_expected_action",
+          "expected": null
+        },
+        {
+          "action": "verify_ai_roi_published_content",
+          "expected": null
+        },
+        {
+          "action": "verify_unpublished_redirect_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-030"
+    },
+    {
+      "req_id": "emids_lp_031",
+      "feature_file": "tests/features/emids_lp_031_finops_payer_card.feature",
+      "title": "Display FinOps healthcare payer card",
+      "steps": [
+        {
+          "action": "verify_finops_title_action_present",
+          "expected": null
+        },
+        {
+          "action": "verify_finops_routes_correctly",
+          "expected": null
+        },
+        {
+          "action": "verify_finops_valid_destination",
+          "expected": null
+        },
+        {
+          "action": "verify_broken_link_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_missing_thumbnail_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-031"
+    },
+    {
+      "req_id": "emids_lp_032",
+      "feature_file": "tests/features/emids_lp_032_payer_blog_card.feature",
+      "title": "Display Payer data readiness blog card",
+      "steps": [
+        {
+          "action": "verify_payer_blog_title_displayed",
+          "expected": null
+        },
+        {
+          "action": "verify_blog_type_label",
+          "expected": null
+        },
+        {
+          "action": "verify_read_more_action",
+          "expected": null
+        },
+        {
+          "action": "verify_article_navigation",
+          "expected": null
+        },
+        {
+          "action": "verify_cta_label_article_not_download",
+          "expected": null
+        },
+        {
+          "action": "verify_article_moved_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_title_truncation_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-032"
+    },
+    {
+      "req_id": "emids_lp_033",
+      "feature_file": "tests/features/emids_lp_033_resource_access.feature",
+      "title": "Resource access without false file download",
+      "steps": [
+        {
+          "action": "verify_download_reaches_detail_flow",
+          "expected": null
+        },
+        {
+          "action": "verify_no_private_asset_endpoint_exposed",
+          "expected": null
+        },
+        {
+          "action": "verify_gate_communication",
+          "expected": null
+        },
+        {
+          "action": "verify_only_verified_destinations",
+          "expected": null
+        },
+        {
+          "action": "verify_no_direct_file_url_assumption",
+          "expected": null
+        },
+        {
+          "action": "verify_gated_asset_unavailable_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_submission_failure_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_resource_withdrawn_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_popup_blocked_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-033"
+    },
+    {
+      "req_id": "emids_lp_034",
+      "feature_file": "tests/features/emids_lp_034_final_cta_banner.feature",
+      "title": "Render final conversion banner",
+      "steps": [
+        {
+          "action": "verify_banner_appears_before_footer",
+          "expected": null
+        },
+        {
+          "action": "verify_primary_action_clear_keyboard_operable",
+          "expected": null
+        },
+        {
+          "action": "verify_supporting_content_readable",
+          "expected": null
+        },
+        {
+          "action": "verify_required_message_and_cta_present",
+          "expected": null
+        },
+        {
+          "action": "verify_high_contrast_closing_cta",
+          "expected": null
+        },
+        {
+          "action": "verify_cta_text_wrapping",
+          "expected": null
+        },
+        {
+          "action": "verify_no_footer_overlap",
+          "expected": null
+        },
+        {
+          "action": "verify_contact_route_unavailable_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-034"
+    },
+    {
+      "req_id": "emids_lp_035",
+      "feature_file": "tests/features/emids_lp_035_timing_message.feature",
+      "title": "Render 1 Day 2 Weeks 3 Months message",
+      "steps": [
+        {
+          "action": "verify_timing_labels_render_ordered",
+          "expected": null
+        },
+        {
+          "action": "verify_screen_reader_timing_content",
+          "expected": null
+        },
+        {
+          "action": "verify_meaning_not_visual_styling_alone",
+          "expected": null
+        },
+        {
+          "action": "verify_explanatory_labels_configured",
+          "expected": null
+        },
+        {
+          "action": "verify_mobile_wrapping",
+          "expected": null
+        },
+        {
+          "action": "verify_missing_explanation_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-035"
+    },
+    {
+      "req_id": "emids_lp_036",
+      "feature_file": "tests/features/emids_lp_036_cookie_preferences.feature",
+      "title": "Expose Cookie Preferences control",
+      "steps": [
+        {
+          "action": "verify_cookie_preferences_visible_in_footer",
+          "expected": null
+        },
+        {
+          "action": "verify_control_opens_consent_ui",
+          "expected": null
+        },
+        {
+          "action": "verify_control_available_after_banner_dismissal",
+          "expected": null
+        },
+        {
+          "action": "verify_consent_script_blocked_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_storage_disabled_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_user_clears_cookies_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-036"
+    },
+    {
+      "req_id": "emids_lp_037",
+      "feature_file": "tests/features/emids_lp_037_gtm_consent.feature",
+      "title": "Load GTM with consent governance",
+      "steps": [
+        {
+          "action": "verify_page_works_if_gtm_fails",
+          "expected": null
+        },
+        {
+          "action": "verify_non_essential_tags_consent_gated",
+          "expected": null
+        },
+        {
+          "action": "verify_gtm_does_not_block_rendering",
+          "expected": null
+        },
+        {
+          "action": "verify_consent_mode_respected",
+          "expected": null
+        },
+        {
+          "action": "verify_ad_blocker_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_csp_block_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_gtm_timeout_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_consent_denied_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-037"
+    },
+    {
+      "req_id": "emids_lp_038",
+      "feature_file": "tests/features/emids_lp_038_google_analytics.feature",
+      "title": "Support Google Analytics after consent",
+      "steps": [
+        {
+          "action": "verify_analytics_consent_governed",
+          "expected": null
+        },
+        {
+          "action": "verify_page_works_if_consent_denied",
+          "expected": null
+        },
+        {
+          "action": "verify_events_no_contact_form_data",
+          "expected": null
+        },
+        {
+          "action": "verify_page_view_tracking",
+          "expected": null
+        },
+        {
+          "action": "verify_cta_event_tracking",
+          "expected": null
+        },
+        {
+          "action": "verify_content_interaction_tracking",
+          "expected": null
+        },
+        {
+          "action": "verify_statistics_consent_required",
+          "expected": null
+        },
+        {
+          "action": "verify_no_sensitive_data_in_events",
+          "expected": null
+        },
+        {
+          "action": "verify_offline_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_consent_revoked_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_no_duplicate_pageview",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-038"
+    },
+    {
+      "req_id": "emids_lp_039",
+      "feature_file": "tests/features/emids_lp_039_campaign_attribution.feature",
+      "title": "Implement campaign attribution safely",
+      "steps": [
+        {
+          "action": "verify_utm_params_preserved",
+          "expected": null
+        },
+        {
+          "action": "verify_gclid_preserved",
+          "expected": null
+        },
+        {
+          "action": "verify_referrer_captured",
+          "expected": null
+        },
+        {
+          "action": "verify_invalid_values_ignored",
+          "expected": null
+        },
+        {
+          "action": "verify_length_limit_applied",
+          "expected": null
+        },
+        {
+          "action": "verify_parameter_content_not_executed",
+          "expected": null
+        },
+        {
+          "action": "verify_no_full_urls_logged",
+          "expected": null
+        },
+        {
+          "action": "verify_consent_denied_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_malformed_query_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_repeated_params_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_huge_values_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-039"
+    },
+    {
+      "req_id": "emids_lp_040",
+      "feature_file": "tests/features/emids_lp_040_marketo_integration.feature",
+      "title": "Integrate Marketo with consent",
+      "steps": [
+        {
+          "action": "verify_marketing_scripts_consent_gated",
+          "expected": null
+        },
+        {
+          "action": "verify_page_functional_when_marketo_unavailable",
+          "expected": null
+        },
+        {
+          "action": "verify_marketing_consent_required",
+          "expected": null
+        },
+        {
+          "action": "verify_script_blocked_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_vendor_outage_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_consent_revoked_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_no_raw_lead_data_logged",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-040"
+    },
+    {
+      "req_id": "emids_lp_041",
+      "feature_file": "tests/features/emids_lp_041_linkedin_integration.feature",
+      "title": "Integrate LinkedIn tags conditionally",
+      "steps": [
+        {
+          "action": "verify_linkedin_consent_required",
+          "expected": null
+        },
+        {
+          "action": "verify_page_independent_of_linkedin",
+          "expected": null
+        },
+        {
+          "action": "verify_ad_blocker_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_vendor_timeout_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_consent_denied_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-041"
+    },
+    {
+      "req_id": "emids_lp_042",
+      "feature_file": "tests/features/emids_lp_042_zoominfo_integration.feature",
+      "title": "Integrate ZoomInfo WebSights conditionally",
+      "steps": [
+        {
+          "action": "verify_tooling_loads_conditionally",
+          "expected": null
+        },
+        {
+          "action": "verify_failure_does_not_affect_content",
+          "expected": null
+        },
+        {
+          "action": "verify_no_private_identifiers_exposed",
+          "expected": null
+        },
+        {
+          "action": "verify_vendor_blocked_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_network_error_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_consent_denied_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-042"
+    },
+    {
+      "req_id": "emids_lp_043",
+      "feature_file": "tests/features/emids_lp_043_wistia_embeds.feature",
+      "title": "Support Wistia embeds when configured",
+      "steps": [
+        {
+          "action": "verify_no_unnecessary_wistia_script",
+          "expected": null
+        },
+        {
+          "action": "verify_wistia_player_accessible_title",
+          "expected": null
+        },
+        {
+          "action": "verify_video_id_required_when_enabled",
+          "expected": null
+        },
+        {
+          "action": "verify_reduced_motion_autoplay_preferences",
+          "expected": null
+        },
+        {
+          "action": "verify_player_blocked_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_no_consent_wistia_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_missing_video_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-043"
+    },
+    {
+      "req_id": "emids_lp_044",
+      "feature_file": "tests/features/emids_lp_044_youtube_embeds.feature",
+      "title": "Support YouTube embeds when configured",
+      "steps": [
+        {
+          "action": "verify_no_player_without_config",
+          "expected": null
+        },
+        {
+          "action": "verify_configured_media_keyboard_accessible",
+          "expected": null
+        },
+        {
+          "action": "verify_valid_video_id",
+          "expected": null
+        },
+        {
+          "action": "verify_no_autoplay_with_sound",
+          "expected": null
+        },
+        {
+          "action": "verify_consent_privacy_behavior",
+          "expected": null
+        },
+        {
+          "action": "verify_video_removed_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_regional_restriction_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_cookies_blocked_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-044"
+    },
+    {
+      "req_id": "emids_lp_045",
+      "feature_file": "tests/features/emids_lp_045_footer_legal.feature",
+      "title": "Render footer legal navigation",
+      "steps": [
+        {
+          "action": "verify_each_legal_link_descriptive",
+          "expected": null
+        },
+        {
+          "action": "verify_legal_links_valid_destinations",
+          "expected": null
+        },
+        {
+          "action": "verify_legal_links_visible_focus_state",
+          "expected": null
+        },
+        {
+          "action": "verify_labels_not_blank",
+          "expected": null
+        },
+        {
+          "action": "verify_multi_column_responsive_footer",
+          "expected": null
+        },
+        {
+          "action": "verify_legal_page_moved_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_long_label_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_locale_variant_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-045"
+    },
+    {
+      "req_id": "emids_lp_046",
+      "feature_file": "tests/features/emids_lp_046_footer_corporate.feature",
+      "title": "Render footer corporate contact info",
+      "steps": [
+        {
+          "action": "verify_footer_readable_mobile",
+          "expected": null
+        },
+        {
+          "action": "verify_only_approved_content",
+          "expected": null
+        },
+        {
+          "action": "verify_social_links_valid",
+          "expected": null
+        },
+        {
+          "action": "verify_outdated_contact_info_detection",
+          "expected": null
+        },
+        {
+          "action": "verify_external_social_unavailable_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_optional_social_analytics",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-046"
+    },
+    {
+      "req_id": "emids_lp_047",
+      "feature_file": "tests/features/emids_lp_047_contact_form.feature",
+      "title": "Contact form with all required fields",
+      "steps": [
+        {
+          "action": "verify_all_required_fields_displayed",
+          "expected": null
+        },
+        {
+          "action": "verify_labels_associated_with_controls",
+          "expected": null
+        },
+        {
+          "action": "verify_required_field_enforcement",
+          "expected": null
+        },
+        {
+          "action": "verify_email_validation",
+          "expected": null
+        },
+        {
+          "action": "verify_server_revalidation",
+          "expected": null
+        },
+        {
+          "action": "verify_clear_success_failure_feedback",
+          "expected": null
+        },
+        {
+          "action": "verify_accessible_form_on_contact_page",
+          "expected": null
+        },
+        {
+          "action": "verify_invalid_email_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_long_comments_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_duplicate_submit_prevention",
+          "expected": null
+        },
+        {
+          "action": "verify_timeout_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_backend_error_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_bot_submission_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-047"
+    },
+    {
+      "req_id": "emids_lp_048",
+      "feature_file": "tests/features/emids_lp_048_inquiry_type.feature",
+      "title": "Support Inquiry Type values",
+      "steps": [
+        {
+          "action": "verify_inquiry_type_options_present",
+          "expected": null
+        },
+        {
+          "action": "verify_select_requires_valid_choice",
+          "expected": null
+        },
+        {
+          "action": "verify_placeholder_not_valid_submission",
+          "expected": null
+        },
+        {
+          "action": "verify_reject_unknown_values",
+          "expected": null
+        },
+        {
+          "action": "verify_native_or_custom_combobox",
+          "expected": null
+        },
+        {
+          "action": "verify_option_removed_cached_form",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-048"
+    },
+    {
+      "req_id": "emids_lp_049",
+      "feature_file": "tests/features/emids_lp_049_form_feedback.feature",
+      "title": "Contact form submission feedback retry",
+      "steps": [
+        {
+          "action": "verify_submit_pending_state",
+          "expected": null
+        },
+        {
+          "action": "verify_duplicate_activation_prevented",
+          "expected": null
+        },
+        {
+          "action": "verify_success_announced",
+          "expected": null
+        },
+        {
+          "action": "verify_failure_keeps_content",
+          "expected": null
+        },
+        {
+          "action": "verify_retry_permitted",
+          "expected": null
+        },
+        {
+          "action": "verify_fields_cleared_on_success",
+          "expected": null
+        },
+        {
+          "action": "verify_server_validation_errors_map_to_fields",
+          "expected": null
+        },
+        {
+          "action": "verify_timeout_retry",
+          "expected": null
+        },
+        {
+          "action": "verify_4xx_validation_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_5xx_outage_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_user_navigates_away_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-049"
+    },
+    {
+      "req_id": "emids_lp_050",
+      "feature_file": "tests/features/emids_lp_050_wcag_compliance.feature",
+      "title": "WCAG 2.1 AA compliance",
+      "steps": [
+        {
+          "action": "verify_keyboard_access",
+          "expected": null
+        },
+        {
+          "action": "verify_visible_focus",
+          "expected": null
+        },
+        {
+          "action": "verify_semantic_landmarks",
+          "expected": null
+        },
+        {
+          "action": "verify_sufficient_contrast",
+          "expected": null
+        },
+        {
+          "action": "verify_meaningful_alt_text",
+          "expected": null
+        },
+        {
+          "action": "verify_accessible_names",
+          "expected": null
+        },
+        {
+          "action": "verify_200_zoom_reflow_support",
+          "expected": null
+        },
+        {
+          "action": "verify_form_errors_accessible",
+          "expected": null
+        },
+        {
+          "action": "verify_reduced_motion_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_media_alternatives",
+          "expected": null
+        },
+        {
+          "action": "verify_no_color_only_information",
+          "expected": null
+        },
+        {
+          "action": "verify_touch_target_size",
+          "expected": null
+        },
+        {
+          "action": "verify_high_contrast_mode",
+          "expected": null
+        },
+        {
+          "action": "verify_forced_colors_mode",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-050"
+    },
+    {
+      "req_id": "emids_lp_051",
+      "feature_file": "tests/features/emids_lp_051_seo_metadata.feature",
+      "title": "SEO metadata and crawlable structure",
+      "steps": [
+        {
+          "action": "verify_unique_title",
+          "expected": null
+        },
+        {
+          "action": "verify_meta_description_present",
+          "expected": null
+        },
+        {
+          "action": "verify_canonical_url_set",
+          "expected": null
+        },
+        {
+          "action": "verify_primary_text_crawlable",
+          "expected": null
+        },
+        {
+          "action": "verify_social_preview_metadata",
+          "expected": null
+        },
+        {
+          "action": "verify_headings_reflect_topic",
+          "expected": null
+        },
+        {
+          "action": "verify_single_canonical_homepage",
+          "expected": null
+        },
+        {
+          "action": "verify_no_duplicate_title_tags",
+          "expected": null
+        },
+        {
+          "action": "verify_missing_og_image_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_duplicate_canonical_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_js_critical_content_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-051"
+    },
+    {
+      "req_id": "emids_lp_052",
+      "feature_file": "tests/features/emids_lp_052_responsive_layout.feature",
+      "title": "Responsive layout across viewports",
+      "steps": [
+        {
+          "action": "verify_no_horizontal_scroll_desktop",
+          "expected": null
+        },
+        {
+          "action": "verify_no_horizontal_scroll_tablet",
+          "expected": null
+        },
+        {
+          "action": "verify_no_horizontal_scroll_mobile",
+          "expected": null
+        },
+        {
+          "action": "verify_typography_readable",
+          "expected": null
+        },
+        {
+          "action": "verify_controls_not_overlapping",
+          "expected": null
+        },
+        {
+          "action": "verify_all_cards_sections_available",
+          "expected": null
+        },
+        {
+          "action": "verify_images_aspect_ratio",
+          "expected": null
+        },
+        {
+          "action": "verify_320px_width_functional",
+          "expected": null
+        },
+        {
+          "action": "verify_200_zoom_functional",
+          "expected": null
+        },
+        {
+          "action": "verify_very_long_text_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_landscape_phone_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_tablet_split_screen_handling",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-052"
+    },
+    {
+      "req_id": "emids_lp_053",
+      "feature_file": "tests/features/emids_lp_053_performance.feature",
+      "title": "Performance and Core Web Vitals",
+      "steps": [
+        {
+          "action": "verify_critical_content_without_analytics_wait",
+          "expected": null
+        },
+        {
+          "action": "verify_images_optimized",
+          "expected": null
+        },
+        {
+          "action": "verify_below_fold_lazy_loaded",
+          "expected": null
+        },
+        {
+          "action": "verify_layout_shifts_minimized",
+          "expected": null
+        },
+        {
+          "action": "verify_third_party_async_deferred",
+          "expected": null
+        },
+        {
+          "action": "verify_no_large_unoptimized_assets",
+          "expected": null
+        },
+        {
+          "action": "verify_slow_network_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_blocked_third_party_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_cached_stale_asset_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_large_viewport_image_optimization",
+          "expected": null
+        },
+        {
+          "action": "verify_web_vitals_telemetry_consent",
+          "expected": null
+        },
+        {
+          "action": "verify_no_sensitive_dimensions_logged",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-053"
+    },
+    {
+      "req_id": "emids_lp_054",
+      "feature_file": "tests/features/emids_lp_054_script_failures.feature",
+      "title": "Handle script failures gracefully",
+      "steps": [
+        {
+          "action": "verify_header_readable_with_failed_scripts",
+          "expected": null
+        },
+        {
+          "action": "verify_main_content_accessible_with_failed_scripts",
+          "expected": null
+        },
+        {
+          "action": "verify_ctas_functional_with_failed_scripts",
+          "expected": null
+        },
+        {
+          "action": "verify_footer_accessible_with_failed_scripts",
+          "expected": null
+        },
+        {
+          "action": "verify_errors_contained",
+          "expected": null
+        },
+        {
+          "action": "verify_fallback_content_available",
+          "expected": null
+        },
+        {
+          "action": "verify_csp_block_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_dns_failure_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_ad_blocker_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_timeout_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_malformed_vendor_script_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_no_stack_traces_user_content",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-054"
+    },
+    {
+      "req_id": "emids_lp_055",
+      "feature_file": "tests/features/emids_lp_055_modal_behavior.feature",
+      "title": "Homepage modal behavior none by default",
+      "steps": [
+        {
+          "action": "verify_base_homepage_no_unsolicited_modal",
+          "expected": null
+        },
+        {
+          "action": "verify_consent_ui_not_marketing_modal",
+          "expected": null
+        },
+        {
+          "action": "verify_resource_gate_not_base_modal",
+          "expected": null
+        },
+        {
+          "action": "verify_configured_modal_separately_governed",
+          "expected": null
+        },
+        {
+          "action": "verify_default_state_disabled",
+          "expected": null
+        },
+        {
+          "action": "verify_configured_modal_has_title",
+          "expected": null
+        },
+        {
+          "action": "verify_configured_modal_has_content",
+          "expected": null
+        },
+        {
+          "action": "verify_configured_modal_dismissible",
+          "expected": null
+        },
+        {
+          "action": "verify_configured_modal_keyboard_accessible",
+          "expected": null
+        },
+        {
+          "action": "verify_repeated_modal_after_dismissal",
+          "expected": null
+        },
+        {
+          "action": "verify_focus_trap_in_modal",
+          "expected": null
+        },
+        {
+          "action": "verify_small_viewport_modal",
+          "expected": null
+        },
+        {
+          "action": "verify_js_disabled_modal_handling",
+          "expected": null
+        },
+        {
+          "action": "verify_campaign_display_consent_check",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-055"
+    }
+  ],
+  "skipped_requirements": []
+}
