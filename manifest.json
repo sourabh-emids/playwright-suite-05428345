@@ -1,0 +1,1985 @@
+{
+  "test_cases": [
+    {
+      "req_id": "emids_lp_001",
+      "feature_file": "tests/features/emids_lp_001_header.feature",
+      "title": "Render global header and Emids brand entry point",
+      "steps": [
+        {
+          "action": "Verify header renders on initial page load",
+          "expected": null
+        },
+        {
+          "action": "Verify Emids logo navigates to homepage",
+          "expected": null
+        },
+        {
+          "action": "Verify all navigation items reachable via keyboard",
+          "expected": null
+        },
+        {
+          "action": "Verify Connect CTA routes to contact page",
+          "expected": null
+        },
+        {
+          "action": "Verify single primary Connect CTA",
+          "expected": null
+        },
+        {
+          "action": "Verify no dead links in navigation",
+          "expected": null
+        },
+        {
+          "action": "Verify navigation at narrow viewport",
+          "expected": null
+        },
+        {
+          "action": "Verify page functionality when JS is disabled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "emids_lp_002",
+      "feature_file": "tests/features/emids_lp_002_solutions_menu.feature",
+      "title": "Implement Solutions mega-menu",
+      "steps": [
+        {
+          "action": "Verify Solutions menu opens and displays content",
+          "expected": null
+        },
+        {
+          "action": "Verify all solution links are selectable",
+          "expected": null
+        },
+        {
+          "action": "Verify focus remains within navigation order",
+          "expected": null
+        },
+        {
+          "action": "Verify closing restores focus to trigger",
+          "expected": null
+        },
+        {
+          "action": "Verify mobile uses disclosure pattern",
+          "expected": null
+        },
+        {
+          "action": "Verify menu does not clip by viewport",
+          "expected": null
+        },
+        {
+          "action": "Verify each item has valid URL",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "emids_lp_003",
+      "feature_file": "tests/features/emids_lp_003_capabilities_menu.feature",
+      "title": "Implement Capabilities mega-menu",
+      "steps": [
+        {
+          "action": "Verify Capabilities menu opens and closes predictably",
+          "expected": null
+        },
+        {
+          "action": "Verify all capability links are keyboard operable",
+          "expected": null
+        },
+        {
+          "action": "Verify labels match approved site taxonomy",
+          "expected": null
+        },
+        {
+          "action": "Verify labels are unique within menu",
+          "expected": null
+        },
+        {
+          "action": "Verify URLs resolve correctly",
+          "expected": null
+        },
+        {
+          "action": "Verify menu overflow handled gracefully",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "emids_lp_004",
+      "feature_file": "tests/features/emids_lp_004_industries_menu.feature",
+      "title": "Implement Industries mega-menu",
+      "steps": [
+        {
+          "action": "Verify all five industry audiences are present",
+          "expected": null
+        },
+        {
+          "action": "Verify each industry is reachable without mouse",
+          "expected": null
+        },
+        {
+          "action": "Verify industry links use canonical URLs",
+          "expected": null
+        },
+        {
+          "action": "Verify mobile stacked list pattern",
+          "expected": null
+        },
+        {
+          "action": "Verify graceful handling of unpublished segment",
+          "expected": null
+        },
+        {
+          "action": "Verify long translations handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "emids_lp_005",
+      "feature_file": "tests/features/emids_lp_005_insights_menu.feature",
+      "title": "Implement Insights navigation group",
+      "steps": [
+        {
+          "action": "Verify Insights control opens reliably",
+          "expected": null
+        },
+        {
+          "action": "Verify child links readable and operable at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Verify no empty menu groups",
+          "expected": null
+        },
+        {
+          "action": "Verify destination URLs are canonical",
+          "expected": null
+        },
+        {
+          "action": "Verify hover interaction not required for access",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-005"
+    },
+    {
+      "req_id": "emids_lp_006",
+      "feature_file": "tests/features/emids_lp_006_company_menu.feature",
+      "title": "Implement Company navigation group",
+      "steps": [
+        {
+          "action": "Verify Company menu exposes approved links",
+          "expected": null
+        },
+        {
+          "action": "Verify keyboard, pointer, and touch interaction",
+          "expected": null
+        },
+        {
+          "action": "Verify unpublished pages do not appear",
+          "expected": null
+        },
+        {
+          "action": "Verify no redirect loop occurs",
+          "expected": null
+        },
+        {
+          "action": "Verify focus not trapped in menu",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-006"
+    },
+    {
+      "req_id": "emids_lp_007",
+      "feature_file": "tests/features/emids_lp_007_connect_cta.feature",
+      "title": "Provide header Connect CTA",
+      "steps": [
+        {
+          "action": "Verify Connect CTA is visually distinct",
+          "expected": null
+        },
+        {
+          "action": "Verify Connect CTA has accessible name",
+          "expected": null
+        },
+        {
+          "action": "Verify Connect routes to contact page",
+          "expected": null
+        },
+        {
+          "action": "Verify CTA URL is HTTPS and valid",
+          "expected": null
+        },
+        {
+          "action": "Verify CTA works with keyboard activation",
+          "expected": null
+        },
+        {
+          "action": "Verify no duplicate CTA in header",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-007"
+    },
+    {
+      "req_id": "emids_lp_008",
+      "feature_file": "tests/features/emids_lp_008_responsive_navigation.feature",
+      "title": "Provide responsive and accessible navigation behavior",
+      "steps": [
+        {
+          "action": "Verify menu can be opened without hover",
+          "expected": null
+        },
+        {
+          "action": "Verify Escape closes open overlays",
+          "expected": null
+        },
+        {
+          "action": "Verify visible focus is maintained",
+          "expected": null
+        },
+        {
+          "action": "Verify content reflows without horizontal scrolling",
+          "expected": null
+        },
+        {
+          "action": "Verify resize while menu open",
+          "expected": null
+        },
+        {
+          "action": "Verify orientation change handled",
+          "expected": null
+        },
+        {
+          "action": "Verify browser zoom at 200% supported",
+          "expected": null
+        },
+        {
+          "action": "Verify JS partial failure handled",
+          "expected": null
+        },
+        {
+          "action": "Verify reduced motion preference respected",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-008"
+    },
+    {
+      "req_id": "emids_lp_009",
+      "feature_file": "tests/features/emids_lp_009_hero_section.feature",
+      "title": "Render hero messaging and visual",
+      "steps": [
+        {
+          "action": "Verify one primary H1 is present",
+          "expected": null
+        },
+        {
+          "action": "Verify supporting content is readable",
+          "expected": null
+        },
+        {
+          "action": "Verify media has appropriate alternative handling",
+          "expected": null
+        },
+        {
+          "action": "Verify CTA visible above fold on common desktop",
+          "expected": null
+        },
+        {
+          "action": "Verify H1 is non-empty and unique",
+          "expected": null
+        },
+        {
+          "action": "Verify media URL resolves",
+          "expected": null
+        },
+        {
+          "action": "Verify decorative media does not create redundant output",
+          "expected": null
+        },
+        {
+          "action": "Verify hero renders with slow media loading",
+          "expected": null
+        },
+        {
+          "action": "Verify hero renders when media missing",
+          "expected": null
+        },
+        {
+          "action": "Verify hero responsive at small viewport",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-009"
+    },
+    {
+      "req_id": "emids_lp_010",
+      "feature_file": "tests/features/emids_lp_010_hero_cta.feature",
+      "title": "Route hero CTA to FDCE experience",
+      "steps": [
+        {
+          "action": "Verify hero CTA resolves to FDCE page",
+          "expected": null
+        },
+        {
+          "action": "Verify browser navigation behavior preserved",
+          "expected": null
+        },
+        {
+          "action": "Verify CTA URL is HTTPS and canonical",
+          "expected": null
+        },
+        {
+          "action": "Verify CTA works as link or button per design",
+          "expected": null
+        },
+        {
+          "action": "Verify new tab navigation works correctly",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-010"
+    },
+    {
+      "req_id": "emids_lp_011",
+      "feature_file": "tests/features/emids_lp_011_hero_optimization.feature",
+      "title": "Optimize hero media loading",
+      "steps": [
+        {
+          "action": "Verify text remains available if media fails",
+          "expected": null
+        },
+        {
+          "action": "Verify media dimensions reserved to avoid layout shift",
+          "expected": null
+        },
+        {
+          "action": "Verify appropriately sized assets served",
+          "expected": null
+        },
+        {
+          "action": "Verify principal LCP asset not lazy-loaded",
+          "expected": null
+        },
+        {
+          "action": "Verify media loads progressively without moving text",
+          "expected": null
+        },
+        {
+          "action": "Verify CDN timeout handled gracefully",
+          "expected": null
+        },
+        {
+          "action": "Verify low-bandwidth connection handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-011"
+    },
+    {
+      "req_id": "emids_lp_012",
+      "feature_file": "tests/features/emids_lp_012_how_we_deliver_section.feature",
+      "title": "Render How We Deliver section",
+      "steps": [
+        {
+          "action": "Verify section renders with all content in sequence",
+          "expected": null
+        },
+        {
+          "action": "Verify section is accessible",
+          "expected": null
+        },
+        {
+          "action": "Verify required content fields not empty",
+          "expected": null
+        },
+        {
+          "action": "Verify heading hierarchy remains logical",
+          "expected": null
+        },
+        {
+          "action": "Verify section renders without media",
+          "expected": null
+        },
+        {
+          "action": "Verify section renders with long copy",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-012"
+    },
+    {
+      "req_id": "emids_lp_013",
+      "feature_file": "tests/features/emids_lp_013_see_model_cta.feature",
+      "title": "Provide See the model CTA",
+      "steps": [
+        {
+          "action": "Verify See the model CTA routes to FDCE page",
+          "expected": null
+        },
+        {
+          "action": "Verify CTA is keyboard operable",
+          "expected": null
+        },
+        {
+          "action": "Verify accessible name describes action",
+          "expected": null
+        },
+        {
+          "action": "Verify visible hover and focus states",
+          "expected": null
+        },
+        {
+          "action": "Verify destination 404 handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-013"
+    },
+    {
+      "req_id": "emids_lp_014",
+      "feature_file": "tests/features/emids_lp_014_semantic_hierarchy.feature",
+      "title": "Maintain semantic section hierarchy",
+      "steps": [
+        {
+          "action": "Verify exactly one page-level H1",
+          "expected": null
+        },
+        {
+          "action": "Verify subsequent headings use logical levels",
+          "expected": null
+        },
+        {
+          "action": "Verify main, header, footer landmarks identifiable",
+          "expected": null
+        },
+        {
+          "action": "Verify no headings used for styling alone",
+          "expected": null
+        },
+        {
+          "action": "Verify duplicate H1 from CMS rejected",
+          "expected": null
+        },
+        {
+          "action": "Verify hidden heading not focusable",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-014"
+    },
+    {
+      "req_id": "emids_lp_015",
+      "feature_file": "tests/features/emids_lp_015_featured_solutions.feature",
+      "title": "Render six featured solution items",
+      "steps": [
+        {
+          "action": "Verify all six entries are present",
+          "expected": null
+        },
+        {
+          "action": "Verify numbering 01-06 is correct",
+          "expected": null
+        },
+        {
+          "action": "Verify each entry has readable title and summary",
+          "expected": null
+        },
+        {
+          "action": "Verify each entry has intended destination",
+          "expected": null
+        },
+        {
+          "action": "Verify titles are not blank",
+          "expected": null
+        },
+        {
+          "action": "Verify order is controlled correctly",
+          "expected": null
+        },
+        {
+          "action": "Verify one item unpublished handled",
+          "expected": null
+        },
+        {
+          "action": "Verify very long title handled",
+          "expected": null
+        },
+        {
+          "action": "Verify card media missing handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-015"
+    },
+    {
+      "req_id": "emids_lp_016",
+      "feature_file": "tests/features/emids_lp_016_all_solutions_cta.feature",
+      "title": "Provide All Solutions CTA",
+      "steps": [
+        {
+          "action": "Verify All Solutions CTA is visible",
+          "expected": null
+        },
+        {
+          "action": "Verify CTA routes to solutions portfolio",
+          "expected": null
+        },
+        {
+          "action": "Verify CTA URL is canonical",
+          "expected": null
+        },
+        {
+          "action": "Verify portfolio page unavailable handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-016"
+    },
+    {
+      "req_id": "emids_lp_017",
+      "feature_file": "tests/features/emids_lp_017_featured_solutions_interaction.feature",
+      "title": "Support featured-solution responsive interaction",
+      "steps": [
+        {
+          "action": "Verify every solution reachable on keyboard",
+          "expected": null
+        },
+        {
+          "action": "Verify every solution reachable on touch",
+          "expected": null
+        },
+        {
+          "action": "Verify no content permanently hidden off-screen",
+          "expected": null
+        },
+        {
+          "action": "Verify carousel controls have accessible labels",
+          "expected": null
+        },
+        {
+          "action": "Verify autoplay respects reduced motion",
+          "expected": null
+        },
+        {
+          "action": "Verify viewport resize mid-interaction",
+          "expected": null
+        },
+        {
+          "action": "Verify first/last item navigation",
+          "expected": null
+        },
+        {
+          "action": "Verify swipe and keyboard do not conflict",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-017"
+    },
+    {
+      "req_id": "emids_lp_018",
+      "feature_file": "tests/features/emids_lp_018_partner_logos.feature",
+      "title": "Render partner logo rail/marquee",
+      "steps": [
+        {
+          "action": "Verify all approved partner logos render",
+          "expected": null
+        },
+        {
+          "action": "Verify partner logos have accessible names",
+          "expected": null
+        },
+        {
+          "action": "Verify no duplicate for assistive technologies",
+          "expected": null
+        },
+        {
+          "action": "Verify missing logo handled",
+          "expected": null
+        },
+        {
+          "action": "Verify transparent logo visible on background",
+          "expected": null
+        },
+        {
+          "action": "Verify reduced motion for marquee",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-018"
+    },
+    {
+      "req_id": "emids_lp_019",
+      "feature_file": "tests/features/emids_lp_019_partner_animation.feature",
+      "title": "Respect reduced motion for partner animation",
+      "steps": [
+        {
+          "action": "Verify reduced motion disables animation",
+          "expected": null
+        },
+        {
+          "action": "Verify content remains fully visible",
+          "expected": null
+        },
+        {
+          "action": "Verify animation not required to discover partner",
+          "expected": null
+        },
+        {
+          "action": "Verify preference changes while page open",
+          "expected": null
+        },
+        {
+          "action": "Verify animation library failure handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-019"
+    },
+    {
+      "req_id": "emids_lp_020",
+      "feature_file": "tests/features/emids_lp_020_capabilities_overview.feature",
+      "title": "Render capabilities overview",
+      "steps": [
+        {
+          "action": "Verify all three groups visible",
+          "expected": null
+        },
+        {
+          "action": "Verify each group has corresponding content/actions",
+          "expected": null
+        },
+        {
+          "action": "Verify group labels match navigation taxonomy",
+          "expected": null
+        },
+        {
+          "action": "Verify exactly three primary groups",
+          "expected": null
+        },
+        {
+          "action": "Verify missing group handled",
+          "expected": null
+        },
+        {
+          "action": "Verify overflow handled gracefully",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-020"
+    },
+    {
+      "req_id": "emids_lp_021",
+      "feature_file": "tests/features/emids_lp_021_ai_capability.feature",
+      "title": "Render AI capability content",
+      "steps": [
+        {
+          "action": "Verify AI label and supporting content render",
+          "expected": null
+        },
+        {
+          "action": "Verify AI relevant link is operable",
+          "expected": null
+        },
+        {
+          "action": "Verify title required",
+          "expected": null
+        },
+        {
+          "action": "Verify URL valid",
+          "expected": null
+        },
+        {
+          "action": "Verify missing destination handled",
+          "expected": null
+        },
+        {
+          "action": "Verify card matches visual system",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-021"
+    },
+    {
+      "req_id": "emids_lp_022",
+      "feature_file": "tests/features/emids_lp_022_engineering_capability.feature",
+      "title": "Render Engineering capability content",
+      "steps": [
+        {
+          "action": "Verify Engineering label and supporting content render",
+          "expected": null
+        },
+        {
+          "action": "Verify Engineering relevant link is operable",
+          "expected": null
+        },
+        {
+          "action": "Verify title required",
+          "expected": null
+        },
+        {
+          "action": "Verify URL valid",
+          "expected": null
+        },
+        {
+          "action": "Verify card matches visual system",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-022"
+    },
+    {
+      "req_id": "emids_lp_023",
+      "feature_file": "tests/features/emids_lp_023_platforms_capability.feature",
+      "title": "Render Platforms capability content",
+      "steps": [
+        {
+          "action": "Verify Platforms content renders",
+          "expected": null
+        },
+        {
+          "action": "Verify labels use approved taxonomy consistently",
+          "expected": null
+        },
+        {
+          "action": "Verify navigation and body naming match",
+          "expected": null
+        },
+        {
+          "action": "Verify intentionally approved synonyms handled",
+          "expected": null
+        },
+        {
+          "action": "Verify stale CMS content handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-023"
+    },
+    {
+      "req_id": "emids_lp_024",
+      "feature_file": "tests/features/emids_lp_024_who_we_serve.feature",
+      "title": "Render five audience/industry entries",
+      "steps": [
+        {
+          "action": "Verify all five audiences visible",
+          "expected": null
+        },
+        {
+          "action": "Verify Explore action routes to canonical segment",
+          "expected": null
+        },
+        {
+          "action": "Verify keyboard and touch interaction works",
+          "expected": null
+        },
+        {
+          "action": "Verify exactly five current audiences",
+          "expected": null
+        },
+        {
+          "action": "Verify URLs canonical",
+          "expected": null
+        },
+        {
+          "action": "Verify one segment unavailable handled",
+          "expected": null
+        },
+        {
+          "action": "Verify tab state maintained after resize",
+          "expected": null
+        },
+        {
+          "action": "Verify responsive layout per design",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-024"
+    },
+    {
+      "req_id": "emids_lp_025",
+      "feature_file": "tests/features/emids_lp_025_impact_metrics.feature",
+      "title": "Render Impact proof metrics",
+      "steps": [
+        {
+          "action": "Verify all four value-label pairs visible as text",
+          "expected": null
+        },
+        {
+          "action": "Verify values understandable without animation",
+          "expected": null
+        },
+        {
+          "action": "Verify screen readers receive final values",
+          "expected": null
+        },
+        {
+          "action": "Verify currency symbol and plus sign preserved",
+          "expected": null
+        },
+        {
+          "action": "Verify animation disabled handled",
+          "expected": null
+        },
+        {
+          "action": "Verify CMS field missing handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-025"
+    },
+    {
+      "req_id": "emids_lp_026",
+      "feature_file": "tests/features/emids_lp_026_insights_section.feature",
+      "title": "Render Insights section and six content cards",
+      "steps": [
+        {
+          "action": "Verify six cards render",
+          "expected": null
+        },
+        {
+          "action": "Verify each card has type, title, and action",
+          "expected": null
+        },
+        {
+          "action": "Verify cards accessible at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Verify title and URL required",
+          "expected": null
+        },
+        {
+          "action": "Verify action label matches content flow",
+          "expected": null
+        },
+        {
+          "action": "Verify published content only displayed",
+          "expected": null
+        },
+        {
+          "action": "Verify missing image handled",
+          "expected": null
+        },
+        {
+          "action": "Verify very long title handled",
+          "expected": null
+        },
+        {
+          "action": "Verify responsive card grid/rail",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-026"
+    },
+    {
+      "req_id": "emids_lp_027",
+      "feature_file": "tests/features/emids_lp_027_medicare_advantage_ebook.feature",
+      "title": "Display Medicare Advantage eBook card",
+      "steps": [
+        {
+          "action": "Verify correct title for Medicare Advantage eBook",
+          "expected": null
+        },
+        {
+          "action": "Verify eBook type label",
+          "expected": null
+        },
+        {
+          "action": "Verify imagery displays if available",
+          "expected": null
+        },
+        {
+          "action": "Verify Download action displays",
+          "expected": null
+        },
+        {
+          "action": "Verify URL resolves to current detail page",
+          "expected": null
+        },
+        {
+          "action": "Verify resource removed handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-027"
+    },
+    {
+      "req_id": "emids_lp_028",
+      "feature_file": "tests/features/emids_lp_028_cms_0057_resource.feature",
+      "title": "Display CMS-0057 interoperability resource card",
+      "steps": [
+        {
+          "action": "Verify CMS-0057 card renders with content",
+          "expected": null
+        },
+        {
+          "action": "Verify no empty title or destination",
+          "expected": null
+        },
+        {
+          "action": "Verify navigation to intended resource",
+          "expected": null
+        },
+        {
+          "action": "Verify destination changed handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-028"
+    },
+    {
+      "req_id": "emids_lp_029",
+      "feature_file": "tests/features/emids_lp_029_life_sciences_ebook.feature",
+      "title": "Display Life Sciences transformation eBook card",
+      "steps": [
+        {
+          "action": "Verify correct title for Life Sciences eBook",
+          "expected": null
+        },
+        {
+          "action": "Verify Download action works correctly",
+          "expected": null
+        },
+        {
+          "action": "Verify canonical URL used",
+          "expected": null
+        },
+        {
+          "action": "Verify resource access flow unavailable handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-029"
+    },
+    {
+      "req_id": "emids_lp_030",
+      "feature_file": "tests/features/emids_lp_030_ai_roi_ebook.feature",
+      "title": "Display AI ROI eBook card",
+      "steps": [
+        {
+          "action": "Verify AI ROI eBook card renders",
+          "expected": null
+        },
+        {
+          "action": "Verify expected action displayed",
+          "expected": null
+        },
+        {
+          "action": "Verify published content with valid URL",
+          "expected": null
+        },
+        {
+          "action": "Verify unpublished resource handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-030"
+    },
+    {
+      "req_id": "emids_lp_031",
+      "feature_file": "tests/features/emids_lp_031_finops_resource.feature",
+      "title": "Display FinOps healthcare payer resource card",
+      "steps": [
+        {
+          "action": "Verify FinOps card renders title/type/action",
+          "expected": null
+        },
+        {
+          "action": "Verify card routes correctly",
+          "expected": null
+        },
+        {
+          "action": "Verify valid destination required",
+          "expected": null
+        },
+        {
+          "action": "Verify broken link handled",
+          "expected": null
+        },
+        {
+          "action": "Verify missing thumbnail handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-031"
+    },
+    {
+      "req_id": "emids_lp_032",
+      "feature_file": "tests/features/emids_lp_032_payer_data_blog.feature",
+      "title": "Display Payer data readiness blog card",
+      "steps": [
+        {
+          "action": "Verify Blog type and Read More action shown",
+          "expected": null
+        },
+        {
+          "action": "Verify correct title displayed",
+          "expected": null
+        },
+        {
+          "action": "Verify link opens correct article",
+          "expected": null
+        },
+        {
+          "action": "Verify CTA label reflects article navigation",
+          "expected": null
+        },
+        {
+          "action": "Verify article moved handled",
+          "expected": null
+        },
+        {
+          "action": "Verify title truncation handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-032"
+    },
+    {
+      "req_id": "emids_lp_033",
+      "feature_file": "tests/features/emids_lp_033_resource_access.feature",
+      "title": "Implement resource-access handoff without falsely implying direct file download",
+      "steps": [
+        {
+          "action": "Verify Download reaches resource detail/access flow",
+          "expected": null
+        },
+        {
+          "action": "Verify no fabricated private asset endpoint exposed",
+          "expected": null
+        },
+        {
+          "action": "Verify gate communicates required steps",
+          "expected": null
+        },
+        {
+          "action": "Verify only verified destinations used",
+          "expected": null
+        },
+        {
+          "action": "Verify direct file URLs not assumed",
+          "expected": null
+        },
+        {
+          "action": "Verify gated asset unavailable handled",
+          "expected": null
+        },
+        {
+          "action": "Verify submission failure handled",
+          "expected": null
+        },
+        {
+          "action": "Verify popup blocked handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-033"
+    },
+    {
+      "req_id": "emids_lp_034",
+      "feature_file": "tests/features/emids_lp_034_final_cta_banner.feature",
+      "title": "Render final conversion banner",
+      "steps": [
+        {
+          "action": "Verify banner appears before footer",
+          "expected": null
+        },
+        {
+          "action": "Verify primary action is clear and keyboard operable",
+          "expected": null
+        },
+        {
+          "action": "Verify supporting timing/message readable",
+          "expected": null
+        },
+        {
+          "action": "Verify required fields present",
+          "expected": null
+        },
+        {
+          "action": "Verify high-contrast visual treatment",
+          "expected": null
+        },
+        {
+          "action": "Verify CTA text wrapping handled",
+          "expected": null
+        },
+        {
+          "action": "Verify no footer overlap",
+          "expected": null
+        },
+        {
+          "action": "Verify contact route unavailable handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-034"
+    },
+    {
+      "req_id": "emids_lp_035",
+      "feature_file": "tests/features/emids_lp_035_delivery_message.feature",
+      "title": "Render 1 Day \u00b7 2 Weeks \u00b7 3 Months delivery message",
+      "steps": [
+        {
+          "action": "Verify all timing labels render in order",
+          "expected": null
+        },
+        {
+          "action": "Verify timing readable to screen readers",
+          "expected": null
+        },
+        {
+          "action": "Verify meaning not encoded via visual styling alone",
+          "expected": null
+        },
+        {
+          "action": "Verify missing explanation handled",
+          "expected": null
+        },
+        {
+          "action": "Verify wrapping at mobile widths",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-035"
+    },
+    {
+      "req_id": "emids_lp_036",
+      "feature_file": "tests/features/emids_lp_036_cookie_preferences.feature",
+      "title": "Expose Cookie Preferences control on every page",
+      "steps": [
+        {
+          "action": "Verify Cookie Preferences visible in footer",
+          "expected": null
+        },
+        {
+          "action": "Verify activating opens consent-management UI",
+          "expected": null
+        },
+        {
+          "action": "Verify user can revise or withdraw consent",
+          "expected": null
+        },
+        {
+          "action": "Verify control available after banner dismissal",
+          "expected": null
+        },
+        {
+          "action": "Verify consent script blocked handled",
+          "expected": null
+        },
+        {
+          "action": "Verify storage disabled handled",
+          "expected": null
+        },
+        {
+          "action": "Verify user clears cookies handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-036"
+    },
+    {
+      "req_id": "emids_lp_037",
+      "feature_file": "tests/features/emids_lp_037_gtm_consent.feature",
+      "title": "Load Google Tag Manager container with consent governance",
+      "steps": [
+        {
+          "action": "Verify core page works if GTM fails",
+          "expected": null
+        },
+        {
+          "action": "Verify non-essential tags wait for consent",
+          "expected": null
+        },
+        {
+          "action": "Verify GTM does not block rendering",
+          "expected": null
+        },
+        {
+          "action": "Verify ad blocker handled",
+          "expected": null
+        },
+        {
+          "action": "Verify CSP block handled",
+          "expected": null
+        },
+        {
+          "action": "Verify GTM timeout handled",
+          "expected": null
+        },
+        {
+          "action": "Verify consent denied handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-037"
+    },
+    {
+      "req_id": "emids_lp_038",
+      "feature_file": "tests/features/emids_lp_038_google_analytics.feature",
+      "title": "Support Google Analytics measurement after consent",
+      "steps": [
+        {
+          "action": "Verify analytics follows consent",
+          "expected": null
+        },
+        {
+          "action": "Verify denial leaves page unaffected",
+          "expected": null
+        },
+        {
+          "action": "Verify events contain no contact form field values",
+          "expected": null
+        },
+        {
+          "action": "Verify statistics consent required",
+          "expected": null
+        },
+        {
+          "action": "Verify offline handling",
+          "expected": null
+        },
+        {
+          "action": "Verify consent revoked handled",
+          "expected": null
+        },
+        {
+          "action": "Verify no duplicate page-view events",
+          "expected": null
+        },
+        {
+          "action": "Verify event properties sanitized",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-038"
+    },
+    {
+      "req_id": "emids_lp_039",
+      "feature_file": "tests/features/emids_lp_039_campaign_attribution.feature",
+      "title": "Implement campaign attribution parameters safely",
+      "steps": [
+        {
+          "action": "Verify attribution values preserved",
+          "expected": null
+        },
+        {
+          "action": "Verify invalid/oversized values ignored",
+          "expected": null
+        },
+        {
+          "action": "Verify parameter content not executed",
+          "expected": null
+        },
+        {
+          "action": "Verify malformed query handled",
+          "expected": null
+        },
+        {
+          "action": "Verify repeated params handled",
+          "expected": null
+        },
+        {
+          "action": "Verify consent denied handled",
+          "expected": null
+        },
+        {
+          "action": "Verify full URLs not logged",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-039"
+    },
+    {
+      "req_id": "emids_lp_040",
+      "feature_file": "tests/features/emids_lp_040_marketo_integration.feature",
+      "title": "Integrate Marketo with consent",
+      "steps": [
+        {
+          "action": "Verify marketing scripts gated by consent",
+          "expected": null
+        },
+        {
+          "action": "Verify page remains functional when Marketo unavailable",
+          "expected": null
+        },
+        {
+          "action": "Verify marketing consent required",
+          "expected": null
+        },
+        {
+          "action": "Verify script blocked handled",
+          "expected": null
+        },
+        {
+          "action": "Verify vendor outage handled",
+          "expected": null
+        },
+        {
+          "action": "Verify consent revoked handled",
+          "expected": null
+        },
+        {
+          "action": "Verify no raw lead data logged",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-040"
+    },
+    {
+      "req_id": "emids_lp_041",
+      "feature_file": "tests/features/emids_lp_041_linkedin_integration.feature",
+      "title": "Integrate LinkedIn marketing tags conditionally",
+      "steps": [
+        {
+          "action": "Verify tag does not execute before consent",
+          "expected": null
+        },
+        {
+          "action": "Verify core page independent of LinkedIn tag",
+          "expected": null
+        },
+        {
+          "action": "Verify marketing consent required",
+          "expected": null
+        },
+        {
+          "action": "Verify ad blocker handled",
+          "expected": null
+        },
+        {
+          "action": "Verify vendor timeout handled",
+          "expected": null
+        },
+        {
+          "action": "Verify consent denied handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-041"
+    },
+    {
+      "req_id": "emids_lp_042",
+      "feature_file": "tests/features/emids_lp_042_zoominfo_integration.feature",
+      "title": "Integrate ZoomInfo/WebSights conditionally",
+      "steps": [
+        {
+          "action": "Verify tooling loads conditionally",
+          "expected": null
+        },
+        {
+          "action": "Verify failure does not affect content",
+          "expected": null
+        },
+        {
+          "action": "Verify consent category required",
+          "expected": null
+        },
+        {
+          "action": "Verify private identifiers not exposed in page copy",
+          "expected": null
+        },
+        {
+          "action": "Verify vendor blocked handled",
+          "expected": null
+        },
+        {
+          "action": "Verify network error handled",
+          "expected": null
+        },
+        {
+          "action": "Verify consent revoked handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-042"
+    },
+    {
+      "req_id": "emids_lp_043",
+      "feature_file": "tests/features/emids_lp_043_wistia_integration.feature",
+      "title": "Support Wistia embeds only when configured",
+      "steps": [
+        {
+          "action": "Verify no unnecessary script when Wistia not configured",
+          "expected": null
+        },
+        {
+          "action": "Verify player has accessible title/controls when configured",
+          "expected": null
+        },
+        {
+          "action": "Verify video ID required when enabled",
+          "expected": null
+        },
+        {
+          "action": "Verify reduced motion/autoplay preferences respected",
+          "expected": null
+        },
+        {
+          "action": "Verify player blocked handled",
+          "expected": null
+        },
+        {
+          "action": "Verify no consent handling for Wistia",
+          "expected": null
+        },
+        {
+          "action": "Verify missing video handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-043"
+    },
+    {
+      "req_id": "emids_lp_044",
+      "feature_file": "tests/features/emids_lp_044_youtube_integration.feature",
+      "title": "Support YouTube embeds only when configured",
+      "steps": [
+        {
+          "action": "Verify no player resources when not configured",
+          "expected": null
+        },
+        {
+          "action": "Verify configured media keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Verify configured media titled",
+          "expected": null
+        },
+        {
+          "action": "Verify valid video ID required",
+          "expected": null
+        },
+        {
+          "action": "Verify no autoplay with sound by default",
+          "expected": null
+        },
+        {
+          "action": "Verify video removed handled",
+          "expected": null
+        },
+        {
+          "action": "Verify regional restriction handled",
+          "expected": null
+        },
+        {
+          "action": "Verify cookies blocked handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-044"
+    },
+    {
+      "req_id": "emids_lp_045",
+      "feature_file": "tests/features/emids_lp_045_footer_legal.feature",
+      "title": "Render footer legal navigation",
+      "steps": [
+        {
+          "action": "Verify each legal link has descriptive text",
+          "expected": null
+        },
+        {
+          "action": "Verify legal links have valid destinations",
+          "expected": null
+        },
+        {
+          "action": "Verify visible focus state on legal links",
+          "expected": null
+        },
+        {
+          "action": "Verify all URLs HTTPS",
+          "expected": null
+        },
+        {
+          "action": "Verify labels not blank",
+          "expected": null
+        },
+        {
+          "action": "Verify responsive multi-column layout",
+          "expected": null
+        },
+        {
+          "action": "Verify legal page moved handled",
+          "expected": null
+        },
+        {
+          "action": "Verify long labels handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-045"
+    },
+    {
+      "req_id": "emids_lp_046",
+      "feature_file": "tests/features/emids_lp_046_footer_corporate.feature",
+      "title": "Render footer corporate/contact information",
+      "steps": [
+        {
+          "action": "Verify footer info readable at mobile widths",
+          "expected": null
+        },
+        {
+          "action": "Verify no conflict with legal navigation",
+          "expected": null
+        },
+        {
+          "action": "Verify approved current content only",
+          "expected": null
+        },
+        {
+          "action": "Verify social links functional",
+          "expected": null
+        },
+        {
+          "action": "Verify address/contact details handled if configured",
+          "expected": null
+        },
+        {
+          "action": "Verify outdated contact info flagged",
+          "expected": null
+        },
+        {
+          "action": "Verify external social link unavailable handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-046"
+    },
+    {
+      "req_id": "emids_lp_047",
+      "feature_file": "tests/features/emids_lp_047_contact_form.feature",
+      "title": "Provide contact form reached by Connect CTAs",
+      "steps": [
+        {
+          "action": "Verify all required fields displayed",
+          "expected": null
+        },
+        {
+          "action": "Verify labels associated with controls",
+          "expected": null
+        },
+        {
+          "action": "Verify clear success feedback",
+          "expected": null
+        },
+        {
+          "action": "Verify clear failure feedback",
+          "expected": null
+        },
+        {
+          "action": "Verify required fields enforced",
+          "expected": null
+        },
+        {
+          "action": "Verify email has valid syntax",
+          "expected": null
+        },
+        {
+          "action": "Verify server-side revalidation",
+          "expected": null
+        },
+        {
+          "action": "Verify long comments handled",
+          "expected": null
+        },
+        {
+          "action": "Verify duplicate submit prevented",
+          "expected": null
+        },
+        {
+          "action": "Verify timeout handled",
+          "expected": null
+        },
+        {
+          "action": "Verify backend error handled",
+          "expected": null
+        },
+        {
+          "action": "Verify bot submission handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-047"
+    },
+    {
+      "req_id": "emids_lp_048",
+      "feature_file": "tests/features/emids_lp_048_inquiry_type.feature",
+      "title": "Support Inquiry Type values on contact form",
+      "steps": [
+        {
+          "action": "Verify select contains approved options",
+          "expected": null
+        },
+        {
+          "action": "Verify valid choice required before submission",
+          "expected": null
+        },
+        {
+          "action": "Verify unknown values rejected",
+          "expected": null
+        },
+        {
+          "action": "Verify native select or accessible combobox",
+          "expected": null
+        },
+        {
+          "action": "Verify option removed while form cached handled",
+          "expected": null
+        },
+        {
+          "action": "Verify tampered request handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-048"
+    },
+    {
+      "req_id": "emids_lp_049",
+      "feature_file": "tests/features/emids_lp_049_form_feedback.feature",
+      "title": "Provide contact-form submission feedback and retry behavior",
+      "steps": [
+        {
+          "action": "Verify submit enters pending state",
+          "expected": null
+        },
+        {
+          "action": "Verify duplicate activation prevented",
+          "expected": null
+        },
+        {
+          "action": "Verify success announced",
+          "expected": null
+        },
+        {
+          "action": "Verify failure keeps user content",
+          "expected": null
+        },
+        {
+          "action": "Verify retry permitted",
+          "expected": null
+        },
+        {
+          "action": "Verify 4xx validation errors mapped to fields",
+          "expected": null
+        },
+        {
+          "action": "Verify 5xx outage handled",
+          "expected": null
+        },
+        {
+          "action": "Verify timeout handled",
+          "expected": null
+        },
+        {
+          "action": "Verify user navigates away handled",
+          "expected": null
+        },
+        {
+          "action": "Verify no PII in logs",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-049"
+    },
+    {
+      "req_id": "emids_lp_050",
+      "feature_file": "tests/features/emids_lp_050_wcag_compliance.feature",
+      "title": "Meet WCAG 2.1 AA target across landing page",
+      "steps": [
+        {
+          "action": "Verify keyboard access for all interactive elements",
+          "expected": null
+        },
+        {
+          "action": "Verify visible focus maintained",
+          "expected": null
+        },
+        {
+          "action": "Verify semantic landmarks identifiable",
+          "expected": null
+        },
+        {
+          "action": "Verify sufficient color contrast",
+          "expected": null
+        },
+        {
+          "action": "Verify meaningful alt text on images",
+          "expected": null
+        },
+        {
+          "action": "Verify accessible names on interactive elements",
+          "expected": null
+        },
+        {
+          "action": "Verify 200% zoom supported",
+          "expected": null
+        },
+        {
+          "action": "Verify reflow supported at 320px",
+          "expected": null
+        },
+        {
+          "action": "Verify form errors are accessible",
+          "expected": null
+        },
+        {
+          "action": "Verify reduced motion handled",
+          "expected": null
+        },
+        {
+          "action": "Verify media alternatives provided",
+          "expected": null
+        },
+        {
+          "action": "Verify Windows High Contrast supported",
+          "expected": null
+        },
+        {
+          "action": "Verify not reliant on color alone",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-050"
+    },
+    {
+      "req_id": "emids_lp_051",
+      "feature_file": "tests/features/emids_lp_051_seo_metadata.feature",
+      "title": "Implement SEO metadata and crawlable structure",
+      "steps": [
+        {
+          "action": "Verify page has unique title",
+          "expected": null
+        },
+        {
+          "action": "Verify page has meta description",
+          "expected": null
+        },
+        {
+          "action": "Verify canonical URL set",
+          "expected": null
+        },
+        {
+          "action": "Verify primary text is server-rendered",
+          "expected": null
+        },
+        {
+          "action": "Verify social preview metadata configured",
+          "expected": null
+        },
+        {
+          "action": "Verify headings reflect page topic",
+          "expected": null
+        },
+        {
+          "action": "Verify no duplicate conflicting titles",
+          "expected": null
+        },
+        {
+          "action": "Verify missing og:image handled",
+          "expected": null
+        },
+        {
+          "action": "Verify JS-only critical content avoided",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-051"
+    },
+    {
+      "req_id": "emids_lp_052",
+      "feature_file": "tests/features/emids_lp_052_responsive_layout.feature",
+      "title": "Provide responsive layout across common viewports",
+      "steps": [
+        {
+          "action": "Verify no horizontal scrolling at supported widths",
+          "expected": null
+        },
+        {
+          "action": "Verify typography remains readable",
+          "expected": null
+        },
+        {
+          "action": "Verify controls do not overlap",
+          "expected": null
+        },
+        {
+          "action": "Verify all cards/sections remain available",
+          "expected": null
+        },
+        {
+          "action": "Verify images preserve aspect ratio",
+          "expected": null
+        },
+        {
+          "action": "Verify 320px width supported",
+          "expected": null
+        },
+        {
+          "action": "Verify very long text handled",
+          "expected": null
+        },
+        {
+          "action": "Verify browser zoom at 200% supported",
+          "expected": null
+        },
+        {
+          "action": "Verify landscape phone handled",
+          "expected": null
+        },
+        {
+          "action": "Verify tablet split-screen handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-052"
+    },
+    {
+      "req_id": "emids_lp_053",
+      "feature_file": "tests/features/emids_lp_053_performance.feature",
+      "title": "Meet performance and Core Web Vitals goals",
+      "steps": [
+        {
+          "action": "Verify critical content renders without waiting for analytics",
+          "expected": null
+        },
+        {
+          "action": "Verify images are sized and optimized",
+          "expected": null
+        },
+        {
+          "action": "Verify below-fold media lazy-loaded appropriately",
+          "expected": null
+        },
+        {
+          "action": "Verify layout shifts minimized",
+          "expected": null
+        },
+        {
+          "action": "Verify third-party scripts use async/defer/consent-gating",
+          "expected": null
+        },
+        {
+          "action": "Verify slow network handled",
+          "expected": null
+        },
+        {
+          "action": "Verify blocked third parties handled",
+          "expected": null
+        },
+        {
+          "action": "Verify cached stale asset handled",
+          "expected": null
+        },
+        {
+          "action": "Verify large viewport image optimized",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-053"
+    },
+    {
+      "req_id": "emids_lp_054",
+      "feature_file": "tests/features/emids_lp_054_script_failures.feature",
+      "title": "Handle script failures without breaking core content",
+      "steps": [
+        {
+          "action": "Verify header remains readable when optional scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Verify main content remains readable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Verify CTAs remain navigable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Verify footer remains navigable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Verify errors are contained",
+          "expected": null
+        },
+        {
+          "action": "Verify CSP block handled",
+          "expected": null
+        },
+        {
+          "action": "Verify DNS failure handled",
+          "expected": null
+        },
+        {
+          "action": "Verify ad blocker handled",
+          "expected": null
+        },
+        {
+          "action": "Verify timeout handled",
+          "expected": null
+        },
+        {
+          "action": "Verify malformed vendor script handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-054"
+    },
+    {
+      "req_id": "emids_lp_055",
+      "feature_file": "tests/features/emids_lp_055_modal_behavior.feature",
+      "title": "Define homepage modal behavior as none required by base experience",
+      "steps": [
+        {
+          "action": "Verify base homepage loads without unsolicited modal",
+          "expected": null
+        },
+        {
+          "action": "Verify configured campaign modal is dismissible",
+          "expected": null
+        },
+        {
+          "action": "Verify campaign modal is keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Verify campaign modal is non-blocking",
+          "expected": null
+        },
+        {
+          "action": "Verify default state is disabled",
+          "expected": null
+        },
+        {
+          "action": "Verify repeated modal after dismissal handled",
+          "expected": null
+        },
+        {
+          "action": "Verify focus trap in modal if present",
+          "expected": null
+        },
+        {
+          "action": "Verify small viewport modal handled",
+          "expected": null
+        },
+        {
+          "action": "Verify JS disabled modal behavior",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-055"
+    }
+  ],
+  "skipped_requirements": []
+}
