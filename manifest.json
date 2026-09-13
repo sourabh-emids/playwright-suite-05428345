@@ -1,0 +1,4661 @@
+{
+  "test_cases": [
+    {
+      "req_id": "issue_0001",
+      "feature_file": "tests/features/issue_0001_header_renders_on_initial_page_load.feature",
+      "title": "Render global header with navigation",
+      "steps": [
+        {
+          "action": "Header renders on initial page load",
+          "expected": null
+        },
+        {
+          "action": "Emids logo returns to homepage",
+          "expected": null
+        },
+        {
+          "action": "All navigation items keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "All navigation items pointer accessible",
+          "expected": null
+        },
+        {
+          "action": "Connect CTA routes to contact experience",
+          "expected": null
+        },
+        {
+          "action": "Navigation has no dead links",
+          "expected": null
+        },
+        {
+          "action": "Only one primary Connect CTA exists",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "issue_0002",
+      "feature_file": "tests/features/issue_0002_solutions_mega_menu_functionality.feature",
+      "title": "Solutions mega-menu functionality",
+      "steps": [
+        {
+          "action": "Solutions menu opens with accessible controls",
+          "expected": null
+        },
+        {
+          "action": "All solution links are selectable",
+          "expected": null
+        },
+        {
+          "action": "Keyboard navigation maintains expected order",
+          "expected": null
+        },
+        {
+          "action": "Closing menu restores focus to trigger",
+          "expected": null
+        },
+        {
+          "action": "Mobile Solutions uses disclosure pattern",
+          "expected": null
+        },
+        {
+          "action": "Solution items have valid URLs",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "issue_0003",
+      "feature_file": "tests/features/issue_0003_capabilities_mega_menu_implementation.feature",
+      "title": "Capabilities mega-menu implementation",
+      "steps": [
+        {
+          "action": "Capabilities menu opens predictably",
+          "expected": null
+        },
+        {
+          "action": "All capability links are keyboard operable",
+          "expected": null
+        },
+        {
+          "action": "Capability labels match approved taxonomy",
+          "expected": null
+        },
+        {
+          "action": "Labels are unique within menu",
+          "expected": null
+        },
+        {
+          "action": "Mobile Capabilities uses accessible disclosure",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "issue_0004",
+      "feature_file": "tests/features/issue_0004_industries_mega_menu_implementation.feature",
+      "title": "Industries mega-menu implementation",
+      "steps": [
+        {
+          "action": "Industries menu contains all five audiences",
+          "expected": null
+        },
+        {
+          "action": "All industry links reachable without mouse",
+          "expected": null
+        },
+        {
+          "action": "Industry URLs use canonical paths",
+          "expected": null
+        },
+        {
+          "action": "Mobile Industries uses stacked list",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "issue_0005",
+      "feature_file": "tests/features/issue_0005_insights_navigation_group.feature",
+      "title": "Insights navigation group",
+      "steps": [
+        {
+          "action": "Insights menu opens reliably",
+          "expected": null
+        },
+        {
+          "action": "Insights child links operable at breakpoints",
+          "expected": null
+        },
+        {
+          "action": "No empty menu groups in Insights",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-005"
+    },
+    {
+      "req_id": "issue_0006",
+      "feature_file": "tests/features/issue_0006_company_navigation_group.feature",
+      "title": "Company navigation group",
+      "steps": [
+        {
+          "action": "Company menu works with all input methods",
+          "expected": null
+        },
+        {
+          "action": "Only published pages appear in Company menu",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-006"
+    },
+    {
+      "req_id": "issue_0007",
+      "feature_file": "tests/features/issue_0007_header_connect_cta_functionality.feature",
+      "title": "Header Connect CTA functionality",
+      "steps": [
+        {
+          "action": "Connect CTA is visually distinct",
+          "expected": null
+        },
+        {
+          "action": "Connect CTA has accessible name",
+          "expected": null
+        },
+        {
+          "action": "Connect CTA routes to contact page",
+          "expected": null
+        },
+        {
+          "action": "Connect CTA is keyboard operable",
+          "expected": null
+        },
+        {
+          "action": "Connect CTA URL is valid HTTPS",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-007"
+    },
+    {
+      "req_id": "issue_0008",
+      "feature_file": "tests/features/issue_0008_responsive_accessible_navigation.feature",
+      "title": "Responsive accessible navigation",
+      "steps": [
+        {
+          "action": "Menu opens and closes without hover requirement",
+          "expected": null
+        },
+        {
+          "action": "Escape key closes open overlays",
+          "expected": null
+        },
+        {
+          "action": "Visible focus is maintained throughout navigation",
+          "expected": null
+        },
+        {
+          "action": "Content reflows without horizontal scrolling",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion preference is respected",
+          "expected": null
+        },
+        {
+          "action": "Resize while menu open handled properly",
+          "expected": null
+        },
+        {
+          "action": "Breakpoint transitions work correctly",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-008"
+    },
+    {
+      "req_id": "issue_0009",
+      "feature_file": "tests/features/issue_0009_hero_messaging_and_visual_render.feature",
+      "title": "Hero messaging and visual render",
+      "steps": [
+        {
+          "action": "Hero displays primary H1 heading",
+          "expected": null
+        },
+        {
+          "action": "Supporting content is readable",
+          "expected": null
+        },
+        {
+          "action": "Hero media has alternative handling",
+          "expected": null
+        },
+        {
+          "action": "Hero CTA visible above fold on desktop",
+          "expected": null
+        },
+        {
+          "action": "H1 is non-empty and unique",
+          "expected": null
+        },
+        {
+          "action": "Media URL resolves successfully",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-009"
+    },
+    {
+      "req_id": "issue_0010",
+      "feature_file": "tests/features/issue_0010_hero_cta_routes_to_fdce.feature",
+      "title": "Hero CTA routes to FDCE",
+      "steps": [
+        {
+          "action": "Hero CTA resolves to FDCE page",
+          "expected": null
+        },
+        {
+          "action": "Hero CTA URL uses HTTPS canonical",
+          "expected": null
+        },
+        {
+          "action": "Hero CTA behaves as proper link or button",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-010"
+    },
+    {
+      "req_id": "issue_0011",
+      "feature_file": "tests/features/issue_0011_hero_media_loading_optimization.feature",
+      "title": "Hero media loading optimization",
+      "steps": [
+        {
+          "action": "Text content available when media fails",
+          "expected": null
+        },
+        {
+          "action": "Media dimensions reserved to avoid layout shift",
+          "expected": null
+        },
+        {
+          "action": "Appropriately sized assets served",
+          "expected": null
+        },
+        {
+          "action": "Hero media not lazy-loaded harmfully",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-011"
+    },
+    {
+      "req_id": "issue_0012",
+      "feature_file": "tests/features/issue_0012_how_we_deliver_section_render.feature",
+      "title": "How We Deliver section render",
+      "steps": [
+        {
+          "action": "Section renders in intended sequence",
+          "expected": null
+        },
+        {
+          "action": "Section content is accessible",
+          "expected": null
+        },
+        {
+          "action": "Required fields cannot be empty",
+          "expected": null
+        },
+        {
+          "action": "Heading hierarchy remains logical",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-012"
+    },
+    {
+      "req_id": "issue_0013",
+      "feature_file": "tests/features/issue_0013_see_the_model_cta_functionality.feature",
+      "title": "See the model CTA functionality",
+      "steps": [
+        {
+          "action": "See the model CTA routes to FDCE",
+          "expected": null
+        },
+        {
+          "action": "See the model CTA is keyboard operable",
+          "expected": null
+        },
+        {
+          "action": "See the model CTA has descriptive accessible name",
+          "expected": null
+        },
+        {
+          "action": "See the model destination returns 200",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-013"
+    },
+    {
+      "req_id": "issue_0014",
+      "feature_file": "tests/features/issue_0014_semantic_section_hierarchy.feature",
+      "title": "Semantic section hierarchy",
+      "steps": [
+        {
+          "action": "Exactly one H1 on page",
+          "expected": null
+        },
+        {
+          "action": "Logical heading hierarchy maintained",
+          "expected": null
+        },
+        {
+          "action": "Semantic landmarks identified",
+          "expected": null
+        },
+        {
+          "action": "Interactive text not styled as headings",
+          "expected": null
+        },
+        {
+          "action": "Hidden headings not focusable",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-014"
+    },
+    {
+      "req_id": "issue_0015",
+      "feature_file": "tests/features/issue_0015_render_six_featured_solutions.feature",
+      "title": "Render six featured solutions",
+      "steps": [
+        {
+          "action": "All six solution entries are present",
+          "expected": null
+        },
+        {
+          "action": "Numbering 01-06 is correct",
+          "expected": null
+        },
+        {
+          "action": "Each entry has readable title and summary",
+          "expected": null
+        },
+        {
+          "action": "Each entry has intended destination",
+          "expected": null
+        },
+        {
+          "action": "Solution titles include Modernization as a Service",
+          "expected": null
+        },
+        {
+          "action": "Solution titles include Interoperability",
+          "expected": null
+        },
+        {
+          "action": "Solution titles include Cloud Migration",
+          "expected": null
+        },
+        {
+          "action": "Solution titles include Global Capability Center",
+          "expected": null
+        },
+        {
+          "action": "Solution titles include Epic Implementation",
+          "expected": null
+        },
+        {
+          "action": "Solution titles include Agentic AI",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-015"
+    },
+    {
+      "req_id": "issue_0016",
+      "feature_file": "tests/features/issue_0016_all_solutions_cta_functionality.feature",
+      "title": "All Solutions CTA functionality",
+      "steps": [
+        {
+          "action": "All Solutions CTA is visible",
+          "expected": null
+        },
+        {
+          "action": "All Solutions CTA routes to portfolio",
+          "expected": null
+        },
+        {
+          "action": "All Solutions URL is canonical",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-016"
+    },
+    {
+      "req_id": "issue_0017",
+      "feature_file": "tests/features/issue_0017_featured_solutions_responsive_interaction.feature",
+      "title": "Featured solutions responsive interaction",
+      "steps": [
+        {
+          "action": "Every solution reachable on keyboard",
+          "expected": null
+        },
+        {
+          "action": "Every solution reachable on touch",
+          "expected": null
+        },
+        {
+          "action": "No content permanently hidden off-screen",
+          "expected": null
+        },
+        {
+          "action": "Carousel controls have accessible labels if used",
+          "expected": null
+        },
+        {
+          "action": "Autoplay respects reduced motion",
+          "expected": null
+        },
+        {
+          "action": "Viewport resize during interaction handled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-017"
+    },
+    {
+      "req_id": "issue_0018",
+      "feature_file": "tests/features/issue_0018_partner_logo_rail_render.feature",
+      "title": "Partner logo rail render",
+      "steps": [
+        {
+          "action": "All approved partner logos render",
+          "expected": null
+        },
+        {
+          "action": "Partner logos have accessible names",
+          "expected": null
+        },
+        {
+          "action": "Assistive tech receives logical partner list",
+          "expected": null
+        },
+        {
+          "action": "Logo assets are accessible",
+          "expected": null
+        },
+        {
+          "action": "Marquee animation works on supported devices",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-018"
+    },
+    {
+      "req_id": "issue_0019",
+      "feature_file": "tests/features/issue_0019_reduced_motion_for_partner_animation.feature",
+      "title": "Reduced motion for partner animation",
+      "steps": [
+        {
+          "action": "Prefers-reduced-motion disables continuous motion",
+          "expected": null
+        },
+        {
+          "action": "Content remains fully visible with reduced motion",
+          "expected": null
+        },
+        {
+          "action": "Animation not required to discover partner",
+          "expected": null
+        },
+        {
+          "action": "Preference change handled while page open",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-019"
+    },
+    {
+      "req_id": "issue_0020",
+      "feature_file": "tests/features/issue_0020_capabilities_overview_render.feature",
+      "title": "Capabilities overview render",
+      "steps": [
+        {
+          "action": "All three capability groups visible",
+          "expected": null
+        },
+        {
+          "action": "Each group has corresponding content",
+          "expected": null
+        },
+        {
+          "action": "Group labels match navigation taxonomy",
+          "expected": null
+        },
+        {
+          "action": "Responsive capability cards layout correctly",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-020"
+    },
+    {
+      "req_id": "issue_0021",
+      "feature_file": "tests/features/issue_0021_ai_capability_content_render.feature",
+      "title": "AI capability content render",
+      "steps": [
+        {
+          "action": "AI label and content render correctly",
+          "expected": null
+        },
+        {
+          "action": "AI capability link is operable",
+          "expected": null
+        },
+        {
+          "action": "AI capability title is present",
+          "expected": null
+        },
+        {
+          "action": "AI capability URL is valid",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-021"
+    },
+    {
+      "req_id": "issue_0022",
+      "feature_file": "tests/features/issue_0022_engineering_capability_content_render.feature",
+      "title": "Engineering capability content render",
+      "steps": [
+        {
+          "action": "Engineering label and content render correctly",
+          "expected": null
+        },
+        {
+          "action": "Engineering capability link is operable",
+          "expected": null
+        },
+        {
+          "action": "Engineering capability title is present",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-022"
+    },
+    {
+      "req_id": "issue_0023",
+      "feature_file": "tests/features/issue_0023_platforms_capability_content_render.feature",
+      "title": "Platforms capability content render",
+      "steps": [
+        {
+          "action": "Platforms content renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Labels use approved taxonomy consistently",
+          "expected": null
+        },
+        {
+          "action": "Platforms link is operable",
+          "expected": null
+        },
+        {
+          "action": "Content governance prevents inconsistent synonyms",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-023"
+    },
+    {
+      "req_id": "issue_0024",
+      "feature_file": "tests/features/issue_0024_five_audience_entries_render.feature",
+      "title": "Five audience entries render",
+      "steps": [
+        {
+          "action": "All five audiences are visible",
+          "expected": null
+        },
+        {
+          "action": "Each Explore action routes correctly",
+          "expected": null
+        },
+        {
+          "action": "Explore actions work on keyboard",
+          "expected": null
+        },
+        {
+          "action": "Explore actions work on touch",
+          "expected": null
+        },
+        {
+          "action": "Exactly five audiences for this content version",
+          "expected": null
+        },
+        {
+          "action": "Audience URLs are canonical",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-024"
+    },
+    {
+      "req_id": "issue_0025",
+      "feature_file": "tests/features/issue_0025_impact_metrics_render_correctly.feature",
+      "title": "Impact metrics render correctly",
+      "steps": [
+        {
+          "action": "All four metric value-label pairs visible as text",
+          "expected": null
+        },
+        {
+          "action": "Values remain understandable without animation",
+          "expected": null
+        },
+        {
+          "action": "Screen readers receive meaningful final values",
+          "expected": null
+        },
+        {
+          "action": "Values and labels managed as paired content",
+          "expected": null
+        },
+        {
+          "action": "Currency symbols and plus signs preserved",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-025"
+    },
+    {
+      "req_id": "issue_0026",
+      "feature_file": "tests/features/issue_0026_insights_section_and_cards_render.feature",
+      "title": "Insights section and cards render",
+      "steps": [
+        {
+          "action": "Six insight cards render",
+          "expected": null
+        },
+        {
+          "action": "Cards contain required content fields",
+          "expected": null
+        },
+        {
+          "action": "Cards accessible at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Only published content displayed",
+          "expected": null
+        },
+        {
+          "action": "Card titles and URLs are required",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-026"
+    },
+    {
+      "req_id": "issue_0027",
+      "feature_file": "tests/features/issue_0027_0033_insight_cards_combined.feature",
+      "title": "Medicare Advantage eBook card display",
+      "steps": [
+        {
+          "action": "Medicare Advantage eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage card image renders if available",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage Download routes to current detail page",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card renders with populated content",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card navigates to intended resource",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card has no empty fields",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences Download opens correct access experience",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences card uses canonical detail URL",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "AI ROI card has published content and valid URL",
+          "expected": null
+        },
+        {
+          "action": "FinOps payer resource card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "FinOps card has valid destination",
+          "expected": null
+        },
+        {
+          "action": "Payer data readiness blog card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Blog Read More action opens correct article",
+          "expected": null
+        },
+        {
+          "action": "Blog card CTA reflects article navigation",
+          "expected": null
+        },
+        {
+          "action": "eBook Download reaches resource detail flow",
+          "expected": null
+        },
+        {
+          "action": "Implementation does not expose private asset endpoint",
+          "expected": null
+        },
+        {
+          "action": "Gated content communicates required steps clearly",
+          "expected": null
+        },
+        {
+          "action": "Only verified destinations used for resources",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-027"
+    },
+    {
+      "req_id": "issue_0028",
+      "feature_file": "tests/features/issue_0027_0033_insight_cards_combined.feature",
+      "title": "Medicare Advantage eBook card display",
+      "steps": [
+        {
+          "action": "Medicare Advantage eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage card image renders if available",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage Download routes to current detail page",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card renders with populated content",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card navigates to intended resource",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card has no empty fields",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences Download opens correct access experience",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences card uses canonical detail URL",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "AI ROI card has published content and valid URL",
+          "expected": null
+        },
+        {
+          "action": "FinOps payer resource card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "FinOps card has valid destination",
+          "expected": null
+        },
+        {
+          "action": "Payer data readiness blog card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Blog Read More action opens correct article",
+          "expected": null
+        },
+        {
+          "action": "Blog card CTA reflects article navigation",
+          "expected": null
+        },
+        {
+          "action": "eBook Download reaches resource detail flow",
+          "expected": null
+        },
+        {
+          "action": "Implementation does not expose private asset endpoint",
+          "expected": null
+        },
+        {
+          "action": "Gated content communicates required steps clearly",
+          "expected": null
+        },
+        {
+          "action": "Only verified destinations used for resources",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-028"
+    },
+    {
+      "req_id": "issue_0029",
+      "feature_file": "tests/features/issue_0027_0033_insight_cards_combined.feature",
+      "title": "Medicare Advantage eBook card display",
+      "steps": [
+        {
+          "action": "Medicare Advantage eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage card image renders if available",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage Download routes to current detail page",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card renders with populated content",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card navigates to intended resource",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card has no empty fields",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences Download opens correct access experience",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences card uses canonical detail URL",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "AI ROI card has published content and valid URL",
+          "expected": null
+        },
+        {
+          "action": "FinOps payer resource card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "FinOps card has valid destination",
+          "expected": null
+        },
+        {
+          "action": "Payer data readiness blog card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Blog Read More action opens correct article",
+          "expected": null
+        },
+        {
+          "action": "Blog card CTA reflects article navigation",
+          "expected": null
+        },
+        {
+          "action": "eBook Download reaches resource detail flow",
+          "expected": null
+        },
+        {
+          "action": "Implementation does not expose private asset endpoint",
+          "expected": null
+        },
+        {
+          "action": "Gated content communicates required steps clearly",
+          "expected": null
+        },
+        {
+          "action": "Only verified destinations used for resources",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-029"
+    },
+    {
+      "req_id": "issue_0030",
+      "feature_file": "tests/features/issue_0027_0033_insight_cards_combined.feature",
+      "title": "Medicare Advantage eBook card display",
+      "steps": [
+        {
+          "action": "Medicare Advantage eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage card image renders if available",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage Download routes to current detail page",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card renders with populated content",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card navigates to intended resource",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card has no empty fields",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences Download opens correct access experience",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences card uses canonical detail URL",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "AI ROI card has published content and valid URL",
+          "expected": null
+        },
+        {
+          "action": "FinOps payer resource card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "FinOps card has valid destination",
+          "expected": null
+        },
+        {
+          "action": "Payer data readiness blog card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Blog Read More action opens correct article",
+          "expected": null
+        },
+        {
+          "action": "Blog card CTA reflects article navigation",
+          "expected": null
+        },
+        {
+          "action": "eBook Download reaches resource detail flow",
+          "expected": null
+        },
+        {
+          "action": "Implementation does not expose private asset endpoint",
+          "expected": null
+        },
+        {
+          "action": "Gated content communicates required steps clearly",
+          "expected": null
+        },
+        {
+          "action": "Only verified destinations used for resources",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-030"
+    },
+    {
+      "req_id": "issue_0031",
+      "feature_file": "tests/features/issue_0027_0033_insight_cards_combined.feature",
+      "title": "Medicare Advantage eBook card display",
+      "steps": [
+        {
+          "action": "Medicare Advantage eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage card image renders if available",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage Download routes to current detail page",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card renders with populated content",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card navigates to intended resource",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card has no empty fields",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences Download opens correct access experience",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences card uses canonical detail URL",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "AI ROI card has published content and valid URL",
+          "expected": null
+        },
+        {
+          "action": "FinOps payer resource card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "FinOps card has valid destination",
+          "expected": null
+        },
+        {
+          "action": "Payer data readiness blog card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Blog Read More action opens correct article",
+          "expected": null
+        },
+        {
+          "action": "Blog card CTA reflects article navigation",
+          "expected": null
+        },
+        {
+          "action": "eBook Download reaches resource detail flow",
+          "expected": null
+        },
+        {
+          "action": "Implementation does not expose private asset endpoint",
+          "expected": null
+        },
+        {
+          "action": "Gated content communicates required steps clearly",
+          "expected": null
+        },
+        {
+          "action": "Only verified destinations used for resources",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-031"
+    },
+    {
+      "req_id": "issue_0032",
+      "feature_file": "tests/features/issue_0027_0033_insight_cards_combined.feature",
+      "title": "Medicare Advantage eBook card display",
+      "steps": [
+        {
+          "action": "Medicare Advantage eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage card image renders if available",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage Download routes to current detail page",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card renders with populated content",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card navigates to intended resource",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card has no empty fields",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences Download opens correct access experience",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences card uses canonical detail URL",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "AI ROI card has published content and valid URL",
+          "expected": null
+        },
+        {
+          "action": "FinOps payer resource card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "FinOps card has valid destination",
+          "expected": null
+        },
+        {
+          "action": "Payer data readiness blog card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Blog Read More action opens correct article",
+          "expected": null
+        },
+        {
+          "action": "Blog card CTA reflects article navigation",
+          "expected": null
+        },
+        {
+          "action": "eBook Download reaches resource detail flow",
+          "expected": null
+        },
+        {
+          "action": "Implementation does not expose private asset endpoint",
+          "expected": null
+        },
+        {
+          "action": "Gated content communicates required steps clearly",
+          "expected": null
+        },
+        {
+          "action": "Only verified destinations used for resources",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-032"
+    },
+    {
+      "req_id": "issue_0033",
+      "feature_file": "tests/features/issue_0027_0033_insight_cards_combined.feature",
+      "title": "Medicare Advantage eBook card display",
+      "steps": [
+        {
+          "action": "Medicare Advantage eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage card image renders if available",
+          "expected": null
+        },
+        {
+          "action": "Medicare Advantage Download routes to current detail page",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card renders with populated content",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card navigates to intended resource",
+          "expected": null
+        },
+        {
+          "action": "CMS-0057 card has no empty fields",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences Download opens correct access experience",
+          "expected": null
+        },
+        {
+          "action": "Life Sciences card uses canonical detail URL",
+          "expected": null
+        },
+        {
+          "action": "AI ROI eBook card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "AI ROI card has published content and valid URL",
+          "expected": null
+        },
+        {
+          "action": "FinOps payer resource card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "FinOps card has valid destination",
+          "expected": null
+        },
+        {
+          "action": "Payer data readiness blog card renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Blog Read More action opens correct article",
+          "expected": null
+        },
+        {
+          "action": "Blog card CTA reflects article navigation",
+          "expected": null
+        },
+        {
+          "action": "eBook Download reaches resource detail flow",
+          "expected": null
+        },
+        {
+          "action": "Implementation does not expose private asset endpoint",
+          "expected": null
+        },
+        {
+          "action": "Gated content communicates required steps clearly",
+          "expected": null
+        },
+        {
+          "action": "Only verified destinations used for resources",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-033"
+    },
+    {
+      "req_id": "issue_0034",
+      "feature_file": "tests/features/issue_0034_0035_final_cta_combined.feature",
+      "title": "Final conversion banner render",
+      "steps": [
+        {
+          "action": "Banner appears before footer",
+          "expected": null
+        },
+        {
+          "action": "Primary action is clear and keyboard operable",
+          "expected": null
+        },
+        {
+          "action": "Supporting content is readable",
+          "expected": null
+        },
+        {
+          "action": "Required message and CTA fields are present",
+          "expected": null
+        },
+        {
+          "action": "High contrast closing CTA section",
+          "expected": null
+        },
+        {
+          "action": "All timing labels render in intended order",
+          "expected": null
+        },
+        {
+          "action": "Timing labels readable by screen readers",
+          "expected": null
+        },
+        {
+          "action": "Meaning not encoded via visual styling alone",
+          "expected": null
+        },
+        {
+          "action": "Timing message displays without wrapping issues at mobile",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-034"
+    },
+    {
+      "req_id": "issue_0035",
+      "feature_file": "tests/features/issue_0034_0035_final_cta_combined.feature",
+      "title": "Final conversion banner render",
+      "steps": [
+        {
+          "action": "Banner appears before footer",
+          "expected": null
+        },
+        {
+          "action": "Primary action is clear and keyboard operable",
+          "expected": null
+        },
+        {
+          "action": "Supporting content is readable",
+          "expected": null
+        },
+        {
+          "action": "Required message and CTA fields are present",
+          "expected": null
+        },
+        {
+          "action": "High contrast closing CTA section",
+          "expected": null
+        },
+        {
+          "action": "All timing labels render in intended order",
+          "expected": null
+        },
+        {
+          "action": "Timing labels readable by screen readers",
+          "expected": null
+        },
+        {
+          "action": "Meaning not encoded via visual styling alone",
+          "expected": null
+        },
+        {
+          "action": "Timing message displays without wrapping issues at mobile",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-035"
+    },
+    {
+      "req_id": "issue_0036",
+      "feature_file": "tests/features/issue_0036_0045_0046_footer_combined.feature",
+      "title": "Cookie Preferences control in footer",
+      "steps": [
+        {
+          "action": "Cookie Preferences control visible in footer",
+          "expected": null
+        },
+        {
+          "action": "Cookie Preferences opens consent UI",
+          "expected": null
+        },
+        {
+          "action": "Cookie Preferences available after initial banner dismissal",
+          "expected": null
+        },
+        {
+          "action": "Legal links have descriptive text and valid destinations",
+          "expected": null
+        },
+        {
+          "action": "Legal links have visible focus states",
+          "expected": null
+        },
+        {
+          "action": "All legal URLs are HTTPS and published",
+          "expected": null
+        },
+        {
+          "action": "Legal link labels are not blank",
+          "expected": null
+        },
+        {
+          "action": "Footer information readable at mobile widths",
+          "expected": null
+        },
+        {
+          "action": "Corporate info does not conflict with legal navigation",
+          "expected": null
+        },
+        {
+          "action": "Social links resolve to valid destinations",
+          "expected": null
+        },
+        {
+          "action": "Only approved current content published",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-036"
+    },
+    {
+      "req_id": "issue_0037",
+      "feature_file": "tests/features/issue_0037_0042_analytics_media_combined.feature",
+      "title": "Google Tag Manager with consent governance",
+      "steps": [
+        {
+          "action": "Core page works if GTM fails",
+          "expected": null
+        },
+        {
+          "action": "Non-essential tags do not run before required consent",
+          "expected": null
+        },
+        {
+          "action": "GTM does not block page rendering",
+          "expected": null
+        },
+        {
+          "action": "Analytics integration respects consent mode",
+          "expected": null
+        },
+        {
+          "action": "Analytics initializes following consent",
+          "expected": null
+        },
+        {
+          "action": "Denial leaves page unaffected",
+          "expected": null
+        },
+        {
+          "action": "Events do not contain contact form field values",
+          "expected": null
+        },
+        {
+          "action": "Statistics consent required for analytics",
+          "expected": null
+        },
+        {
+          "action": "Supported attribution values preserved where permitted",
+          "expected": null
+        },
+        {
+          "action": "Invalid values are ignored",
+          "expected": null
+        },
+        {
+          "action": "Parameter content never executed",
+          "expected": null
+        },
+        {
+          "action": "Length limits applied and values sanitized",
+          "expected": null
+        },
+        {
+          "action": "Marketing scripts gated by consent",
+          "expected": null
+        },
+        {
+          "action": "Page functional when Marketo unavailable",
+          "expected": null
+        },
+        {
+          "action": "Marketing consent required for Marketo",
+          "expected": null
+        },
+        {
+          "action": "LinkedIn tag requires marketing consent",
+          "expected": null
+        },
+        {
+          "action": "Core page independent of LinkedIn tag",
+          "expected": null
+        },
+        {
+          "action": "Visitor intelligence tooling loads conditionally",
+          "expected": null
+        },
+        {
+          "action": "Tooling failure does not affect content",
+          "expected": null
+        },
+        {
+          "action": "Private identifiers not exposed in page copy",
+          "expected": null
+        },
+        {
+          "action": "No Wistia script when not configured",
+          "expected": null
+        },
+        {
+          "action": "Wistia player accessible when configured",
+          "expected": null
+        },
+        {
+          "action": "Wistia respects reduced motion and consent",
+          "expected": null
+        },
+        {
+          "action": "No YouTube resources when not configured",
+          "expected": null
+        },
+        {
+          "action": "YouTube player accessible when configured",
+          "expected": null
+        },
+        {
+          "action": "No autoplay with sound by default",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-037"
+    },
+    {
+      "req_id": "issue_0038",
+      "feature_file": "tests/features/issue_0037_0042_analytics_media_combined.feature",
+      "title": "Google Tag Manager with consent governance",
+      "steps": [
+        {
+          "action": "Core page works if GTM fails",
+          "expected": null
+        },
+        {
+          "action": "Non-essential tags do not run before required consent",
+          "expected": null
+        },
+        {
+          "action": "GTM does not block page rendering",
+          "expected": null
+        },
+        {
+          "action": "Analytics integration respects consent mode",
+          "expected": null
+        },
+        {
+          "action": "Analytics initializes following consent",
+          "expected": null
+        },
+        {
+          "action": "Denial leaves page unaffected",
+          "expected": null
+        },
+        {
+          "action": "Events do not contain contact form field values",
+          "expected": null
+        },
+        {
+          "action": "Statistics consent required for analytics",
+          "expected": null
+        },
+        {
+          "action": "Supported attribution values preserved where permitted",
+          "expected": null
+        },
+        {
+          "action": "Invalid values are ignored",
+          "expected": null
+        },
+        {
+          "action": "Parameter content never executed",
+          "expected": null
+        },
+        {
+          "action": "Length limits applied and values sanitized",
+          "expected": null
+        },
+        {
+          "action": "Marketing scripts gated by consent",
+          "expected": null
+        },
+        {
+          "action": "Page functional when Marketo unavailable",
+          "expected": null
+        },
+        {
+          "action": "Marketing consent required for Marketo",
+          "expected": null
+        },
+        {
+          "action": "LinkedIn tag requires marketing consent",
+          "expected": null
+        },
+        {
+          "action": "Core page independent of LinkedIn tag",
+          "expected": null
+        },
+        {
+          "action": "Visitor intelligence tooling loads conditionally",
+          "expected": null
+        },
+        {
+          "action": "Tooling failure does not affect content",
+          "expected": null
+        },
+        {
+          "action": "Private identifiers not exposed in page copy",
+          "expected": null
+        },
+        {
+          "action": "No Wistia script when not configured",
+          "expected": null
+        },
+        {
+          "action": "Wistia player accessible when configured",
+          "expected": null
+        },
+        {
+          "action": "Wistia respects reduced motion and consent",
+          "expected": null
+        },
+        {
+          "action": "No YouTube resources when not configured",
+          "expected": null
+        },
+        {
+          "action": "YouTube player accessible when configured",
+          "expected": null
+        },
+        {
+          "action": "No autoplay with sound by default",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-038"
+    },
+    {
+      "req_id": "issue_0039",
+      "feature_file": "tests/features/issue_0037_0042_analytics_media_combined.feature",
+      "title": "Google Tag Manager with consent governance",
+      "steps": [
+        {
+          "action": "Core page works if GTM fails",
+          "expected": null
+        },
+        {
+          "action": "Non-essential tags do not run before required consent",
+          "expected": null
+        },
+        {
+          "action": "GTM does not block page rendering",
+          "expected": null
+        },
+        {
+          "action": "Analytics integration respects consent mode",
+          "expected": null
+        },
+        {
+          "action": "Analytics initializes following consent",
+          "expected": null
+        },
+        {
+          "action": "Denial leaves page unaffected",
+          "expected": null
+        },
+        {
+          "action": "Events do not contain contact form field values",
+          "expected": null
+        },
+        {
+          "action": "Statistics consent required for analytics",
+          "expected": null
+        },
+        {
+          "action": "Supported attribution values preserved where permitted",
+          "expected": null
+        },
+        {
+          "action": "Invalid values are ignored",
+          "expected": null
+        },
+        {
+          "action": "Parameter content never executed",
+          "expected": null
+        },
+        {
+          "action": "Length limits applied and values sanitized",
+          "expected": null
+        },
+        {
+          "action": "Marketing scripts gated by consent",
+          "expected": null
+        },
+        {
+          "action": "Page functional when Marketo unavailable",
+          "expected": null
+        },
+        {
+          "action": "Marketing consent required for Marketo",
+          "expected": null
+        },
+        {
+          "action": "LinkedIn tag requires marketing consent",
+          "expected": null
+        },
+        {
+          "action": "Core page independent of LinkedIn tag",
+          "expected": null
+        },
+        {
+          "action": "Visitor intelligence tooling loads conditionally",
+          "expected": null
+        },
+        {
+          "action": "Tooling failure does not affect content",
+          "expected": null
+        },
+        {
+          "action": "Private identifiers not exposed in page copy",
+          "expected": null
+        },
+        {
+          "action": "No Wistia script when not configured",
+          "expected": null
+        },
+        {
+          "action": "Wistia player accessible when configured",
+          "expected": null
+        },
+        {
+          "action": "Wistia respects reduced motion and consent",
+          "expected": null
+        },
+        {
+          "action": "No YouTube resources when not configured",
+          "expected": null
+        },
+        {
+          "action": "YouTube player accessible when configured",
+          "expected": null
+        },
+        {
+          "action": "No autoplay with sound by default",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-039"
+    },
+    {
+      "req_id": "issue_0040",
+      "feature_file": "tests/features/issue_0037_0042_analytics_media_combined.feature",
+      "title": "Google Tag Manager with consent governance",
+      "steps": [
+        {
+          "action": "Core page works if GTM fails",
+          "expected": null
+        },
+        {
+          "action": "Non-essential tags do not run before required consent",
+          "expected": null
+        },
+        {
+          "action": "GTM does not block page rendering",
+          "expected": null
+        },
+        {
+          "action": "Analytics integration respects consent mode",
+          "expected": null
+        },
+        {
+          "action": "Analytics initializes following consent",
+          "expected": null
+        },
+        {
+          "action": "Denial leaves page unaffected",
+          "expected": null
+        },
+        {
+          "action": "Events do not contain contact form field values",
+          "expected": null
+        },
+        {
+          "action": "Statistics consent required for analytics",
+          "expected": null
+        },
+        {
+          "action": "Supported attribution values preserved where permitted",
+          "expected": null
+        },
+        {
+          "action": "Invalid values are ignored",
+          "expected": null
+        },
+        {
+          "action": "Parameter content never executed",
+          "expected": null
+        },
+        {
+          "action": "Length limits applied and values sanitized",
+          "expected": null
+        },
+        {
+          "action": "Marketing scripts gated by consent",
+          "expected": null
+        },
+        {
+          "action": "Page functional when Marketo unavailable",
+          "expected": null
+        },
+        {
+          "action": "Marketing consent required for Marketo",
+          "expected": null
+        },
+        {
+          "action": "LinkedIn tag requires marketing consent",
+          "expected": null
+        },
+        {
+          "action": "Core page independent of LinkedIn tag",
+          "expected": null
+        },
+        {
+          "action": "Visitor intelligence tooling loads conditionally",
+          "expected": null
+        },
+        {
+          "action": "Tooling failure does not affect content",
+          "expected": null
+        },
+        {
+          "action": "Private identifiers not exposed in page copy",
+          "expected": null
+        },
+        {
+          "action": "No Wistia script when not configured",
+          "expected": null
+        },
+        {
+          "action": "Wistia player accessible when configured",
+          "expected": null
+        },
+        {
+          "action": "Wistia respects reduced motion and consent",
+          "expected": null
+        },
+        {
+          "action": "No YouTube resources when not configured",
+          "expected": null
+        },
+        {
+          "action": "YouTube player accessible when configured",
+          "expected": null
+        },
+        {
+          "action": "No autoplay with sound by default",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-040"
+    },
+    {
+      "req_id": "issue_0041",
+      "feature_file": "tests/features/issue_0037_0042_analytics_media_combined.feature",
+      "title": "Google Tag Manager with consent governance",
+      "steps": [
+        {
+          "action": "Core page works if GTM fails",
+          "expected": null
+        },
+        {
+          "action": "Non-essential tags do not run before required consent",
+          "expected": null
+        },
+        {
+          "action": "GTM does not block page rendering",
+          "expected": null
+        },
+        {
+          "action": "Analytics integration respects consent mode",
+          "expected": null
+        },
+        {
+          "action": "Analytics initializes following consent",
+          "expected": null
+        },
+        {
+          "action": "Denial leaves page unaffected",
+          "expected": null
+        },
+        {
+          "action": "Events do not contain contact form field values",
+          "expected": null
+        },
+        {
+          "action": "Statistics consent required for analytics",
+          "expected": null
+        },
+        {
+          "action": "Supported attribution values preserved where permitted",
+          "expected": null
+        },
+        {
+          "action": "Invalid values are ignored",
+          "expected": null
+        },
+        {
+          "action": "Parameter content never executed",
+          "expected": null
+        },
+        {
+          "action": "Length limits applied and values sanitized",
+          "expected": null
+        },
+        {
+          "action": "Marketing scripts gated by consent",
+          "expected": null
+        },
+        {
+          "action": "Page functional when Marketo unavailable",
+          "expected": null
+        },
+        {
+          "action": "Marketing consent required for Marketo",
+          "expected": null
+        },
+        {
+          "action": "LinkedIn tag requires marketing consent",
+          "expected": null
+        },
+        {
+          "action": "Core page independent of LinkedIn tag",
+          "expected": null
+        },
+        {
+          "action": "Visitor intelligence tooling loads conditionally",
+          "expected": null
+        },
+        {
+          "action": "Tooling failure does not affect content",
+          "expected": null
+        },
+        {
+          "action": "Private identifiers not exposed in page copy",
+          "expected": null
+        },
+        {
+          "action": "No Wistia script when not configured",
+          "expected": null
+        },
+        {
+          "action": "Wistia player accessible when configured",
+          "expected": null
+        },
+        {
+          "action": "Wistia respects reduced motion and consent",
+          "expected": null
+        },
+        {
+          "action": "No YouTube resources when not configured",
+          "expected": null
+        },
+        {
+          "action": "YouTube player accessible when configured",
+          "expected": null
+        },
+        {
+          "action": "No autoplay with sound by default",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-041"
+    },
+    {
+      "req_id": "issue_0042",
+      "feature_file": "tests/features/issue_0037_0042_analytics_media_combined.feature",
+      "title": "Google Tag Manager with consent governance",
+      "steps": [
+        {
+          "action": "Core page works if GTM fails",
+          "expected": null
+        },
+        {
+          "action": "Non-essential tags do not run before required consent",
+          "expected": null
+        },
+        {
+          "action": "GTM does not block page rendering",
+          "expected": null
+        },
+        {
+          "action": "Analytics integration respects consent mode",
+          "expected": null
+        },
+        {
+          "action": "Analytics initializes following consent",
+          "expected": null
+        },
+        {
+          "action": "Denial leaves page unaffected",
+          "expected": null
+        },
+        {
+          "action": "Events do not contain contact form field values",
+          "expected": null
+        },
+        {
+          "action": "Statistics consent required for analytics",
+          "expected": null
+        },
+        {
+          "action": "Supported attribution values preserved where permitted",
+          "expected": null
+        },
+        {
+          "action": "Invalid values are ignored",
+          "expected": null
+        },
+        {
+          "action": "Parameter content never executed",
+          "expected": null
+        },
+        {
+          "action": "Length limits applied and values sanitized",
+          "expected": null
+        },
+        {
+          "action": "Marketing scripts gated by consent",
+          "expected": null
+        },
+        {
+          "action": "Page functional when Marketo unavailable",
+          "expected": null
+        },
+        {
+          "action": "Marketing consent required for Marketo",
+          "expected": null
+        },
+        {
+          "action": "LinkedIn tag requires marketing consent",
+          "expected": null
+        },
+        {
+          "action": "Core page independent of LinkedIn tag",
+          "expected": null
+        },
+        {
+          "action": "Visitor intelligence tooling loads conditionally",
+          "expected": null
+        },
+        {
+          "action": "Tooling failure does not affect content",
+          "expected": null
+        },
+        {
+          "action": "Private identifiers not exposed in page copy",
+          "expected": null
+        },
+        {
+          "action": "No Wistia script when not configured",
+          "expected": null
+        },
+        {
+          "action": "Wistia player accessible when configured",
+          "expected": null
+        },
+        {
+          "action": "Wistia respects reduced motion and consent",
+          "expected": null
+        },
+        {
+          "action": "No YouTube resources when not configured",
+          "expected": null
+        },
+        {
+          "action": "YouTube player accessible when configured",
+          "expected": null
+        },
+        {
+          "action": "No autoplay with sound by default",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-042"
+    },
+    {
+      "req_id": "issue_0043",
+      "feature_file": "tests/features/issue_0037_0042_analytics_media_combined.feature",
+      "title": "Google Tag Manager with consent governance",
+      "steps": [
+        {
+          "action": "Core page works if GTM fails",
+          "expected": null
+        },
+        {
+          "action": "Non-essential tags do not run before required consent",
+          "expected": null
+        },
+        {
+          "action": "GTM does not block page rendering",
+          "expected": null
+        },
+        {
+          "action": "Analytics integration respects consent mode",
+          "expected": null
+        },
+        {
+          "action": "Analytics initializes following consent",
+          "expected": null
+        },
+        {
+          "action": "Denial leaves page unaffected",
+          "expected": null
+        },
+        {
+          "action": "Events do not contain contact form field values",
+          "expected": null
+        },
+        {
+          "action": "Statistics consent required for analytics",
+          "expected": null
+        },
+        {
+          "action": "Supported attribution values preserved where permitted",
+          "expected": null
+        },
+        {
+          "action": "Invalid values are ignored",
+          "expected": null
+        },
+        {
+          "action": "Parameter content never executed",
+          "expected": null
+        },
+        {
+          "action": "Length limits applied and values sanitized",
+          "expected": null
+        },
+        {
+          "action": "Marketing scripts gated by consent",
+          "expected": null
+        },
+        {
+          "action": "Page functional when Marketo unavailable",
+          "expected": null
+        },
+        {
+          "action": "Marketing consent required for Marketo",
+          "expected": null
+        },
+        {
+          "action": "LinkedIn tag requires marketing consent",
+          "expected": null
+        },
+        {
+          "action": "Core page independent of LinkedIn tag",
+          "expected": null
+        },
+        {
+          "action": "Visitor intelligence tooling loads conditionally",
+          "expected": null
+        },
+        {
+          "action": "Tooling failure does not affect content",
+          "expected": null
+        },
+        {
+          "action": "Private identifiers not exposed in page copy",
+          "expected": null
+        },
+        {
+          "action": "No Wistia script when not configured",
+          "expected": null
+        },
+        {
+          "action": "Wistia player accessible when configured",
+          "expected": null
+        },
+        {
+          "action": "Wistia respects reduced motion and consent",
+          "expected": null
+        },
+        {
+          "action": "No YouTube resources when not configured",
+          "expected": null
+        },
+        {
+          "action": "YouTube player accessible when configured",
+          "expected": null
+        },
+        {
+          "action": "No autoplay with sound by default",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-043"
+    },
+    {
+      "req_id": "issue_0044",
+      "feature_file": "tests/features/issue_0037_0042_analytics_media_combined.feature",
+      "title": "Google Tag Manager with consent governance",
+      "steps": [
+        {
+          "action": "Core page works if GTM fails",
+          "expected": null
+        },
+        {
+          "action": "Non-essential tags do not run before required consent",
+          "expected": null
+        },
+        {
+          "action": "GTM does not block page rendering",
+          "expected": null
+        },
+        {
+          "action": "Analytics integration respects consent mode",
+          "expected": null
+        },
+        {
+          "action": "Analytics initializes following consent",
+          "expected": null
+        },
+        {
+          "action": "Denial leaves page unaffected",
+          "expected": null
+        },
+        {
+          "action": "Events do not contain contact form field values",
+          "expected": null
+        },
+        {
+          "action": "Statistics consent required for analytics",
+          "expected": null
+        },
+        {
+          "action": "Supported attribution values preserved where permitted",
+          "expected": null
+        },
+        {
+          "action": "Invalid values are ignored",
+          "expected": null
+        },
+        {
+          "action": "Parameter content never executed",
+          "expected": null
+        },
+        {
+          "action": "Length limits applied and values sanitized",
+          "expected": null
+        },
+        {
+          "action": "Marketing scripts gated by consent",
+          "expected": null
+        },
+        {
+          "action": "Page functional when Marketo unavailable",
+          "expected": null
+        },
+        {
+          "action": "Marketing consent required for Marketo",
+          "expected": null
+        },
+        {
+          "action": "LinkedIn tag requires marketing consent",
+          "expected": null
+        },
+        {
+          "action": "Core page independent of LinkedIn tag",
+          "expected": null
+        },
+        {
+          "action": "Visitor intelligence tooling loads conditionally",
+          "expected": null
+        },
+        {
+          "action": "Tooling failure does not affect content",
+          "expected": null
+        },
+        {
+          "action": "Private identifiers not exposed in page copy",
+          "expected": null
+        },
+        {
+          "action": "No Wistia script when not configured",
+          "expected": null
+        },
+        {
+          "action": "Wistia player accessible when configured",
+          "expected": null
+        },
+        {
+          "action": "Wistia respects reduced motion and consent",
+          "expected": null
+        },
+        {
+          "action": "No YouTube resources when not configured",
+          "expected": null
+        },
+        {
+          "action": "YouTube player accessible when configured",
+          "expected": null
+        },
+        {
+          "action": "No autoplay with sound by default",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-044"
+    },
+    {
+      "req_id": "issue_0045",
+      "feature_file": "tests/features/issue_0036_0045_0046_footer_combined.feature",
+      "title": "Cookie Preferences control in footer",
+      "steps": [
+        {
+          "action": "Cookie Preferences control visible in footer",
+          "expected": null
+        },
+        {
+          "action": "Cookie Preferences opens consent UI",
+          "expected": null
+        },
+        {
+          "action": "Cookie Preferences available after initial banner dismissal",
+          "expected": null
+        },
+        {
+          "action": "Legal links have descriptive text and valid destinations",
+          "expected": null
+        },
+        {
+          "action": "Legal links have visible focus states",
+          "expected": null
+        },
+        {
+          "action": "All legal URLs are HTTPS and published",
+          "expected": null
+        },
+        {
+          "action": "Legal link labels are not blank",
+          "expected": null
+        },
+        {
+          "action": "Footer information readable at mobile widths",
+          "expected": null
+        },
+        {
+          "action": "Corporate info does not conflict with legal navigation",
+          "expected": null
+        },
+        {
+          "action": "Social links resolve to valid destinations",
+          "expected": null
+        },
+        {
+          "action": "Only approved current content published",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-045"
+    },
+    {
+      "req_id": "issue_0046",
+      "feature_file": "tests/features/issue_0036_0045_0046_footer_combined.feature",
+      "title": "Cookie Preferences control in footer",
+      "steps": [
+        {
+          "action": "Cookie Preferences control visible in footer",
+          "expected": null
+        },
+        {
+          "action": "Cookie Preferences opens consent UI",
+          "expected": null
+        },
+        {
+          "action": "Cookie Preferences available after initial banner dismissal",
+          "expected": null
+        },
+        {
+          "action": "Legal links have descriptive text and valid destinations",
+          "expected": null
+        },
+        {
+          "action": "Legal links have visible focus states",
+          "expected": null
+        },
+        {
+          "action": "All legal URLs are HTTPS and published",
+          "expected": null
+        },
+        {
+          "action": "Legal link labels are not blank",
+          "expected": null
+        },
+        {
+          "action": "Footer information readable at mobile widths",
+          "expected": null
+        },
+        {
+          "action": "Corporate info does not conflict with legal navigation",
+          "expected": null
+        },
+        {
+          "action": "Social links resolve to valid destinations",
+          "expected": null
+        },
+        {
+          "action": "Only approved current content published",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-046"
+    },
+    {
+      "req_id": "issue_0047",
+      "feature_file": "tests/features/issue_0047_0049_0050_0051_0052_0053_0054_0055_combined.feature",
+      "title": "Contact form fields display",
+      "steps": [
+        {
+          "action": "All required form fields displayed",
+          "expected": null
+        },
+        {
+          "action": "Labels associated with controls",
+          "expected": null
+        },
+        {
+          "action": "Submission provides clear success failure feedback",
+          "expected": null
+        },
+        {
+          "action": "Required fields are enforced client-side",
+          "expected": null
+        },
+        {
+          "action": "Email field requires valid syntax",
+          "expected": null
+        },
+        {
+          "action": "Server revalidates form submission",
+          "expected": null
+        },
+        {
+          "action": "Select control contains approved options",
+          "expected": null
+        },
+        {
+          "action": "Inquiry Type requires valid choice",
+          "expected": null
+        },
+        {
+          "action": "Placeholder is not a valid choice",
+          "expected": null
+        },
+        {
+          "action": "Values outside enum are rejected",
+          "expected": null
+        },
+        {
+          "action": "Submit enters pending state",
+          "expected": null
+        },
+        {
+          "action": "Duplicate activation prevented while pending",
+          "expected": null
+        },
+        {
+          "action": "Success announced to user",
+          "expected": null
+        },
+        {
+          "action": "Failure keeps user content and permits retry",
+          "expected": null
+        },
+        {
+          "action": "Server errors map to fields where possible",
+          "expected": null
+        },
+        {
+          "action": "Timeout handling preserves form state",
+          "expected": null
+        },
+        {
+          "action": "Full keyboard access throughout page",
+          "expected": null
+        },
+        {
+          "action": "Visible focus maintained on all elements",
+          "expected": null
+        },
+        {
+          "action": "Semantic landmarks identified",
+          "expected": null
+        },
+        {
+          "action": "Sufficient color contrast throughout",
+          "expected": null
+        },
+        {
+          "action": "Meaningful alt text on images",
+          "expected": null
+        },
+        {
+          "action": "Interactive elements have accessible names",
+          "expected": null
+        },
+        {
+          "action": "200% zoom supported without horizontal scroll",
+          "expected": null
+        },
+        {
+          "action": "Form errors properly associated",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion preference respected",
+          "expected": null
+        },
+        {
+          "action": "Media alternatives provided",
+          "expected": null
+        },
+        {
+          "action": "Not relying on color alone for information",
+          "expected": null
+        },
+        {
+          "action": "Touch targets meet minimum size",
+          "expected": null
+        },
+        {
+          "action": "Page has unique title",
+          "expected": null
+        },
+        {
+          "action": "Meta description present",
+          "expected": null
+        },
+        {
+          "action": "Canonical URL set",
+          "expected": null
+        },
+        {
+          "action": "Primary text is server-rendered",
+          "expected": null
+        },
+        {
+          "action": "Social preview metadata configured",
+          "expected": null
+        },
+        {
+          "action": "Headings reflect page topic",
+          "expected": null
+        },
+        {
+          "action": "No conflicting duplicate title tags",
+          "expected": null
+        },
+        {
+          "action": "No horizontal scrolling at any viewport",
+          "expected": null
+        },
+        {
+          "action": "Typography readable at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Controls do not overlap",
+          "expected": null
+        },
+        {
+          "action": "All cards and sections remain available",
+          "expected": null
+        },
+        {
+          "action": "Images preserve aspect ratio",
+          "expected": null
+        },
+        {
+          "action": "Content usable at 200% zoom",
+          "expected": null
+        },
+        {
+          "action": "Long text content handled appropriately",
+          "expected": null
+        },
+        {
+          "action": "Tablet split-screen handled",
+          "expected": null
+        },
+        {
+          "action": "Critical content renders without waiting for analytics",
+          "expected": null
+        },
+        {
+          "action": "Images are sized and optimized",
+          "expected": null
+        },
+        {
+          "action": "Below-fold media lazy-loaded appropriately",
+          "expected": null
+        },
+        {
+          "action": "Layout shifts minimized",
+          "expected": null
+        },
+        {
+          "action": "Third-party scripts use async defer consent gating",
+          "expected": null
+        },
+        {
+          "action": "Large unoptimized assets avoided",
+          "expected": null
+        },
+        {
+          "action": "Header remains readable when optional scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Main content accessible when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CTAs functional when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Footer navigable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Errors are contained and not fatal",
+          "expected": null
+        },
+        {
+          "action": "Fallback content used when primary fails",
+          "expected": null
+        },
+        {
+          "action": "Base homepage loads without unsolicited promotional modal",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal is separately governed",
+          "expected": null
+        },
+        {
+          "action": "Configured modal is dismissible and keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Default state has modals disabled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-047"
+    },
+    {
+      "req_id": "issue_0048",
+      "feature_file": "tests/features/issue_0047_0049_0050_0051_0052_0053_0054_0055_combined.feature",
+      "title": "Contact form fields display",
+      "steps": [
+        {
+          "action": "All required form fields displayed",
+          "expected": null
+        },
+        {
+          "action": "Labels associated with controls",
+          "expected": null
+        },
+        {
+          "action": "Submission provides clear success failure feedback",
+          "expected": null
+        },
+        {
+          "action": "Required fields are enforced client-side",
+          "expected": null
+        },
+        {
+          "action": "Email field requires valid syntax",
+          "expected": null
+        },
+        {
+          "action": "Server revalidates form submission",
+          "expected": null
+        },
+        {
+          "action": "Select control contains approved options",
+          "expected": null
+        },
+        {
+          "action": "Inquiry Type requires valid choice",
+          "expected": null
+        },
+        {
+          "action": "Placeholder is not a valid choice",
+          "expected": null
+        },
+        {
+          "action": "Values outside enum are rejected",
+          "expected": null
+        },
+        {
+          "action": "Submit enters pending state",
+          "expected": null
+        },
+        {
+          "action": "Duplicate activation prevented while pending",
+          "expected": null
+        },
+        {
+          "action": "Success announced to user",
+          "expected": null
+        },
+        {
+          "action": "Failure keeps user content and permits retry",
+          "expected": null
+        },
+        {
+          "action": "Server errors map to fields where possible",
+          "expected": null
+        },
+        {
+          "action": "Timeout handling preserves form state",
+          "expected": null
+        },
+        {
+          "action": "Full keyboard access throughout page",
+          "expected": null
+        },
+        {
+          "action": "Visible focus maintained on all elements",
+          "expected": null
+        },
+        {
+          "action": "Semantic landmarks identified",
+          "expected": null
+        },
+        {
+          "action": "Sufficient color contrast throughout",
+          "expected": null
+        },
+        {
+          "action": "Meaningful alt text on images",
+          "expected": null
+        },
+        {
+          "action": "Interactive elements have accessible names",
+          "expected": null
+        },
+        {
+          "action": "200% zoom supported without horizontal scroll",
+          "expected": null
+        },
+        {
+          "action": "Form errors properly associated",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion preference respected",
+          "expected": null
+        },
+        {
+          "action": "Media alternatives provided",
+          "expected": null
+        },
+        {
+          "action": "Not relying on color alone for information",
+          "expected": null
+        },
+        {
+          "action": "Touch targets meet minimum size",
+          "expected": null
+        },
+        {
+          "action": "Page has unique title",
+          "expected": null
+        },
+        {
+          "action": "Meta description present",
+          "expected": null
+        },
+        {
+          "action": "Canonical URL set",
+          "expected": null
+        },
+        {
+          "action": "Primary text is server-rendered",
+          "expected": null
+        },
+        {
+          "action": "Social preview metadata configured",
+          "expected": null
+        },
+        {
+          "action": "Headings reflect page topic",
+          "expected": null
+        },
+        {
+          "action": "No conflicting duplicate title tags",
+          "expected": null
+        },
+        {
+          "action": "No horizontal scrolling at any viewport",
+          "expected": null
+        },
+        {
+          "action": "Typography readable at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Controls do not overlap",
+          "expected": null
+        },
+        {
+          "action": "All cards and sections remain available",
+          "expected": null
+        },
+        {
+          "action": "Images preserve aspect ratio",
+          "expected": null
+        },
+        {
+          "action": "Content usable at 200% zoom",
+          "expected": null
+        },
+        {
+          "action": "Long text content handled appropriately",
+          "expected": null
+        },
+        {
+          "action": "Tablet split-screen handled",
+          "expected": null
+        },
+        {
+          "action": "Critical content renders without waiting for analytics",
+          "expected": null
+        },
+        {
+          "action": "Images are sized and optimized",
+          "expected": null
+        },
+        {
+          "action": "Below-fold media lazy-loaded appropriately",
+          "expected": null
+        },
+        {
+          "action": "Layout shifts minimized",
+          "expected": null
+        },
+        {
+          "action": "Third-party scripts use async defer consent gating",
+          "expected": null
+        },
+        {
+          "action": "Large unoptimized assets avoided",
+          "expected": null
+        },
+        {
+          "action": "Header remains readable when optional scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Main content accessible when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CTAs functional when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Footer navigable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Errors are contained and not fatal",
+          "expected": null
+        },
+        {
+          "action": "Fallback content used when primary fails",
+          "expected": null
+        },
+        {
+          "action": "Base homepage loads without unsolicited promotional modal",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal is separately governed",
+          "expected": null
+        },
+        {
+          "action": "Configured modal is dismissible and keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Default state has modals disabled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-048"
+    },
+    {
+      "req_id": "issue_0049",
+      "feature_file": "tests/features/issue_0047_0049_0050_0051_0052_0053_0054_0055_combined.feature",
+      "title": "Contact form fields display",
+      "steps": [
+        {
+          "action": "All required form fields displayed",
+          "expected": null
+        },
+        {
+          "action": "Labels associated with controls",
+          "expected": null
+        },
+        {
+          "action": "Submission provides clear success failure feedback",
+          "expected": null
+        },
+        {
+          "action": "Required fields are enforced client-side",
+          "expected": null
+        },
+        {
+          "action": "Email field requires valid syntax",
+          "expected": null
+        },
+        {
+          "action": "Server revalidates form submission",
+          "expected": null
+        },
+        {
+          "action": "Select control contains approved options",
+          "expected": null
+        },
+        {
+          "action": "Inquiry Type requires valid choice",
+          "expected": null
+        },
+        {
+          "action": "Placeholder is not a valid choice",
+          "expected": null
+        },
+        {
+          "action": "Values outside enum are rejected",
+          "expected": null
+        },
+        {
+          "action": "Submit enters pending state",
+          "expected": null
+        },
+        {
+          "action": "Duplicate activation prevented while pending",
+          "expected": null
+        },
+        {
+          "action": "Success announced to user",
+          "expected": null
+        },
+        {
+          "action": "Failure keeps user content and permits retry",
+          "expected": null
+        },
+        {
+          "action": "Server errors map to fields where possible",
+          "expected": null
+        },
+        {
+          "action": "Timeout handling preserves form state",
+          "expected": null
+        },
+        {
+          "action": "Full keyboard access throughout page",
+          "expected": null
+        },
+        {
+          "action": "Visible focus maintained on all elements",
+          "expected": null
+        },
+        {
+          "action": "Semantic landmarks identified",
+          "expected": null
+        },
+        {
+          "action": "Sufficient color contrast throughout",
+          "expected": null
+        },
+        {
+          "action": "Meaningful alt text on images",
+          "expected": null
+        },
+        {
+          "action": "Interactive elements have accessible names",
+          "expected": null
+        },
+        {
+          "action": "200% zoom supported without horizontal scroll",
+          "expected": null
+        },
+        {
+          "action": "Form errors properly associated",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion preference respected",
+          "expected": null
+        },
+        {
+          "action": "Media alternatives provided",
+          "expected": null
+        },
+        {
+          "action": "Not relying on color alone for information",
+          "expected": null
+        },
+        {
+          "action": "Touch targets meet minimum size",
+          "expected": null
+        },
+        {
+          "action": "Page has unique title",
+          "expected": null
+        },
+        {
+          "action": "Meta description present",
+          "expected": null
+        },
+        {
+          "action": "Canonical URL set",
+          "expected": null
+        },
+        {
+          "action": "Primary text is server-rendered",
+          "expected": null
+        },
+        {
+          "action": "Social preview metadata configured",
+          "expected": null
+        },
+        {
+          "action": "Headings reflect page topic",
+          "expected": null
+        },
+        {
+          "action": "No conflicting duplicate title tags",
+          "expected": null
+        },
+        {
+          "action": "No horizontal scrolling at any viewport",
+          "expected": null
+        },
+        {
+          "action": "Typography readable at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Controls do not overlap",
+          "expected": null
+        },
+        {
+          "action": "All cards and sections remain available",
+          "expected": null
+        },
+        {
+          "action": "Images preserve aspect ratio",
+          "expected": null
+        },
+        {
+          "action": "Content usable at 200% zoom",
+          "expected": null
+        },
+        {
+          "action": "Long text content handled appropriately",
+          "expected": null
+        },
+        {
+          "action": "Tablet split-screen handled",
+          "expected": null
+        },
+        {
+          "action": "Critical content renders without waiting for analytics",
+          "expected": null
+        },
+        {
+          "action": "Images are sized and optimized",
+          "expected": null
+        },
+        {
+          "action": "Below-fold media lazy-loaded appropriately",
+          "expected": null
+        },
+        {
+          "action": "Layout shifts minimized",
+          "expected": null
+        },
+        {
+          "action": "Third-party scripts use async defer consent gating",
+          "expected": null
+        },
+        {
+          "action": "Large unoptimized assets avoided",
+          "expected": null
+        },
+        {
+          "action": "Header remains readable when optional scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Main content accessible when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CTAs functional when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Footer navigable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Errors are contained and not fatal",
+          "expected": null
+        },
+        {
+          "action": "Fallback content used when primary fails",
+          "expected": null
+        },
+        {
+          "action": "Base homepage loads without unsolicited promotional modal",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal is separately governed",
+          "expected": null
+        },
+        {
+          "action": "Configured modal is dismissible and keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Default state has modals disabled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-049"
+    },
+    {
+      "req_id": "issue_0050",
+      "feature_file": "tests/features/issue_0047_0049_0050_0051_0052_0053_0054_0055_combined.feature",
+      "title": "Contact form fields display",
+      "steps": [
+        {
+          "action": "All required form fields displayed",
+          "expected": null
+        },
+        {
+          "action": "Labels associated with controls",
+          "expected": null
+        },
+        {
+          "action": "Submission provides clear success failure feedback",
+          "expected": null
+        },
+        {
+          "action": "Required fields are enforced client-side",
+          "expected": null
+        },
+        {
+          "action": "Email field requires valid syntax",
+          "expected": null
+        },
+        {
+          "action": "Server revalidates form submission",
+          "expected": null
+        },
+        {
+          "action": "Select control contains approved options",
+          "expected": null
+        },
+        {
+          "action": "Inquiry Type requires valid choice",
+          "expected": null
+        },
+        {
+          "action": "Placeholder is not a valid choice",
+          "expected": null
+        },
+        {
+          "action": "Values outside enum are rejected",
+          "expected": null
+        },
+        {
+          "action": "Submit enters pending state",
+          "expected": null
+        },
+        {
+          "action": "Duplicate activation prevented while pending",
+          "expected": null
+        },
+        {
+          "action": "Success announced to user",
+          "expected": null
+        },
+        {
+          "action": "Failure keeps user content and permits retry",
+          "expected": null
+        },
+        {
+          "action": "Server errors map to fields where possible",
+          "expected": null
+        },
+        {
+          "action": "Timeout handling preserves form state",
+          "expected": null
+        },
+        {
+          "action": "Full keyboard access throughout page",
+          "expected": null
+        },
+        {
+          "action": "Visible focus maintained on all elements",
+          "expected": null
+        },
+        {
+          "action": "Semantic landmarks identified",
+          "expected": null
+        },
+        {
+          "action": "Sufficient color contrast throughout",
+          "expected": null
+        },
+        {
+          "action": "Meaningful alt text on images",
+          "expected": null
+        },
+        {
+          "action": "Interactive elements have accessible names",
+          "expected": null
+        },
+        {
+          "action": "200% zoom supported without horizontal scroll",
+          "expected": null
+        },
+        {
+          "action": "Form errors properly associated",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion preference respected",
+          "expected": null
+        },
+        {
+          "action": "Media alternatives provided",
+          "expected": null
+        },
+        {
+          "action": "Not relying on color alone for information",
+          "expected": null
+        },
+        {
+          "action": "Touch targets meet minimum size",
+          "expected": null
+        },
+        {
+          "action": "Page has unique title",
+          "expected": null
+        },
+        {
+          "action": "Meta description present",
+          "expected": null
+        },
+        {
+          "action": "Canonical URL set",
+          "expected": null
+        },
+        {
+          "action": "Primary text is server-rendered",
+          "expected": null
+        },
+        {
+          "action": "Social preview metadata configured",
+          "expected": null
+        },
+        {
+          "action": "Headings reflect page topic",
+          "expected": null
+        },
+        {
+          "action": "No conflicting duplicate title tags",
+          "expected": null
+        },
+        {
+          "action": "No horizontal scrolling at any viewport",
+          "expected": null
+        },
+        {
+          "action": "Typography readable at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Controls do not overlap",
+          "expected": null
+        },
+        {
+          "action": "All cards and sections remain available",
+          "expected": null
+        },
+        {
+          "action": "Images preserve aspect ratio",
+          "expected": null
+        },
+        {
+          "action": "Content usable at 200% zoom",
+          "expected": null
+        },
+        {
+          "action": "Long text content handled appropriately",
+          "expected": null
+        },
+        {
+          "action": "Tablet split-screen handled",
+          "expected": null
+        },
+        {
+          "action": "Critical content renders without waiting for analytics",
+          "expected": null
+        },
+        {
+          "action": "Images are sized and optimized",
+          "expected": null
+        },
+        {
+          "action": "Below-fold media lazy-loaded appropriately",
+          "expected": null
+        },
+        {
+          "action": "Layout shifts minimized",
+          "expected": null
+        },
+        {
+          "action": "Third-party scripts use async defer consent gating",
+          "expected": null
+        },
+        {
+          "action": "Large unoptimized assets avoided",
+          "expected": null
+        },
+        {
+          "action": "Header remains readable when optional scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Main content accessible when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CTAs functional when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Footer navigable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Errors are contained and not fatal",
+          "expected": null
+        },
+        {
+          "action": "Fallback content used when primary fails",
+          "expected": null
+        },
+        {
+          "action": "Base homepage loads without unsolicited promotional modal",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal is separately governed",
+          "expected": null
+        },
+        {
+          "action": "Configured modal is dismissible and keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Default state has modals disabled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-050"
+    },
+    {
+      "req_id": "issue_0051",
+      "feature_file": "tests/features/issue_0047_0049_0050_0051_0052_0053_0054_0055_combined.feature",
+      "title": "Contact form fields display",
+      "steps": [
+        {
+          "action": "All required form fields displayed",
+          "expected": null
+        },
+        {
+          "action": "Labels associated with controls",
+          "expected": null
+        },
+        {
+          "action": "Submission provides clear success failure feedback",
+          "expected": null
+        },
+        {
+          "action": "Required fields are enforced client-side",
+          "expected": null
+        },
+        {
+          "action": "Email field requires valid syntax",
+          "expected": null
+        },
+        {
+          "action": "Server revalidates form submission",
+          "expected": null
+        },
+        {
+          "action": "Select control contains approved options",
+          "expected": null
+        },
+        {
+          "action": "Inquiry Type requires valid choice",
+          "expected": null
+        },
+        {
+          "action": "Placeholder is not a valid choice",
+          "expected": null
+        },
+        {
+          "action": "Values outside enum are rejected",
+          "expected": null
+        },
+        {
+          "action": "Submit enters pending state",
+          "expected": null
+        },
+        {
+          "action": "Duplicate activation prevented while pending",
+          "expected": null
+        },
+        {
+          "action": "Success announced to user",
+          "expected": null
+        },
+        {
+          "action": "Failure keeps user content and permits retry",
+          "expected": null
+        },
+        {
+          "action": "Server errors map to fields where possible",
+          "expected": null
+        },
+        {
+          "action": "Timeout handling preserves form state",
+          "expected": null
+        },
+        {
+          "action": "Full keyboard access throughout page",
+          "expected": null
+        },
+        {
+          "action": "Visible focus maintained on all elements",
+          "expected": null
+        },
+        {
+          "action": "Semantic landmarks identified",
+          "expected": null
+        },
+        {
+          "action": "Sufficient color contrast throughout",
+          "expected": null
+        },
+        {
+          "action": "Meaningful alt text on images",
+          "expected": null
+        },
+        {
+          "action": "Interactive elements have accessible names",
+          "expected": null
+        },
+        {
+          "action": "200% zoom supported without horizontal scroll",
+          "expected": null
+        },
+        {
+          "action": "Form errors properly associated",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion preference respected",
+          "expected": null
+        },
+        {
+          "action": "Media alternatives provided",
+          "expected": null
+        },
+        {
+          "action": "Not relying on color alone for information",
+          "expected": null
+        },
+        {
+          "action": "Touch targets meet minimum size",
+          "expected": null
+        },
+        {
+          "action": "Page has unique title",
+          "expected": null
+        },
+        {
+          "action": "Meta description present",
+          "expected": null
+        },
+        {
+          "action": "Canonical URL set",
+          "expected": null
+        },
+        {
+          "action": "Primary text is server-rendered",
+          "expected": null
+        },
+        {
+          "action": "Social preview metadata configured",
+          "expected": null
+        },
+        {
+          "action": "Headings reflect page topic",
+          "expected": null
+        },
+        {
+          "action": "No conflicting duplicate title tags",
+          "expected": null
+        },
+        {
+          "action": "No horizontal scrolling at any viewport",
+          "expected": null
+        },
+        {
+          "action": "Typography readable at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Controls do not overlap",
+          "expected": null
+        },
+        {
+          "action": "All cards and sections remain available",
+          "expected": null
+        },
+        {
+          "action": "Images preserve aspect ratio",
+          "expected": null
+        },
+        {
+          "action": "Content usable at 200% zoom",
+          "expected": null
+        },
+        {
+          "action": "Long text content handled appropriately",
+          "expected": null
+        },
+        {
+          "action": "Tablet split-screen handled",
+          "expected": null
+        },
+        {
+          "action": "Critical content renders without waiting for analytics",
+          "expected": null
+        },
+        {
+          "action": "Images are sized and optimized",
+          "expected": null
+        },
+        {
+          "action": "Below-fold media lazy-loaded appropriately",
+          "expected": null
+        },
+        {
+          "action": "Layout shifts minimized",
+          "expected": null
+        },
+        {
+          "action": "Third-party scripts use async defer consent gating",
+          "expected": null
+        },
+        {
+          "action": "Large unoptimized assets avoided",
+          "expected": null
+        },
+        {
+          "action": "Header remains readable when optional scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Main content accessible when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CTAs functional when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Footer navigable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Errors are contained and not fatal",
+          "expected": null
+        },
+        {
+          "action": "Fallback content used when primary fails",
+          "expected": null
+        },
+        {
+          "action": "Base homepage loads without unsolicited promotional modal",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal is separately governed",
+          "expected": null
+        },
+        {
+          "action": "Configured modal is dismissible and keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Default state has modals disabled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-051"
+    },
+    {
+      "req_id": "issue_0052",
+      "feature_file": "tests/features/issue_0047_0049_0050_0051_0052_0053_0054_0055_combined.feature",
+      "title": "Contact form fields display",
+      "steps": [
+        {
+          "action": "All required form fields displayed",
+          "expected": null
+        },
+        {
+          "action": "Labels associated with controls",
+          "expected": null
+        },
+        {
+          "action": "Submission provides clear success failure feedback",
+          "expected": null
+        },
+        {
+          "action": "Required fields are enforced client-side",
+          "expected": null
+        },
+        {
+          "action": "Email field requires valid syntax",
+          "expected": null
+        },
+        {
+          "action": "Server revalidates form submission",
+          "expected": null
+        },
+        {
+          "action": "Select control contains approved options",
+          "expected": null
+        },
+        {
+          "action": "Inquiry Type requires valid choice",
+          "expected": null
+        },
+        {
+          "action": "Placeholder is not a valid choice",
+          "expected": null
+        },
+        {
+          "action": "Values outside enum are rejected",
+          "expected": null
+        },
+        {
+          "action": "Submit enters pending state",
+          "expected": null
+        },
+        {
+          "action": "Duplicate activation prevented while pending",
+          "expected": null
+        },
+        {
+          "action": "Success announced to user",
+          "expected": null
+        },
+        {
+          "action": "Failure keeps user content and permits retry",
+          "expected": null
+        },
+        {
+          "action": "Server errors map to fields where possible",
+          "expected": null
+        },
+        {
+          "action": "Timeout handling preserves form state",
+          "expected": null
+        },
+        {
+          "action": "Full keyboard access throughout page",
+          "expected": null
+        },
+        {
+          "action": "Visible focus maintained on all elements",
+          "expected": null
+        },
+        {
+          "action": "Semantic landmarks identified",
+          "expected": null
+        },
+        {
+          "action": "Sufficient color contrast throughout",
+          "expected": null
+        },
+        {
+          "action": "Meaningful alt text on images",
+          "expected": null
+        },
+        {
+          "action": "Interactive elements have accessible names",
+          "expected": null
+        },
+        {
+          "action": "200% zoom supported without horizontal scroll",
+          "expected": null
+        },
+        {
+          "action": "Form errors properly associated",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion preference respected",
+          "expected": null
+        },
+        {
+          "action": "Media alternatives provided",
+          "expected": null
+        },
+        {
+          "action": "Not relying on color alone for information",
+          "expected": null
+        },
+        {
+          "action": "Touch targets meet minimum size",
+          "expected": null
+        },
+        {
+          "action": "Page has unique title",
+          "expected": null
+        },
+        {
+          "action": "Meta description present",
+          "expected": null
+        },
+        {
+          "action": "Canonical URL set",
+          "expected": null
+        },
+        {
+          "action": "Primary text is server-rendered",
+          "expected": null
+        },
+        {
+          "action": "Social preview metadata configured",
+          "expected": null
+        },
+        {
+          "action": "Headings reflect page topic",
+          "expected": null
+        },
+        {
+          "action": "No conflicting duplicate title tags",
+          "expected": null
+        },
+        {
+          "action": "No horizontal scrolling at any viewport",
+          "expected": null
+        },
+        {
+          "action": "Typography readable at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Controls do not overlap",
+          "expected": null
+        },
+        {
+          "action": "All cards and sections remain available",
+          "expected": null
+        },
+        {
+          "action": "Images preserve aspect ratio",
+          "expected": null
+        },
+        {
+          "action": "Content usable at 200% zoom",
+          "expected": null
+        },
+        {
+          "action": "Long text content handled appropriately",
+          "expected": null
+        },
+        {
+          "action": "Tablet split-screen handled",
+          "expected": null
+        },
+        {
+          "action": "Critical content renders without waiting for analytics",
+          "expected": null
+        },
+        {
+          "action": "Images are sized and optimized",
+          "expected": null
+        },
+        {
+          "action": "Below-fold media lazy-loaded appropriately",
+          "expected": null
+        },
+        {
+          "action": "Layout shifts minimized",
+          "expected": null
+        },
+        {
+          "action": "Third-party scripts use async defer consent gating",
+          "expected": null
+        },
+        {
+          "action": "Large unoptimized assets avoided",
+          "expected": null
+        },
+        {
+          "action": "Header remains readable when optional scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Main content accessible when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CTAs functional when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Footer navigable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Errors are contained and not fatal",
+          "expected": null
+        },
+        {
+          "action": "Fallback content used when primary fails",
+          "expected": null
+        },
+        {
+          "action": "Base homepage loads without unsolicited promotional modal",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal is separately governed",
+          "expected": null
+        },
+        {
+          "action": "Configured modal is dismissible and keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Default state has modals disabled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-052"
+    },
+    {
+      "req_id": "issue_0053",
+      "feature_file": "tests/features/issue_0047_0049_0050_0051_0052_0053_0054_0055_combined.feature",
+      "title": "Contact form fields display",
+      "steps": [
+        {
+          "action": "All required form fields displayed",
+          "expected": null
+        },
+        {
+          "action": "Labels associated with controls",
+          "expected": null
+        },
+        {
+          "action": "Submission provides clear success failure feedback",
+          "expected": null
+        },
+        {
+          "action": "Required fields are enforced client-side",
+          "expected": null
+        },
+        {
+          "action": "Email field requires valid syntax",
+          "expected": null
+        },
+        {
+          "action": "Server revalidates form submission",
+          "expected": null
+        },
+        {
+          "action": "Select control contains approved options",
+          "expected": null
+        },
+        {
+          "action": "Inquiry Type requires valid choice",
+          "expected": null
+        },
+        {
+          "action": "Placeholder is not a valid choice",
+          "expected": null
+        },
+        {
+          "action": "Values outside enum are rejected",
+          "expected": null
+        },
+        {
+          "action": "Submit enters pending state",
+          "expected": null
+        },
+        {
+          "action": "Duplicate activation prevented while pending",
+          "expected": null
+        },
+        {
+          "action": "Success announced to user",
+          "expected": null
+        },
+        {
+          "action": "Failure keeps user content and permits retry",
+          "expected": null
+        },
+        {
+          "action": "Server errors map to fields where possible",
+          "expected": null
+        },
+        {
+          "action": "Timeout handling preserves form state",
+          "expected": null
+        },
+        {
+          "action": "Full keyboard access throughout page",
+          "expected": null
+        },
+        {
+          "action": "Visible focus maintained on all elements",
+          "expected": null
+        },
+        {
+          "action": "Semantic landmarks identified",
+          "expected": null
+        },
+        {
+          "action": "Sufficient color contrast throughout",
+          "expected": null
+        },
+        {
+          "action": "Meaningful alt text on images",
+          "expected": null
+        },
+        {
+          "action": "Interactive elements have accessible names",
+          "expected": null
+        },
+        {
+          "action": "200% zoom supported without horizontal scroll",
+          "expected": null
+        },
+        {
+          "action": "Form errors properly associated",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion preference respected",
+          "expected": null
+        },
+        {
+          "action": "Media alternatives provided",
+          "expected": null
+        },
+        {
+          "action": "Not relying on color alone for information",
+          "expected": null
+        },
+        {
+          "action": "Touch targets meet minimum size",
+          "expected": null
+        },
+        {
+          "action": "Page has unique title",
+          "expected": null
+        },
+        {
+          "action": "Meta description present",
+          "expected": null
+        },
+        {
+          "action": "Canonical URL set",
+          "expected": null
+        },
+        {
+          "action": "Primary text is server-rendered",
+          "expected": null
+        },
+        {
+          "action": "Social preview metadata configured",
+          "expected": null
+        },
+        {
+          "action": "Headings reflect page topic",
+          "expected": null
+        },
+        {
+          "action": "No conflicting duplicate title tags",
+          "expected": null
+        },
+        {
+          "action": "No horizontal scrolling at any viewport",
+          "expected": null
+        },
+        {
+          "action": "Typography readable at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Controls do not overlap",
+          "expected": null
+        },
+        {
+          "action": "All cards and sections remain available",
+          "expected": null
+        },
+        {
+          "action": "Images preserve aspect ratio",
+          "expected": null
+        },
+        {
+          "action": "Content usable at 200% zoom",
+          "expected": null
+        },
+        {
+          "action": "Long text content handled appropriately",
+          "expected": null
+        },
+        {
+          "action": "Tablet split-screen handled",
+          "expected": null
+        },
+        {
+          "action": "Critical content renders without waiting for analytics",
+          "expected": null
+        },
+        {
+          "action": "Images are sized and optimized",
+          "expected": null
+        },
+        {
+          "action": "Below-fold media lazy-loaded appropriately",
+          "expected": null
+        },
+        {
+          "action": "Layout shifts minimized",
+          "expected": null
+        },
+        {
+          "action": "Third-party scripts use async defer consent gating",
+          "expected": null
+        },
+        {
+          "action": "Large unoptimized assets avoided",
+          "expected": null
+        },
+        {
+          "action": "Header remains readable when optional scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Main content accessible when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CTAs functional when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Footer navigable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Errors are contained and not fatal",
+          "expected": null
+        },
+        {
+          "action": "Fallback content used when primary fails",
+          "expected": null
+        },
+        {
+          "action": "Base homepage loads without unsolicited promotional modal",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal is separately governed",
+          "expected": null
+        },
+        {
+          "action": "Configured modal is dismissible and keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Default state has modals disabled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-053"
+    },
+    {
+      "req_id": "issue_0054",
+      "feature_file": "tests/features/issue_0047_0049_0050_0051_0052_0053_0054_0055_combined.feature",
+      "title": "Contact form fields display",
+      "steps": [
+        {
+          "action": "All required form fields displayed",
+          "expected": null
+        },
+        {
+          "action": "Labels associated with controls",
+          "expected": null
+        },
+        {
+          "action": "Submission provides clear success failure feedback",
+          "expected": null
+        },
+        {
+          "action": "Required fields are enforced client-side",
+          "expected": null
+        },
+        {
+          "action": "Email field requires valid syntax",
+          "expected": null
+        },
+        {
+          "action": "Server revalidates form submission",
+          "expected": null
+        },
+        {
+          "action": "Select control contains approved options",
+          "expected": null
+        },
+        {
+          "action": "Inquiry Type requires valid choice",
+          "expected": null
+        },
+        {
+          "action": "Placeholder is not a valid choice",
+          "expected": null
+        },
+        {
+          "action": "Values outside enum are rejected",
+          "expected": null
+        },
+        {
+          "action": "Submit enters pending state",
+          "expected": null
+        },
+        {
+          "action": "Duplicate activation prevented while pending",
+          "expected": null
+        },
+        {
+          "action": "Success announced to user",
+          "expected": null
+        },
+        {
+          "action": "Failure keeps user content and permits retry",
+          "expected": null
+        },
+        {
+          "action": "Server errors map to fields where possible",
+          "expected": null
+        },
+        {
+          "action": "Timeout handling preserves form state",
+          "expected": null
+        },
+        {
+          "action": "Full keyboard access throughout page",
+          "expected": null
+        },
+        {
+          "action": "Visible focus maintained on all elements",
+          "expected": null
+        },
+        {
+          "action": "Semantic landmarks identified",
+          "expected": null
+        },
+        {
+          "action": "Sufficient color contrast throughout",
+          "expected": null
+        },
+        {
+          "action": "Meaningful alt text on images",
+          "expected": null
+        },
+        {
+          "action": "Interactive elements have accessible names",
+          "expected": null
+        },
+        {
+          "action": "200% zoom supported without horizontal scroll",
+          "expected": null
+        },
+        {
+          "action": "Form errors properly associated",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion preference respected",
+          "expected": null
+        },
+        {
+          "action": "Media alternatives provided",
+          "expected": null
+        },
+        {
+          "action": "Not relying on color alone for information",
+          "expected": null
+        },
+        {
+          "action": "Touch targets meet minimum size",
+          "expected": null
+        },
+        {
+          "action": "Page has unique title",
+          "expected": null
+        },
+        {
+          "action": "Meta description present",
+          "expected": null
+        },
+        {
+          "action": "Canonical URL set",
+          "expected": null
+        },
+        {
+          "action": "Primary text is server-rendered",
+          "expected": null
+        },
+        {
+          "action": "Social preview metadata configured",
+          "expected": null
+        },
+        {
+          "action": "Headings reflect page topic",
+          "expected": null
+        },
+        {
+          "action": "No conflicting duplicate title tags",
+          "expected": null
+        },
+        {
+          "action": "No horizontal scrolling at any viewport",
+          "expected": null
+        },
+        {
+          "action": "Typography readable at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Controls do not overlap",
+          "expected": null
+        },
+        {
+          "action": "All cards and sections remain available",
+          "expected": null
+        },
+        {
+          "action": "Images preserve aspect ratio",
+          "expected": null
+        },
+        {
+          "action": "Content usable at 200% zoom",
+          "expected": null
+        },
+        {
+          "action": "Long text content handled appropriately",
+          "expected": null
+        },
+        {
+          "action": "Tablet split-screen handled",
+          "expected": null
+        },
+        {
+          "action": "Critical content renders without waiting for analytics",
+          "expected": null
+        },
+        {
+          "action": "Images are sized and optimized",
+          "expected": null
+        },
+        {
+          "action": "Below-fold media lazy-loaded appropriately",
+          "expected": null
+        },
+        {
+          "action": "Layout shifts minimized",
+          "expected": null
+        },
+        {
+          "action": "Third-party scripts use async defer consent gating",
+          "expected": null
+        },
+        {
+          "action": "Large unoptimized assets avoided",
+          "expected": null
+        },
+        {
+          "action": "Header remains readable when optional scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Main content accessible when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CTAs functional when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Footer navigable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Errors are contained and not fatal",
+          "expected": null
+        },
+        {
+          "action": "Fallback content used when primary fails",
+          "expected": null
+        },
+        {
+          "action": "Base homepage loads without unsolicited promotional modal",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal is separately governed",
+          "expected": null
+        },
+        {
+          "action": "Configured modal is dismissible and keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Default state has modals disabled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-054"
+    },
+    {
+      "req_id": "issue_0055",
+      "feature_file": "tests/features/issue_0047_0049_0050_0051_0052_0053_0054_0055_combined.feature",
+      "title": "Contact form fields display",
+      "steps": [
+        {
+          "action": "All required form fields displayed",
+          "expected": null
+        },
+        {
+          "action": "Labels associated with controls",
+          "expected": null
+        },
+        {
+          "action": "Submission provides clear success failure feedback",
+          "expected": null
+        },
+        {
+          "action": "Required fields are enforced client-side",
+          "expected": null
+        },
+        {
+          "action": "Email field requires valid syntax",
+          "expected": null
+        },
+        {
+          "action": "Server revalidates form submission",
+          "expected": null
+        },
+        {
+          "action": "Select control contains approved options",
+          "expected": null
+        },
+        {
+          "action": "Inquiry Type requires valid choice",
+          "expected": null
+        },
+        {
+          "action": "Placeholder is not a valid choice",
+          "expected": null
+        },
+        {
+          "action": "Values outside enum are rejected",
+          "expected": null
+        },
+        {
+          "action": "Submit enters pending state",
+          "expected": null
+        },
+        {
+          "action": "Duplicate activation prevented while pending",
+          "expected": null
+        },
+        {
+          "action": "Success announced to user",
+          "expected": null
+        },
+        {
+          "action": "Failure keeps user content and permits retry",
+          "expected": null
+        },
+        {
+          "action": "Server errors map to fields where possible",
+          "expected": null
+        },
+        {
+          "action": "Timeout handling preserves form state",
+          "expected": null
+        },
+        {
+          "action": "Full keyboard access throughout page",
+          "expected": null
+        },
+        {
+          "action": "Visible focus maintained on all elements",
+          "expected": null
+        },
+        {
+          "action": "Semantic landmarks identified",
+          "expected": null
+        },
+        {
+          "action": "Sufficient color contrast throughout",
+          "expected": null
+        },
+        {
+          "action": "Meaningful alt text on images",
+          "expected": null
+        },
+        {
+          "action": "Interactive elements have accessible names",
+          "expected": null
+        },
+        {
+          "action": "200% zoom supported without horizontal scroll",
+          "expected": null
+        },
+        {
+          "action": "Form errors properly associated",
+          "expected": null
+        },
+        {
+          "action": "Reduced motion preference respected",
+          "expected": null
+        },
+        {
+          "action": "Media alternatives provided",
+          "expected": null
+        },
+        {
+          "action": "Not relying on color alone for information",
+          "expected": null
+        },
+        {
+          "action": "Touch targets meet minimum size",
+          "expected": null
+        },
+        {
+          "action": "Page has unique title",
+          "expected": null
+        },
+        {
+          "action": "Meta description present",
+          "expected": null
+        },
+        {
+          "action": "Canonical URL set",
+          "expected": null
+        },
+        {
+          "action": "Primary text is server-rendered",
+          "expected": null
+        },
+        {
+          "action": "Social preview metadata configured",
+          "expected": null
+        },
+        {
+          "action": "Headings reflect page topic",
+          "expected": null
+        },
+        {
+          "action": "No conflicting duplicate title tags",
+          "expected": null
+        },
+        {
+          "action": "No horizontal scrolling at any viewport",
+          "expected": null
+        },
+        {
+          "action": "Typography readable at all breakpoints",
+          "expected": null
+        },
+        {
+          "action": "Controls do not overlap",
+          "expected": null
+        },
+        {
+          "action": "All cards and sections remain available",
+          "expected": null
+        },
+        {
+          "action": "Images preserve aspect ratio",
+          "expected": null
+        },
+        {
+          "action": "Content usable at 200% zoom",
+          "expected": null
+        },
+        {
+          "action": "Long text content handled appropriately",
+          "expected": null
+        },
+        {
+          "action": "Tablet split-screen handled",
+          "expected": null
+        },
+        {
+          "action": "Critical content renders without waiting for analytics",
+          "expected": null
+        },
+        {
+          "action": "Images are sized and optimized",
+          "expected": null
+        },
+        {
+          "action": "Below-fold media lazy-loaded appropriately",
+          "expected": null
+        },
+        {
+          "action": "Layout shifts minimized",
+          "expected": null
+        },
+        {
+          "action": "Third-party scripts use async defer consent gating",
+          "expected": null
+        },
+        {
+          "action": "Large unoptimized assets avoided",
+          "expected": null
+        },
+        {
+          "action": "Header remains readable when optional scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Main content accessible when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "CTAs functional when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Footer navigable when scripts fail",
+          "expected": null
+        },
+        {
+          "action": "Errors are contained and not fatal",
+          "expected": null
+        },
+        {
+          "action": "Fallback content used when primary fails",
+          "expected": null
+        },
+        {
+          "action": "Base homepage loads without unsolicited promotional modal",
+          "expected": null
+        },
+        {
+          "action": "Campaign modal is separately governed",
+          "expected": null
+        },
+        {
+          "action": "Configured modal is dismissible and keyboard accessible",
+          "expected": null
+        },
+        {
+          "action": "Default state has modals disabled",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-055"
+    }
+  ],
+  "skipped_requirements": []
+}
