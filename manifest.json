@@ -1,0 +1,145 @@
+{
+  "test_cases": [
+    {
+      "req_id": "tc_001",
+      "feature_file": "tests/features/tc_001_homepage.feature",
+      "title": "Website homepage loads successfully",
+      "steps": [
+        {
+          "action": "Homepage loads without errors",
+          "expected": null
+        },
+        {
+          "action": "Homepage loads with all media assets",
+          "expected": null
+        },
+        {
+          "action": "Homepage loads CSS and JavaScript correctly",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "tc_002",
+      "feature_file": "tests/features/tc_002_navigation.feature",
+      "title": "Main navigation menu items functionality",
+      "steps": [
+        {
+          "action": "All main menu items navigate to correct pages",
+          "expected": null
+        },
+        {
+          "action": "Menu hover states are visible",
+          "expected": null
+        },
+        {
+          "action": "Menu items are clickable and responsive",
+          "expected": null
+        },
+        {
+          "action": "Dropdown submenus function correctly",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "tc_003",
+      "feature_file": "tests/features/tc_003_buttons.feature",
+      "title": "Main buttons functionality and navigation",
+      "steps": [
+        {
+          "action": "Contact Us button opens contact form",
+          "expected": null
+        },
+        {
+          "action": "Learn More button navigates to expected page",
+          "expected": null
+        },
+        {
+          "action": "Call to Action buttons function correctly",
+          "expected": null
+        },
+        {
+          "action": "Buttons display hover and active states",
+          "expected": null
+        },
+        {
+          "action": "Footer buttons navigate correctly",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "tc_004",
+      "feature_file": "tests/features/tc_004_mobile.feature",
+      "title": "Mobile responsive view functionality",
+      "steps": [
+        {
+          "action": "Mobile viewport renders correctly",
+          "expected": null
+        },
+        {
+          "action": "Mobile hamburger menu opens and functions",
+          "expected": null
+        },
+        {
+          "action": "Contact form is mobile-friendly",
+          "expected": null
+        },
+        {
+          "action": "Images resize appropriately on mobile",
+          "expected": null
+        },
+        {
+          "action": "Content is readable on tablet viewport",
+          "expected": null
+        },
+        {
+          "action": "Touch interactions work without pinch zoom issues",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "tc_005",
+      "feature_file": "tests/features/tc_005_form_validation.feature",
+      "title": "Contact form validation messages",
+      "steps": [
+        {
+          "action": "Empty form submission shows validation errors",
+          "expected": null
+        },
+        {
+          "action": "Invalid email format shows error",
+          "expected": null
+        },
+        {
+          "action": "Phone field validates numeric input",
+          "expected": null
+        },
+        {
+          "action": "Empty required message field shows error",
+          "expected": null
+        },
+        {
+          "action": "Submit is blocked until all validations pass",
+          "expected": null
+        },
+        {
+          "action": "Validation errors clear on field correction",
+          "expected": null
+        },
+        {
+          "action": "Character limits enforced on text fields",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-005"
+    }
+  ],
+  "skipped_requirements": []
+}
