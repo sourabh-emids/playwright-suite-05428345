@@ -1,0 +1,69 @@
+{
+  "test_cases": [
+    {
+      "req_id": "issue_0001",
+      "feature_file": "tests/features/issue_0001_homepage_loading.feature",
+      "title": "Homepage loads without errors",
+      "steps": [
+        {
+          "action": "Verify homepage loads successfully",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-001"
+    },
+    {
+      "req_id": "issue_0002",
+      "feature_file": "tests/features/issue_0002_navigation_menu.feature",
+      "title": "Main navigation menu items work correctly",
+      "steps": [
+        {
+          "action": "Verify each main menu item opens correct page",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-002"
+    },
+    {
+      "req_id": "issue_0003",
+      "feature_file": "tests/features/issue_0003_cta_buttons.feature",
+      "title": "Primary CTA buttons function properly",
+      "steps": [
+        {
+          "action": "Verify Contact Us button works",
+          "expected": null
+        },
+        {
+          "action": "Verify Learn More button works",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-003"
+    },
+    {
+      "req_id": "issue_0004",
+      "feature_file": "tests/features/issue_0004_mobile_view.feature",
+      "title": "Mobile responsive layout is usable",
+      "steps": [
+        {
+          "action": "Verify mobile viewport displays all elements correctly",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-004"
+    },
+    {
+      "req_id": "issue_0005",
+      "feature_file": "tests/features/issue_0005_contact_form_validation.feature",
+      "title": "Contact form validates required fields",
+      "steps": [
+        {
+          "action": "Verify contact form shows validation for empty required fields",
+          "expected": null
+        }
+      ],
+      "tc_id": "TC-005"
+    }
+  ],
+  "skipped_requirements": []
+}
